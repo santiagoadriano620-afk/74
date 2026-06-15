@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Hellfire Fighter")
+﻿local mType = Game.createMonsterType("Hellfire Fighter")
 local monster = {}
 
 monster.name = "Hellfire Fighter"
@@ -81,7 +81,6 @@ monster.loot = {
 	{ name = "gold coin", chance = 50000, maxCount = 100 },
 	{ name = "gold coin", chance = 40000, maxCount = 100 },
 	{ name = "gold coin", chance = 10000, maxCount = 46 },
-	{ name = "wand of inferno", chance = 9450 },
 	{ name = "burnt scroll", chance = 50000 },
 	{ name = "blank rune", chance = 30000, maxCount = 2 },
 	{ name = "fire sword", chance = 4140 },

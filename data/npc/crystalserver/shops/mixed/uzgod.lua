@@ -1,4 +1,4 @@
-local internalNpcName = "Uzgod"
+﻿local internalNpcName = "Uzgod"
 local npcType = Game.createNpcType(internalNpcName)
 local npcConfig = {}
 
@@ -151,12 +151,10 @@ npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
 npcHandler:addModule(FocusModule:new(), npcConfig.name, true, true, true)
 
 npcConfig.shop = {
-	{ itemName = "arrow", clientId = 3447, buy = 3 },
 	{ itemName = "axe", clientId = 3274, buy = 20, sell = 7 },
 	{ itemName = "battle axe", clientId = 3266, buy = 235, sell = 80 },
 	{ itemName = "battle hammer", clientId = 3305, buy = 350, sell = 120 },
 	{ itemName = "blue quiver", clientId = 35848, buy = 400 },
-	{ itemName = "bolt", clientId = 3446, buy = 4 },
 	{ itemName = "bone club", clientId = 3337, sell = 5 },
 	{ itemName = "bone sword", clientId = 3338, buy = 75, sell = 20 },
 	{ itemName = "bow", clientId = 3350, buy = 400 },
@@ -198,7 +196,6 @@ npcConfig.shop = {
 	{ itemName = "sabre", clientId = 3273, buy = 35 },
 	{ itemName = "short sword", clientId = 3294, buy = 26 },
 	{ itemName = "sickle", clientId = 3293, buy = 7 },
-	{ itemName = "spear", clientId = 3277, buy = 9 },
 	{ itemName = "spike sword", clientId = 3271, buy = 8000 },
 	{ itemName = "sword", clientId = 3264, buy = 85 },
 	{ itemName = "throwing knife", clientId = 3298, buy = 25 },

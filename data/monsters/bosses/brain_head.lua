@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Brain Head")
+﻿local mType = Game.createMonsterType("Brain Head")
 local monster = {}
 
 monster.name = "Brain Head"
@@ -46,15 +46,9 @@ monster.flags = {
 monster.loot = {
 	{ name = "crystal coin", chance = 100000, maxCount = 2 },
 	{ name = "white gem", chance = 44440, maxCount = 2 },
-	{ name = "supreme health potion", chance = 44440, maxCount = 6 },
-	{ name = "ultimate spirit potion", chance = 44440, maxCount = 6 },
 	{ name = "diamond", chance = 44440, maxCount = 1 },
-	{ name = "berserk potion", chance = 33330 },
 	{ name = "cursed bone", chance = 33330 },
-	{ name = "bullseye potion", chance = 22220, maxCount = 10 },
-	{ name = "mastermind potion", chance = 22220, maxCount = 10 },
 	{ name = "silver hand mirror", chance = 22220 },
-	{ name = "ultimate mana potion", chance = 11110, maxCount = 6 },
 	{ name = "death toll", chance = 11110 },
 	{ name = "ivory comb", chance = 11110 },
 	{ name = "angel figurine", chance = 11110 },

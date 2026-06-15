@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Bakragore")
+﻿local mType = Game.createMonsterType("Bakragore")
 local monster = {}
 
 monster.name = "Bakragore"
@@ -82,14 +82,10 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "crystal coin", chance = 100000, maxCount = 168 },
-	{ name = "ultimate mana potion", chance = 60000, maxCount = 37 },
-	{ name = "ultimate spirit potion", chance = 60000, maxCount = 200 },
 	{ name = "giant amethyst", chance = 40000, maxCount = 3 },
 	{ name = "giant ruby", chance = 30000, maxCount = 6 },
 	{ name = "giant sapphire", chance = 20000, maxCount = 6 },
 	{ id = 3041, chance = 20000, maxCount = 9 }, -- blue gem
-	{ name = "bullseye potion", chance = 20000, maxCount = 28 },
-	{ name = "berserk potion", chance = 10000, maxCount = 81 },
 	{ name = "dragon figurine", chance = 10000 },
 -- { name = "abridged promotion scroll", chance = 200 },
 	--{ name = "advanced promotion scroll", chance = 200 },

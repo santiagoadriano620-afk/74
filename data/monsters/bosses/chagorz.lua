@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Chagorz")
+﻿local mType = Game.createMonsterType("Chagorz")
 local monster = {}
 
 monster.name = "Chagorz"
@@ -76,17 +76,11 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "crystal coin", chance = 100000, maxCount = 100 },
-	{ name = "supreme health potion", chance = 61111, maxCount = 164 },
 	{ id = 3039, chance = 44444, maxCount = 1 }, -- red gem
-	{ name = "ultimate mana potion", chance = 44444, maxCount = 98 },
 	{ name = "green gem", chance = 38889, maxCount = 1 },
-	{ name = "ultimate spirit potion", chance = 38889, maxCount = 127 },
 	{ name = "yellow gem", chance = 33333, maxCount = 1 },
-	{ name = "mastermind potion", chance = 27778, maxCount = 27 },
 	{ name = "violet gem", chance = 27778, maxCount = 1 },
 	{ name = "giant sapphire", chance = 22222, maxCount = 1 },
-	{ name = "berserk potion", chance = 16667, maxCount = 40 },
-	{ name = "bullseye potion", chance = 16667, maxCount = 31 },
 	{ name = "giant topaz", chance = 16667, maxCount = 1 },
 	{ name = "blue gem", chance = 11111, maxCount = 1 },
 	{ name = "white gem", chance = 11111, maxCount = 3 },

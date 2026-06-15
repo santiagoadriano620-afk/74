@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Armadile")
+﻿local mType = Game.createMonsterType("Armadile")
 local monster = {}
 
 monster.name = "Armadile"
@@ -85,10 +85,6 @@ monster.loot = {
 	{ name = "tower shield", chance = 620 },
 	{ name = "titan axe", chance = 1540 },
 	{ name = "bonebreaker", chance = 1150 },
-	{ name = "strong health potion", chance = 14285, maxCount = 2 },
-	{ name = "strong mana potion", chance = 15000, maxCount = 2 },
-	{ name = "great mana potion", chance = 15920, maxCount = 2 },
-	{ name = "great health potion", chance = 15000, maxCount = 2 },
 	{ name = "mana potion", chance = 14285, maxCount = 3 },
 	{ name = "terra boots", chance = 2850 },
 	{ name = "crystalline armor", chance = 230 },

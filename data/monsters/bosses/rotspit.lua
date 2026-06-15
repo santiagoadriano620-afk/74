@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Rotspit")
+﻿local mType = Game.createMonsterType("Rotspit")
 local monster = {}
 
 monster.description = "Rotspit"
@@ -71,11 +71,9 @@ monster.loot = {
     { name = "Platinum Coin", chance = 83930, maxCount = 5 },
     { name = "Compound Eye", chance = 80360, maxCount = 1 },
     { id = 14225, chance = 55360, maxCount = 2 },
-    { name = "Great Mana Potion", chance = 53569, maxCount = 2 },
     { name = "Small Amethyst", chance = 48210, maxCount = 2 },
     { name = "Small Emerald", chance = 46430, maxCount = 2 },
     { name = "Brown Mushroom", chance = 42860, maxCount = 3 },
-    { name = "Great Health Potion", chance = 41070, maxCount = 2 },
     { name = "Crystal Sword", chance = 16070, maxCount = 1 },
     { id = 3053, chance = 3569, maxCount = 1 },
     { name = "Crusader Helmet", chance = 1790, maxCount = 1 },

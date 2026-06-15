@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Lovely Yielothax")
+﻿local mType = Game.createMonsterType("Lovely Yielothax")
 local monster = {}
 
 monster.name = "Lovely Yielothax"
@@ -67,18 +67,14 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ id = 7440, chance = 490 }, -- mastermind potion
 	{ id = 12742, chance = 300 }, -- yielowax
 	{ id = 12805, chance = 320 }, -- yielocks
 	{ id = 3031, chance = 99800, maxCount = 227 }, -- gold coin
 	{ id = 3725, chance = 9930, maxCount = 3 }, -- brown mushroom
-	{ id = 236, chance = 19910 }, -- strong health potion
-	{ id = 237, chance = 19920 }, -- strong mana potion
 	{ id = 3028, chance = 4860, maxCount = 5 }, -- small diamond
 	{ id = 3034, chance = 950 }, -- talon
 	{ id = 3048, chance = 4020 }, -- might ring
 	{ id = 12737, chance = 270 }, -- broken ring of ending
-	{ id = 3073, chance = 510 }, -- wand of cosmic energy
 	{ id = 3326, chance = 520 }, -- epee
 	{ id = 9304, chance = 570 }, -- shockwave amulet
 	{ id = 816, chance = 830 }, -- lightning pendant

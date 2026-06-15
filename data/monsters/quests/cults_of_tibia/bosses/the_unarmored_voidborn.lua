@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("The Unarmored Voidborn")
+﻿local mType = Game.createMonsterType("The Unarmored Voidborn")
 local monster = {}
 
 monster.name = "The Unarmored Voidborn"
@@ -91,9 +91,6 @@ monster.loot = {
 	{ name = "small emerald", chance = 14700, maxCount = 10 },
 	{ name = "small amethyst", chance = 12259, maxCount = 10 },
 	{ name = "energy bar", chance = 16872, maxCount = 3 },
-	{ name = "ultimate health potion", chance = 27652, maxCount = 10 },
-	{ name = "great mana potion", chance = 33721, maxCount = 10 },
-	{ name = "great spirit potion", chance = 25690, maxCount = 5 },
 	{ id = 23542, chance = 12798 }, -- collar of blue plasma
 	{ name = "piece of royal steel", chance = 15890 },
 	{ name = "shadow sceptre", chance = 7890 },

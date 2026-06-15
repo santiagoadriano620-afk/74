@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Worker Golem")
+﻿local mType = Game.createMonsterType("Worker Golem")
 local monster = {}
 
 monster.name = "Worker Golem"
@@ -90,12 +90,8 @@ monster.loot = {
 	{ name = "war hammer", chance = 920 },
 	{ name = "iron ore", chance = 1001 },
 	{ name = "bonebreaker", chance = 130 },
-	{ name = "berserk potion", chance = 820 },
 	{ name = "spiked squelcher", chance = 1003 },
-	{ name = "great mana potion", chance = 1470 },
-	{ name = "great health potion", chance = 2100 },
 	{ name = "nail", chance = 5000, maxCount = 5 },
-	{ name = "great spirit potion", chance = 830 },
 	{ name = "gear wheel", chance = 1007 },
 	{ id = 8895, chance = 200 }, -- rusted armor
 	{ id = 8898, chance = 50 }, -- rusted legs

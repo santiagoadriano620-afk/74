@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Rootthing Bug Tracker")
+﻿local mType = Game.createMonsterType("Rootthing Bug Tracker")
 local monster = {}
 
 monster.name = "Rootthing Bug Tracker"
@@ -84,7 +84,6 @@ monster.loot = {
 	{ name = "small emerald", chance = 6180 },
 	{ name = "resin parasite", chance = 4840 },
 	{ name = "demon root", chance = 4510 },
-	{ name = "springsprout rod", chance = 3170 },
 	{ name = "wood cape", chance = 1170 },
 	{ name = "green gem", chance = 1170 },
 	{ name = "golden legs", chance = 170 },

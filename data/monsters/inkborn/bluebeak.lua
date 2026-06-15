@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Bluebeak")
+﻿local mType = Game.createMonsterType("Bluebeak")
 local monster = {}
 
 monster.name = "Bluebeak"
@@ -48,7 +48,6 @@ monster.loot = {
 	{ name = "small sapphire", chance = 1600, maxCount = 2 },
 	{ name = "paper boat", chance = 2000 }, -- new item
 	{ name = "star ink", chance = 1400 }, -- new item
-	{ name = "hailstorm rod", chance = 1000 },
 	{ name = "grapes", chance = 800 },
 	{ name = "blue crystal splinter", chance = 600 },
 	{ name = "glacier amulet", chance = 600 },

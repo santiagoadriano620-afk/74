@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Realityquake")
+﻿local mType = Game.createMonsterType("Realityquake")
 local monster = {}
 
 monster.name = "Realityquake"
@@ -52,7 +52,6 @@ monster.flags = {
 	canWalkOnPoison = true,
 }
 
-
 monster.light = {
 	level = 0,
 	color = 0,
@@ -65,9 +64,6 @@ monster.voices = {
 
 monster.loot = {
 	{ id = 3031, chance = 100000, maxCount = 200 }, -- gold coin
-	{ id = 238, chance = 8000, maxCount = 5 }, -- great mana potion
-	{ id = 7642, chance = 8000, maxCount = 5 }, -- great spirit potion
-	{ id = 7643, chance = 8000, maxCount = 5 }, -- ultimate health potion
 	{ id = 23535, chance = 8000, maxCount = 5 }, -- energy bar
 	{ id = 16119, chance = 8000, maxCount = 3 }, -- blue crystal shard
 	{ id = 16121, chance = 8000, maxCount = 3 }, -- green crystal shard
@@ -82,7 +78,6 @@ monster.loot = {
 	{ id = 23510, chance = 100000 }, -- odd organ
 	{ id = 281, chance = 4000 }, -- giant shimmering pearl (green)
 	{ id = 282, chance = 4000 }, -- giant shimmering pearl (brown)
-	{ id = 3073, chance = 8000 }, -- wand of cosmic energy
 	{ id = 23531, chance = 6000 }, -- ring of green plasma
 	{ id = 23533, chance = 6000 }, -- ring of red plasma
 }

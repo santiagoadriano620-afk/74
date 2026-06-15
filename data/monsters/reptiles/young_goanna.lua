@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Young Goanna")
+﻿local mType = Game.createMonsterType("Young Goanna")
 local monster = {}
 
 monster.name = "Young Goanna"
@@ -76,10 +76,8 @@ monster.voices = {
 monster.loot = {
 	{ name = "platinum coin", chance = 100000, maxCount = 3 },
 	{ name = "envenomed arrow", chance = 70400, maxCount = 35 },
-	{ name = "snakebite rod", chance = 10620 },
 	{ name = "goanna meat", chance = 10030 },
 	{ name = "blue crystal shard", chance = 9110 },
-	{ name = "terra rod", chance = 8940 },
 	{ name = "blue goanna scale", chance = 8260 },
 	{ name = "small enchanted emerald", chance = 4890 },
 	{ name = "leaf star", chance = 4550, maxCount = 3 },
@@ -88,7 +86,6 @@ monster.loot = {
 	{ name = "goanna claw", chance = 3880 },
 	{ name = "violet gem", chance = 3540 },
 	{ name = "serpent sword", chance = 3370 },
-	{ name = "springsprout rod", chance = 3370 },
 	{ name = "green crystal shard", chance = 2950 },
 	{ name = "scared frog", chance = 2610 },
 	{ name = "yellow gem", chance = 2530 },

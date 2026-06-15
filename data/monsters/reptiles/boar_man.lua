@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Boar Man")
+﻿local mType = Game.createMonsterType("Boar Man")
 local monster = {}
 
 monster.name = "Boar Man"
@@ -81,7 +81,6 @@ monster.loot = {
 	{ name = "red crystal fragment", chance = 9830, maxCount = 6 },
 	{ id = 3039, chance = 6390, maxCount = 2 }, -- red gem
 	{ name = "boar man hoof", chance = 4640, maxCount = 2 },
-	{ name = "great health potion", chance = 3810, maxCount = 4 },
 	{ name = "sapphire hammer", chance = 2700 },
 	{ name = "crystal mace", chance = 2160 },
 	{ name = "crystal sword", chance = 1310 },

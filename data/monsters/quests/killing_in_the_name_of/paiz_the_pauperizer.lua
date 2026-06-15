@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Paiz the Pauperizer")
+﻿local mType = Game.createMonsterType("Paiz the Pauperizer")
 local monster = {}
 
 monster.name = "Paiz the Pauperizer"
@@ -75,10 +75,7 @@ monster.loot = {
 	{ id = 3577, chance = 100000, maxCount = 5 }, -- meat
 	{ id = 3035, chance = 100000, maxCount = 10 }, -- platinum coin
 	{ id = 5904, chance = 43000 }, -- magic sulphur
-	{ id = 239, chance = 36960, maxCount = 3 }, -- great health potion
 	{ id = 3037, chance = 36960 }, -- yellow gem
-	{ id = 7642, chance = 32610, maxCount = 3 }, -- great spirit potion
-	{ id = 238, chance = 30430, maxCount = 3 }, -- great mana potion
 	{ id = 3039, chance = 23910 }, -- red gem
 	{ id = 10389, chance = 23910 }, -- sai
 	{ id = 3038, chance = 21740 }, -- green gem

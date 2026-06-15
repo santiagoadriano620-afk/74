@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Usurper Knight")
+﻿local mType = Game.createMonsterType("Usurper Knight")
 local monster = {}
 
 monster.name = "Usurper Knight"
@@ -88,7 +88,6 @@ monster.loot = {
 	{ name = "gold ingot", chance = 5799 },
 	{ name = "lion crest", chance = 5697 },
 	{ name = "knight legs", chance = 5290 },
-	{ name = "great mana potion", chance = 4680 },
 	{ name = "blue gem", chance = 4171 },
 	{ name = "green gem", chance = 2238 },
 	{ name = "magma legs", chance = 610 },

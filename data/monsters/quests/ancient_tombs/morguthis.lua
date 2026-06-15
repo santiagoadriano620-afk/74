@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Morguthis")
+﻿local mType = Game.createMonsterType("Morguthis")
 local monster = {}
 
 monster.name = "Morguthis"
@@ -91,7 +91,6 @@ monster.loot = {
 	{ name = "ravager's axe", chance = 300 },
 	{ name = "steel boots", chance = 500 },
 	{ name = "assassin star", chance = 500, maxCount = 3 },
-	{ name = "great health potion", chance = 1500 },
 }
 
 monster.attacks = {

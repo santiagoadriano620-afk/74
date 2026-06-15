@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Twisted Pooka")
+﻿local mType = Game.createMonsterType("Twisted Pooka")
 local monster = {}
 
 monster.name = "Twisted Pooka"
@@ -85,7 +85,6 @@ monster.loot = {
 	{ name = "gold coin", chance = 30000, maxCount = 100 },
 	{ id = 3049, chance = 492 }, -- stealth ring
 	{ id = 3595, chance = 55000, maxCount = 3 }, -- carrot
-	{ name = "strong health potion", chance = 719 },
 	{ name = "orange mushroom", chance = 10000 },
 	{ name = "fairy wings", chance = 30100 },
 	{ name = "orange mushroom", chance = 5155 },

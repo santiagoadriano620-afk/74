@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Massive Water Elemental")
+﻿local mType = Game.createMonsterType("Massive Water Elemental")
 local monster = {}
 
 monster.name = "Massive Water Elemental"
@@ -86,8 +86,6 @@ monster.loot = {
 	{ id = 3578, chance = 40000, maxCount = 2 }, -- fish
 	{ name = "rainbow trout", chance = 1340 },
 	{ name = "green perch", chance = 1590 },
-	{ name = "great mana potion", chance = 10400 },
-	{ name = "great health potion", chance = 10000 },
 }
 
 monster.attacks = {

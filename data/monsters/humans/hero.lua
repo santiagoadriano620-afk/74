@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Hero")
+﻿local mType = Game.createMonsterType("Hero")
 local monster = {}
 
 monster.name = "Hero"
@@ -104,7 +104,6 @@ monster.loot = {
 	{ name = "red rose", chance = 20450 },
 	{ name = "red piece of cloth", chance = 2006 },
 	{ name = "sniper arrow", chance = 11400, maxCount = 4 },
-	{ name = "great health potion", chance = 720 },
 	{ name = "small notebook", chance = 930 },
 	{ name = "scroll of heroic deeds", chance = 5000 },
 }

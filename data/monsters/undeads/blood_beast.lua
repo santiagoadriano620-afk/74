@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Blood Beast")
+﻿local mType = Game.createMonsterType("Blood Beast")
 local monster = {}
 
 monster.name = "Blood Beast"
@@ -84,7 +84,6 @@ monster.loot = {
 	{ id = 21146, chance = 2720 }, -- glooth steak
 	{ id = 3031, chance = 100000, maxCount = 139 }, -- gold coin
 	{ id = 21194, chance = 1040 }, -- slime heart
-	{ id = 236, chance = 7710 }, -- strong health potion
 	{ id = 7366, chance = 1290, maxCount = 5 }, -- viper star
 	{ id = 21183, chance = 250 }, -- glooth amulet
 	{ id = 21179, chance = 210 }, -- glooth blade

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Sineater Inferniarch")
+﻿local mType = Game.createMonsterType("Sineater Inferniarch")
 local monster = {}
 
 monster.name = "Sineater Inferniarch"
@@ -80,11 +80,9 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "Platinum Coin", chance = 26500, maxCount = 40 },
-	{ name = "Great Mana Potion", chance = 24500, maxCount = 5 },
 	{ id = 3030, chance = 24500, maxCount = 5 },
 	{ name = "Demonic Core Essence", chance = 1500, maxCount = 1 },
 	{ name = "Sineater Wing", chance = 5500, maxCount = 1 },
-	{ name = "Wand of Defiance", chance = 12000, maxCount = 1 },
 	{ name = "Ruby Necklace", chance = 10000, maxCount = 1 },
 	{ name = "Mummified Demon Finger", chance = 1500, maxCount = 1 },
 	{ name = "Demonic Matter", chance = 1500, maxCount = 1 },

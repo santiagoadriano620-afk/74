@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Grand Commander Soeren")
+﻿local mType = Game.createMonsterType("Grand Commander Soeren")
 local monster = {}
 
 monster.name = "Grand Commander Soeren"
@@ -25,7 +25,6 @@ monster.race = "blood"
 monster.corpse = 28726
 monster.speed = 105
 monster.manaCost = 0
-
 
 monster.changeTarget = {
 	interval = 5000,
@@ -71,7 +70,6 @@ monster.voices = {
 monster.loot = {
 	{ name = "small enchanted amethyst", chance = 15000, maxCount = 3 },
 	{ name = "platinum coin", chance = 50000, maxCount = 3 },
-	{ name = "great health potion", chance = 50000, maxCount = 3 },
 	{ name = "small ruby", chance = 12700, maxCount = 3 },
 	{ name = "onyx arrow", chance = 30000, maxCount = 3 },
 	{ name = "golden armor", chance = 1000 },

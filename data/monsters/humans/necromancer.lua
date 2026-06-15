@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Necromancer")
+﻿local mType = Game.createMonsterType("Necromancer")
 local monster = {}
 
 monster.name = "Necromancer"
@@ -94,7 +94,6 @@ monster.loot = {
 	{ name = "mystic turban", chance = 500 },
 	{ name = "green mushroom", chance = 1470 },
 	{ name = "noble axe", chance = 10 },
-	{ name = "strong mana potion", chance = 300 },
 	{ name = "spellbook of warding", chance = 130 },
 	{ name = "book of necromantic rituals", chance = 10130 },
 	{ name = "necromantic robe", chance = 1001 },

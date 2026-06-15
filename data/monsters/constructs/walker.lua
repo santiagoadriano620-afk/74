@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Walker")
+﻿local mType = Game.createMonsterType("Walker")
 local monster = {}
 
 monster.name = "Walker"
@@ -85,9 +85,6 @@ monster.loot = {
 	{ id = 3035, chance = 51610, maxCount = 3 }, -- platinum coin
 	{ id = 9057, chance = 16130, maxCount = 3 }, -- small topaz
 	{ id = 3032, chance = 6450, maxCount = 2 }, -- small emerald
-	{ id = 7642, chance = 3230 }, -- great spirit potion
-	{ id = 239, chance = 3230 }, -- great health potion
-	{ id = 238, chance = 2300 }, -- great mana potion
 	{ id = 21169, chance = 1780 }, -- metal spats
 	{ id = 3554, chance = 450 }, -- steel boots
 }

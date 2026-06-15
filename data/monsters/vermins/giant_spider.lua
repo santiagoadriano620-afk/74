@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Giant Spider")
+﻿local mType = Game.createMonsterType("Giant Spider")
 local monster = {}
 
 monster.name = "Giant Spider"
@@ -100,7 +100,6 @@ monster.loot = {
 	{ name = "poison arrow", chance = 11950, maxCount = 12 },
 	{ name = "plate legs", chance = 8333 },
 	{ name = "spider silk", chance = 1990 },
-	{ name = "strong health potion", chance = 3550 },
 	{ name = "lightning headband", chance = 270 },
 }
 

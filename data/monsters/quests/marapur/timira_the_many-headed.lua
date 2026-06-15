@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Timira the Many-Headed")
+﻿local mType = Game.createMonsterType("Timira the Many-Headed")
 local monster = {}
 
 monster.name = "Timira The Many-Headed"
@@ -64,11 +64,6 @@ monster.loot = {
 	{ id = 39548, chance = 100000, unique = true },
 	{ id = 39754, chance = 100000, unique = true },
 	{ name = "crystal coin", chance = 100000, maxCount = 22 },
-	{ name = "ultimate mana potion", chance = 32653, maxCount = 14 },
-	{ name = "ultimate health potion", chance = 30612, maxCount = 14 },
-	{ name = "bullseye potion", chance = 24490, maxCount = 5 },
-	{ name = "berserk potion", chance = 22449, maxCount = 5 },
-	{ name = "mastermind potion", chance = 18367, maxCount = 5 },
 	{ name = "naga basin", chance = 12245 },
 	{ name = "piece of timira's sensors", chance = 10204 },
 	{ name = "giant amethyst", chance = 6122 },
@@ -87,8 +82,6 @@ monster.loot = {
 	{ name = "naga sword", chance = 200 },
 	{ name = "naga axe", chance = 200 },
 	{ name = "naga club", chance = 200 },
-	{ name = "naga wand", chance = 200 },
-	{ name = "naga rod", chance = 200 },
 	{ name = "naga crossbow", chance = 200 },
 	{ name = "naga katar", chance = 200 },
 	{ name = "naga tanko", chance = 200 },

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Thanatursus")
+﻿local mType = Game.createMonsterType("Thanatursus")
 local monster = {}
 
 monster.name = "Thanatursus"
@@ -81,8 +81,6 @@ monster.voices = {
 monster.loot = {
 	{ name = "platinum coin", chance = 100000, maxCount = 17 },
 	{ name = "meat", chance = 90000, maxCount = 3 },
-	{ name = "great spirit potion", chance = 50000, maxCount = 3 },
-	{ name = "ultimate health potion", chance = 50000 },
 	{ name = "essence of a bad dream", chance = 17000 },
 	{ name = "knight axe", chance = 14000 },
 	{ name = "mino shield", chance = 12000 },
@@ -95,8 +93,6 @@ monster.loot = {
 	{ name = "obsidian lance", chance = 1500 },
 	{ name = "sickle", chance = 1100 },
 	{ name = "titan axe", chance = 1100 },
-	{ name = "wand of cosmic energy", chance = 400 },
-	{ name = "wand of defiance", chance = 400 },
 	{ name = "warrior's axe", chance = 400 },
 	{ name = "warrior's shield", chance = 400 },
 }

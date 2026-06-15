@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("High Voltage Elemental")
+﻿local mType = Game.createMonsterType("High Voltage Elemental")
 local monster = {}
 
 monster.name = "High Voltage Elemental"
@@ -79,7 +79,6 @@ monster.voices = {
 monster.loot = {
 	{ id = 3031, chance = 100000, maxCount = 185 }, -- gold coin
 	{ id = 761, chance = 100000, maxCount = 20 }, -- flash arrow
-	{ id = 237, chance = 7142 }, -- strong mana potion
 	{ id = 3033, chance = 7142, maxCount = 2 }, -- small amethyst
 	{ id = 3007, chance = 7142 }, -- crystal ring
 	{ id = 3313, chance = 4761 }, -- obsidian lance

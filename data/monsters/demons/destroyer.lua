@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Destroyer")
+﻿local mType = Game.createMonsterType("Destroyer")
 local monster = {}
 
 monster.name = "Destroyer"
@@ -99,7 +99,6 @@ monster.loot = {
 	{ name = "demonic essence", chance = 13850 },
 	{ name = "dreaded cleaver", chance = 400 },
 	{ name = "chaos mace", chance = 800 },
-	{ name = "great health potion", chance = 1000 },
 	{ name = "metal spike", chance = 4850 },
 }
 

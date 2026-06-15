@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Cursed Prospector")
+﻿local mType = Game.createMonsterType("Cursed Prospector")
 local monster = {}
 
 monster.name = "Cursed Prospector"
@@ -76,7 +76,6 @@ monster.voices = {
 monster.loot = {
 	{ name = "platinum coin", chance = 100000, maxCount = 5 },
 	{ name = "flash arrow", chance = 17700, maxCount = 10 },
-	{ name = "great spirit potion", chance = 15190, maxCount = 2 },
 	{ name = "spectral silver nugget", chance = 11520 },
 	{ name = "spectral gold nugget", chance = 5680 },
 	{ name = "emerald bangle", chance = 1340 },

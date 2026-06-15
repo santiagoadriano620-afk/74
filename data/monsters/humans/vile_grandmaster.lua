@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Vile Grandmaster")
+﻿local mType = Game.createMonsterType("Vile Grandmaster")
 local monster = {}
 
 monster.name = "Vile Grandmaster"
@@ -87,7 +87,6 @@ monster.loot = {
 	{ id = 3035, chance = 75410, maxCount = 2 }, -- platinum coin
 	{ id = 3592, chance = 1210 }, -- grapes
 	{ id = 3577, chance = 1210, maxCount = 2 }, -- meat
-	{ id = 239, chance = 1210 }, -- great health potion
 	{ id = 3269, chance = 1610 }, -- halberd
 	{ id = 3658, chance = 510 }, -- red rose
 	{ id = 3003, chance = 1510 }, -- rope

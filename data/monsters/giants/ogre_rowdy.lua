@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Ogre Rowdy")
+﻿local mType = Game.createMonsterType("Ogre Rowdy")
 local monster = {}
 
 monster.name = "Ogre Rowdy"
@@ -83,10 +83,7 @@ monster.loot = {
 	{ name = "ogre ear stud", chance = 12900 },
 	{ name = "ogre nose ring", chance = 20970 },
 	{ name = "skull fetish", chance = 12900 },
-	{ name = "wand of inferno", chance = 8600 },
 	{ name = "jalapeno pepper", chance = 3760, maxCount = 3 },
-	{ name = "wand of draconia", chance = 2150 },
-	{ name = "wand of everblazing", chance = 1080 },
 	{ name = "ogre choppa", chance = 540 },
 }
 

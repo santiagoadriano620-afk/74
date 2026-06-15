@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Vibrant Phantom")
+﻿local mType = Game.createMonsterType("Vibrant Phantom")
 local monster = {}
 
 monster.name = "Vibrant Phantom"
@@ -26,7 +26,6 @@ monster.Bestiary = {
 	Occurrence = 0,
 	Locations = "Furious Crater.",
 }
-
 
 monster.health = 27000
 monster.maxHealth = 27000
@@ -81,18 +80,13 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "crystal coin", chance = 66670 },
-	{ name = "ultimate health potion", chance = 27960, maxCount = 5 },
-	{ name = "terra rod", chance = 13980 },
 	{ name = "violet gem", chance = 8600 },
 	{ name = "vibrant heart", chance = 6450 },
 	{ id = 281, chance = 6450 }, -- giant shimmering pearl
 	{ name = "gold ingot", chance = 4300 },
 	{ name = "blue crystal shard", chance = 4300 },
 	{ name = "vibrant robe", chance = 3230 },
-	{ name = "springsprout rod", chance = 3230 },
 	{ name = "blue gem", chance = 3230 },
-	{ name = "hailstorm rod", chance = 3230 },
-	{ name = "underworld rod", chance = 2150 },
 	{ name = "violet crystal shard", chance = 1080 },
 	{ id = 23529, chance = 1080 }, -- ring of blue plasma
 	{ name = "green gem", chance = 1080 },

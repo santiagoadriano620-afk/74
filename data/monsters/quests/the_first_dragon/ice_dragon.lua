@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Ice Dragon")
+﻿local mType = Game.createMonsterType("Ice Dragon")
 local monster = {}
 
 monster.name = "Ice Dragon"
@@ -80,14 +80,12 @@ monster.loot = {
 	{ id = 3031, chance = 96850, maxCount = 216 }, -- gold coin
 	{ id = 3583, chance = 80020, maxCount = 2 }, -- dragon ham
 	{ id = 762, chance = 78200, maxCount = 10 }, -- shiver arrow
-	{ id = 238, chance = 40200, maxCount = 2 }, -- great mana potion
 	{ id = 3029, chance = 52100 }, -- small sapphire
 	{ id = 24937, chance = 18680 }, -- dragon blood
 	{ id = 24938, chance = 11400 }, -- dragon tongue
 	{ id = 3051, chance = 49900 }, -- energy ring
 	{ id = 829, chance = 11900 }, -- glacier mask
 	{ id = 2903, chance = 21700 }, -- golden mug
-	{ id = 3067, chance = 21700 }, -- hailstorm rod
 	{ id = 7441, chance = 43400 }, -- ice cube
 	{ id = 815, chance = 540 }, -- glacier amulet
 	{ id = 3061, chance = 540 }, -- life crystal

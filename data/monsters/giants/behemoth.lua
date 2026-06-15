@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Behemoth")
+﻿local mType = Game.createMonsterType("Behemoth")
 local monster = {}
 
 monster.name = "Behemoth"
@@ -102,7 +102,6 @@ monster.loot = {
 	{ name = "assassin star", chance = 9750, maxCount = 5 },
 	{ id = 7396, chance = 170 }, -- behemoth trophy
 	{ name = "titan axe", chance = 90 },
-	{ name = "great health potion", chance = 5120 },
 	{ name = "battle stone", chance = 14000 },
 }
 

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Cult Believer")
+﻿local mType = Game.createMonsterType("Cult Believer")
 local monster = {}
 
 monster.name = "Cult Believer"
@@ -13,7 +13,6 @@ monster.outfit = {
 	lookAddons = 1,
 	lookMount = 0,
 }
-
 
 monster.raceId = 1512
 monster.Bestiary = {
@@ -82,7 +81,6 @@ monster.loot = {
 	{ id = 3446, chance = 90450, maxCount = 10 }, -- bolt
 	{ id = 3031, chance = 75410, maxCount = 30 }, -- gold coin
 	{ id = 3592, chance = 15400 }, -- grapes
-	{ id = 239, chance = 12340, maxCount = 2 }, -- great health potion
 	{ id = 3577, chance = 5000 }, -- meat
 	{ id = 3349, chance = 830 }, -- crossbow
 	{ id = 3563, chance = 760 }, -- green tunic

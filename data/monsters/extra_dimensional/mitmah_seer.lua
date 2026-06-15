@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Mitmah Seer")
+﻿local mType = Game.createMonsterType("Mitmah Seer")
 local monster = {}
 
 monster.name = "Mitmah Seer"
@@ -82,11 +82,8 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "platinum coin", chance = 100000, maxCount = 15 },
-	{ name = "great mana potion", chance = 11880 },
 -- { name = "crystal of the mitmah", chance = 11410 }, -- 280gp yasir
-	{ name = "strong health potion", chance = 5810, maxCount = 3 },
 	{ name = "opal", chance = 4990 },
-	{ name = "wand of cosmic energy", chance = 3920 },
 	{ id = 3039, chance = 2280 }, -- red gem
 -- { name = "gold-brocaded cloth", chance = 1450 },
 	{ name = "gold ring", chance = 1190 },

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Necropharus")
+﻿local mType = Game.createMonsterType("Necropharus")
 local monster = {}
 
 monster.name = "Necropharus"
@@ -81,12 +81,10 @@ monster.loot = {
 	{ id = 3337, chance = 38000 }, -- bone club
 	{ id = 3114, chance = 19000 }, -- skull
 	{ id = 3732, chance = 14000 }, -- green mushroom
-	{ id = 3070, chance = 14000 }, -- moonlight rod
 	{ id = 3116, chance = 9500 }, -- big bone
 	{ id = 3441, chance = 9500 }, -- bone shield
 	{ id = 3079, chance = 4700 }, -- boots of haste
 	{ id = 3574, chance = 4700 }, -- mystic turban
-	{ id = 237, chance = 4700 }, -- strong mana potion
 }
 
 monster.attacks = {

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Wiggler")
+﻿local mType = Game.createMonsterType("Wiggler")
 local monster = {}
 
 monster.name = "Wiggler"
@@ -79,14 +79,11 @@ monster.voices = {
 monster.loot = {
 	{ name = "gold coin", chance = 100000, maxCount = 100 },
 	{ name = "platinum coin", chance = 14790 },
-	{ name = "terra rod", chance = 850 },
 	{ name = "serpent sword", chance = 1360 },
 	{ name = "black shield", chance = 1320 },
 	{ name = "white mushroom", chance = 7142, maxCount = 5 },
 	{ name = "blue piece of cloth", chance = 2080 },
 	{ name = "yellow piece of cloth", chance = 2160 },
-	{ name = "strong health potion", chance = 4930 },
-	{ name = "strong mana potion", chance = 5250 },
 	{ name = "crystalline arrow", chance = 15540, maxCount = 5 },
 	{ name = "green crystal splinter", chance = 3600 },
 	{ name = "green crystal fragment", chance = 2070 },

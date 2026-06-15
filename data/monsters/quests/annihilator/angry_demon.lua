@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Angry Demon")
+﻿local mType = Game.createMonsterType("Angry Demon")
 local monster = {}
 
 monster.name = "Angry Demon"
@@ -103,9 +103,6 @@ monster.loot = {
 	{ name = "assassin star", chance = 12550, maxCount = 10 },
 	{ name = "demonrage sword", chance = 70 },
 	{ id = 7393, chance = 90 }, -- demon trophy
-	{ name = "great mana potion", chance = 22220, maxCount = 3 },
-	{ name = "ultimate health potion", chance = 19540, maxCount = 3 },
-	{ name = "great spirit potion", chance = 18510, maxCount = 3 },
 }
 
 monster.attacks = {

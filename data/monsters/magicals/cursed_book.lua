@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Cursed Book")
+﻿local mType = Game.createMonsterType("Cursed Book")
 local monster = {}
 
 monster.name = "Cursed Book"
@@ -88,7 +88,6 @@ monster.loot = {
 	{ name = "terra legs", chance = 250 },
 	{ name = "terra amulet", chance = 500 },
 	{ name = "stone skin amulet", chance = 350 },
-	{ name = "springsprout rod", chance = 350 },
 	{ name = "sacred tree amulet", chance = 350 },
 	{ name = "swamplair armor", chance = 250 },
 }

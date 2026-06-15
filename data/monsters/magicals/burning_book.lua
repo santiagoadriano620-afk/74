@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Burning Book")
+﻿local mType = Game.createMonsterType("Burning Book")
 local monster = {}
 
 monster.name = "Burning Book"
@@ -84,7 +84,6 @@ monster.loot = {
 	{ name = "magma coat", chance = 2000 },
 	{ name = "guardian shield", chance = 1500 },
 	{ name = "soul orb", chance = 3000, maxCount = 4 },
-	{ name = "necrotic rod", chance = 3000 },
 	{ name = "magma monocle", chance = 1500 },
 	{ id = 6299, chance = 1200 }, -- death ring
 	{ id = 3049, chance = 1800 }, -- stealth ring

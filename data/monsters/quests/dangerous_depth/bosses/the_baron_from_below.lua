@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("The Baron from Below")
+﻿local mType = Game.createMonsterType("The Baron from Below")
 local monster = {}
 
 monster.name = "The Baron from Below"
@@ -71,16 +71,11 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "platinum coin", chance = 100000, maxCount = 58 },
-	{ name = "mastermind potion", chance = 100000 },
 	{ name = "stone skin amulet", chance = 100000 },
 	{ id = 27713, chance = 100000 }, -- heavy crystal fragment
-	{ name = "wand of inferno", chance = 72920 },
 	{ name = "violet crystal shard", chance = 64580 },
-	{ name = "ultimate health potion", chance = 62500, maxCount = 18 },
 	{ name = "fire sword", chance = 56250 },
-	{ name = "great spirit potion", chance = 54170, maxCount = 18 },
 	{ name = "magic sulphur", chance = 45830 },
-	{ name = "great mana potion", chance = 43750, maxCount = 18 },
 	{ name = "crystal mace", chance = 37500 },
 	{ name = "silver token", chance = 15220 },
 	{ name = "small emerald", chance = 20830 },

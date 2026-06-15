@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Neferi the Spy")
+﻿local mType = Game.createMonsterType("Neferi the Spy")
 local monster = {}
 
 monster.name = "Neferi the Spy"
@@ -67,14 +67,10 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "crystal coin", chance = 4366, maxCount = 1 },
-	{ name = "terra rod", chance = 2276 },
 	{ name = "dagger", chance = 1791 },
-	{ name = "ultimate health potion", chance = 1119, maxCount = 4 },
 	{ name = "gold ingot", chance = 1045, maxCount = 1 },
-	{ name = "great spirit potion", chance = 784, maxCount = 2 },
 	{ name = "fire sword", chance = 746 },
 	{ name = "terra boots", chance = 522 },
-	{ name = "hailstorm rod", chance = 485 },
 	{ name = "lightning headband", chance = 410 },
 	{ name = "terra hood", chance = 373 },
 	{ name = "knight axe", chance = 336 },

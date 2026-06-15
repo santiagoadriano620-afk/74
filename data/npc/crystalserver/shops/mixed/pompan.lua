@@ -1,4 +1,4 @@
-local internalNpcName = "Pompan"
+﻿local internalNpcName = "Pompan"
 local npcType = Game.createNpcType(internalNpcName)
 local npcConfig = {}
 
@@ -50,8 +50,6 @@ npcConfig.shop = {
 	{ name = "mirror", clientId = 3463, sell = 10 },
 	{ name = "sickle", clientId = 3293, sell = 3 },
 	-- 1 tome
-	{ name = "arrow", clientId = 3447, buy = 3, storageKey = tomes, storageValue = 1 },
-	{ name = "bolt", clientId = 3446, buy = 4, storageKey = tomes, storageValue = 1 },
 	{ name = "bow", clientId = 3350, buy = 400, sell = 100, storageKey = tomes, storageValue = 1 },
 	{ name = "crossbow", clientId = 3349, buy = 500, sell = 120, storageKey = tomes, storageValue = 1 },
 	{ name = "crystalline arrow", clientId = 15793, buy = 20, storageKey = tomes, storageValue = 1 },
@@ -64,12 +62,9 @@ npcConfig.shop = {
 	{ name = "flash arrow", clientId = 761, buy = 5, storageKey = tomes, storageValue = 1 },
 	{ name = "onyx arrow", clientId = 7365, buy = 7, storageKey = tomes, storageValue = 1 },
 	{ name = "piercing bolt", clientId = 7363, buy = 5, storageKey = tomes, storageValue = 1 },
-	{ name = "power bolt", clientId = 3450, buy = 7, storageKey = tomes, storageValue = 1 },
 	{ name = "prismatic bolt", clientId = 16141, buy = 20, storageKey = tomes, storageValue = 1 },
-	{ name = "royal spear", clientId = 7378, buy = 15, storageKey = tomes, storageValue = 1 },
 	{ name = "shiver arrow", clientId = 762, buy = 5, storageKey = tomes, storageValue = 1 },
 	{ name = "sniper arrow", clientId = 7364, buy = 5, storageKey = tomes, storageValue = 1 },
-	{ name = "spear", clientId = 3277, buy = 9, sell = 3, storageKey = tomes, storageValue = 1 },
 	{ name = "spectral bolt", clientId = 35902, buy = 70, storageKey = tomes, storageValue = 1 },
 	{ name = "tarsal arrow", clientId = 14251, buy = 6, storageKey = tomes, storageValue = 1 },
 	{ name = "throwing star", clientId = 3287, buy = 42, storageKey = tomes, storageValue = 1 },

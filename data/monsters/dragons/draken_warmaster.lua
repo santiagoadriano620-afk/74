@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Draken Warmaster")
+﻿local mType = Game.createMonsterType("Draken Warmaster")
 local monster = {}
 
 monster.name = "Draken Warmaster"
@@ -82,8 +82,6 @@ monster.loot = {
 	{ name = "bone shoulderplate", chance = 12840 },
 	{ name = "zaoan halberd", chance = 8930 },
 	{ name = "warmaster's wristguards", chance = 7020 },
-	{ name = "great health potion", chance = 3710, maxCount = 3 },
-	{ name = "ultimate health potion", chance = 3410 },
 	{ name = "zaoan shoes", chance = 2610 },
 	{ name = "tower shield", chance = 2310 },
 	{ name = "small ruby", chance = 1810, maxCount = 5 },

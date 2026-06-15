@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Courage Leech")
+﻿local mType = Game.createMonsterType("Courage Leech")
 local monster = {}
 
 monster.name = "Courage Leech"
@@ -26,7 +26,6 @@ monster.Bestiary = {
 	Occurrence = 0,
 	Locations = "Furious Crater",
 }
-
 
 monster.health = 27000
 monster.maxHealth = 27000
@@ -81,7 +80,6 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "crystal coin", chance = 70910 },
-	{ name = "ultimate health potion", chance = 11820, maxCount = 7 },
 	{ name = "lightning pendant", chance = 3640 },
 	{ name = "lightning legs", chance = 3640 },
 	{ name = "lightning headband", chance = 2730 },

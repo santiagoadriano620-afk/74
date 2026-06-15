@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Diblis the Fair")
+﻿local mType = Game.createMonsterType("Diblis the Fair")
 local monster = {}
 
 monster.name = "Diblis the Fair"
@@ -84,7 +84,6 @@ monster.loot = {
 	{ name = "vampire lord token", chance = 100000 },
 	{ name = "blood preservation", chance = 91090 },
 	{ name = "vampire shield", chance = 15840 },
-	{ name = "strong health potion", chance = 18000 },
 	{ name = "platinum coin", chance = 12000, maxCount = 5 },
 	{ name = "black pearl", chance = 990 },
 	{ id = 3098, chance = 10890 }, -- ring of healing

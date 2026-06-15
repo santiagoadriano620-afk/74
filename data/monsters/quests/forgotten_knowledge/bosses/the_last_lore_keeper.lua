@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("The Last Lore Keeper")
+﻿local mType = Game.createMonsterType("The Last Lore Keeper")
 local monster = {}
 
 monster.name = "The Last Lore Keeper"
@@ -89,15 +89,12 @@ monster.loot = {
 	{ id = 5880, chance = 3000, maxCount = 2 }, -- iron ore
 	{ id = 9632, chance = 1000 }, -- ancient stone
 	{ id = 3360, chance = 1000 }, -- golden armor
-	{ id = 7642, chance = 3000, maxCount = 10 }, -- great spirit potion
 	{ id = 20079, chance = 400 }, -- crude umbral hammer
 	{ id = 22193, chance = 3000 }, -- onyx chip
 	{ id = 9660, chance = 1000 }, -- mystical hourglass
 	{ id = 5887, chance = 1000 }, -- piece of royal steel
 	{ id = 23533, chance = 3000 }, -- ring of red plasma
-	{ id = 7643, chance = 3000, maxCount = 5 }, -- ultimate health potion
 	{ id = 22516, chance = 97920, maxCount = 4 }, -- silver token
-	{ id = 238, chance = 70000, maxCount = 10 }, -- great mana potion
 	{ id = 3029, chance = 250, maxCount = 20 }, -- small sapphire
 	{ id = 3039, chance = 9300, maxCount = 1 }, -- red gem
 	{ id = 9058, chance = 7692, maxCount = 2 }, -- gold ingot
@@ -121,8 +118,6 @@ monster.loot = {
 	{ id = 24971, chance = 500 }, -- forbidden tome
 	{ id = 24972, chance = 800 }, -- key to knowledge
 	{ id = 20080, chance = 400 }, -- umbral hammer
-	{ id = 24954, chance = 400 }, -- part of a rune
-	{ id = 23375, chance = 3000, maxCount = 5 }, -- supreme health potion
 }
 
 monster.attacks = {

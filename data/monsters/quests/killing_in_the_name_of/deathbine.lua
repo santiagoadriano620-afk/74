@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Deathbine")
+﻿local mType = Game.createMonsterType("Deathbine")
 local monster = {}
 
 monster.name = "Deathbine"
@@ -72,7 +72,6 @@ monster.loot = {
 	{ id = 647, chance = 50000 }, -- seeds
 	{ id = 814, chance = 50000 }, -- terra amulet
 	{ id = 813, chance = 50000 }, -- terra boots
-	{ id = 8084, chance = 50000 }, -- springsprout rod
 	{ id = 5014, chance = 5555 }, -- mandrake
 	{ id = 12320, chance = 2854 }, -- sweet smelling bait
 }

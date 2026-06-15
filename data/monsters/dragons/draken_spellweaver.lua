@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Draken Spellweaver")
+﻿local mType = Game.createMonsterType("Draken Spellweaver")
 local monster = {}
 
 monster.name = "Draken Spellweaver"
@@ -82,12 +82,10 @@ monster.loot = {
 	{ name = "platinum coin", chance = 23800, maxCount = 5 },
 	{ name = "weaver's wandtip", chance = 18450 },
 	{ name = "small ruby", chance = 6640, maxCount = 5 },
-	{ name = "great mana potion", chance = 5350 },
 	{ name = "draken sulphur", chance = 4610 },
 	{ name = "luminous orb", chance = 2580 },
 	{ name = "green gem", chance = 1290 },
 	{ name = "zaoan shoes", chance = 1290 },
-	{ name = "wand of inferno", chance = 1110 },
 	{ name = "focus cape", chance = 740 },
 	{ name = "spellweaver's robe", chance = 740 },
 	{ name = "zaoan legs", chance = 550 },

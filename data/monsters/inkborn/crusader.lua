@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Crusader")
+﻿local mType = Game.createMonsterType("Crusader")
 local monster = {}
 
 monster.name = "Crusader"
@@ -46,7 +46,6 @@ monster.loot = {
 	{ name = "platinum coin", chance = 40590, maxCount = 20 },
 	{ name = "torn page", chance = 5590 }, -- new item
 	{ name = "small topaz", chance = 3030 },
-	{ name = "great health potion", chance = 2500 },
 	{ id = 281, chance = 1900 },
 	{ name = "knight axe", chance = 1900 },
 	{ name = "ancient shield", chance = 1560 },

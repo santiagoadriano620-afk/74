@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Shadowstalker")
+﻿local mType = Game.createMonsterType("Shadowstalker")
 local monster = {}
 
 monster.description = "Shadowstalker"
@@ -70,13 +70,10 @@ monster.loot = {
     { name = "Gold Coin", chance = 100000, maxCount = 214 },
     { name = "Platinum Coin", chance = 88000, maxCount = 5 },
     { name = "Compound Eye", chance = 76000, maxCount = 1 },
-    { name = "Great Health Potion", chance = 52000, maxCount = 2 },
-    { name = "Great Mana Potion", chance = 48000, maxCount = 2 },
     { name = "Small Topaz", chance = 46670, maxCount = 2 },
     { id = 14225, chance = 41330, maxCount = 2 },
     { name = "Small Emerald", chance = 40000, maxCount = 2 },
     { name = "Yellow Gem", chance = 13330, maxCount = 1 },
-    { name = "Springsprout Rod", chance = 2670, maxCount = 1 },
     { name = "War Hammer", chance = 2670, maxCount = 1 }
 }
 

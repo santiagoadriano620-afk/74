@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Undertaker")
+﻿local mType = Game.createMonsterType("Undertaker")
 local monster = {}
 
 monster.name = "Undertaker"
@@ -75,7 +75,6 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ name = "Great Spirit Potion", chance = 30660, minCount = 1, maxCount = 3 },
 	{ name = "Undertaker Fangs", chance = 25740 },
 	{ name = "Crystal Coin", chance = 15100, minCount = 1, maxCount = 3 },
 	{ name = "Spider Silk", chance = 3520 },
@@ -83,9 +82,7 @@ monster.loot = {
 	{ name = "Blue Crystal Shard", chance = 1840 },
 	{ name = "Relic Sword", chance = 1650 },
 	{ name = "Terra Legs", chance = 1640 },
-	{ name = "Necrotic Rod", chance = 1400 },
 	{ name = "Butterfly Ring", chance = 1240 },
-	{ name = "Wand of Voodoo", chance = 960 },
 	{ name = "Violet Gem", chance = 850 },
 }
 

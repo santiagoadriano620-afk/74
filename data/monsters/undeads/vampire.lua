@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Vampire")
+﻿local mType = Game.createMonsterType("Vampire")
 local monster = {}
 
 monster.name = "Vampire"
@@ -93,7 +93,6 @@ monster.loot = {
 	{ name = "strange helmet", chance = 420 },
 	{ name = "vampire shield", chance = 230 },
 	{ name = "grave flower", chance = 1910 },
-	{ name = "strong health potion", chance = 1500 },
 	{ name = "vampire teeth", chance = 7600 },
 	{ name = "blood preservation", chance = 5100 },
 }

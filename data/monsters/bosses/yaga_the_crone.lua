@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Yaga the Crone")
+﻿local mType = Game.createMonsterType("Yaga the Crone")
 local monster = {}
 
 monster.name = "Yaga the Crone"
@@ -81,7 +81,6 @@ monster.loot = {
 	{ name = "garlic necklace", chance = 8333 },
 	{ name = "spellbook of mind control", chance = 8333 },
 	{ name = "coat", chance = 4170 },
-	{ name = "necrotic rod", chance = 4170 },
 	{ name = "silver dagger", chance = 4170 },
 }
 

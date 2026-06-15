@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Grimeleech")
+﻿local mType = Game.createMonsterType("Grimeleech")
 local monster = {}
 
 monster.name = "Grimeleech"
@@ -71,9 +71,6 @@ monster.voices = {
 monster.loot = {
 	{ name = "gold coin", chance = 100000, maxCount = 197 },
 	{ name = "platinum coin", chance = 100000, maxCount = 8 },
-	{ name = "great mana potion", chance = 34850, maxCount = 3 },
-	{ name = "great health potion", chance = 34290, maxCount = 3 },
-	{ name = "great spirit potion", chance = 30860, maxCount = 3 },
 	{ name = "flask of demonic blood", chance = 23400, maxCount = 3 },
 	{ name = "demonic essence", chance = 19240 },
 	{ name = "some grimeleech wings", chance = 19080 },
@@ -83,8 +80,6 @@ monster.loot = {
 	{ name = "small ruby", chance = 10750, maxCount = 5 },
 	{ name = "small topaz", chance = 9660, maxCount = 5 },
 	{ name = "small amethyst", chance = 9640, maxCount = 5 },
-	{ name = "underworld rod", chance = 6890 },
-	{ name = "wand of voodoo", chance = 4810 },
 	{ id = 3039, chance = 3930 }, -- red gem
 	{ name = "yellow gem", chance = 2900 },
 	{ name = "devil helmet", chance = 1360 },

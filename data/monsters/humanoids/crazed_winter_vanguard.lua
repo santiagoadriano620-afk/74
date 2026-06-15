@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Crazed Winter Vanguard")
+﻿local mType = Game.createMonsterType("Crazed Winter Vanguard")
 local monster = {}
 
 monster.name = "Crazed Winter Vanguard"
@@ -75,7 +75,7 @@ monster.voices = {
 	interval = 5000,
 	chance = 10,
 	{ text = "Nobody will ever escape from this place, muwahaha!!!", yell = false },
-	{ text = "These voices… they never stop!", yell = false },
+	{ text = "These voicesâ€¦ they never stop!", yell = false },
 	{ text = " I am getting crazy here...Wa wa wahhh!!!", yell = false },
 }
 
@@ -84,10 +84,8 @@ monster.loot = {
 	{ id = 30058, chance = 13000 }, -- ice flower
 	{ name = "small enchanted ruby", chance = 13300 },
 	{ name = "miraculum", chance = 10100 },
-	{ name = "ultimate health potion", chance = 9300 },
 	{ name = "dream essence egg", chance = 8500 },
 	{ name = "tiger eye", chance = 6900 },
-	{ name = "northwind rod", chance = 6000 },
 	{ name = "glacier amulet", chance = 5000 },
 	{ name = "ice rapier", chance = 6250 },
 	{ name = "glacier robe", chance = 2500 },

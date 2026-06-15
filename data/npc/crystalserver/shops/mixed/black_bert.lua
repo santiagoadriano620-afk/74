@@ -1,4 +1,4 @@
-local internalNpcName = "Black Bert"
+﻿local internalNpcName = "Black Bert"
 local npcType = Game.createNpcType(internalNpcName)
 local npcConfig = {}
 
@@ -68,7 +68,6 @@ npcConfig.shop = {
 	{ itemname = "flask of extra greasy oil", clientid = 10189, buy = 1000 },
 	{ itemname = "flask of poison", clientid = 10183, buy = 1000 },
 	{ itemname = "flexible dragon scale", clientid = 11550, buy = 4000 },
-	{ itemname = "formula for a memory potion", clientid = 9188, buy = 5000 },
 	{ itemname = "funeral urn", clientid = 4847, buy = 6000 },
 	{ itemname = "fur of a wolf whelp", clientid = 25238, buy = 5000 },
 	{ itemname = "ghost charm", clientid = 8822, buy = 20000 },
@@ -152,7 +151,6 @@ npcConfig.shop = {
 	{ itemname = "wolf tooth chain", clientid = 5940, buy = 10000 },
 	{ itemname = "worm queen tooth", clientid = 9239, buy = 12500 },
 	{ itemname = "wrinkled parchment", clientid = 4846, buy = 4000 },
-	{ itemname = "xodet's first wand", clientid = 9187, buy = 5000 },
 }
 
 -- On buy npc shop message

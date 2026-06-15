@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Anomaly")
+﻿local mType = Game.createMonsterType("Anomaly")
 local monster = {}
 
 monster.name = "Anomaly"
@@ -25,7 +25,6 @@ monster.race = "venom"
 monster.corpse = 23564
 monster.speed = 200
 monster.manaCost = 0
-
 
 monster.changeTarget = {
 	interval = 2000,
@@ -81,9 +80,6 @@ monster.loot = {
 	{ id = 3033, chance = 8000, maxCount = 10 }, -- small amethyst
 	{ id = 3028, chance = 8000, maxCount = 10 }, -- small diamond
 	{ id = 9057, chance = 8000, maxCount = 10 }, -- small topaz
-	{ id = 238, chance = 8000, maxCount = 10 }, -- great mana potion
-	{ id = 7642, chance = 8000, maxCount = 5 }, -- great spirit potion
-	{ id = 7643, chance = 8000, maxCount = 5 }, -- ultimate health potion
 	{ id = 23545, chance = 8000, maxCount = 5 }, -- energy drink
 	{ id = 3037, chance = 8000 }, -- yellow gem
 	{ id = 3041, chance = 6000 }, -- blue gem

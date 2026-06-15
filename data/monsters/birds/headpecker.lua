@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Headpecker")
+﻿local mType = Game.createMonsterType("Headpecker")
 local monster = {}
 
 monster.name = "Headpecker"
@@ -84,7 +84,6 @@ monster.loot = {
 	{ name = "War Hammer", chance = 2290 },
 	{ name = "Titan Axe", chance = 1720 },
 	{ name = "Blue Gem", chance = 1560 },
-	{ name = "Wand of Starstorm", chance = 1000 },
 	{ name = "Gold Ingot", chance = 910 },
 }
 

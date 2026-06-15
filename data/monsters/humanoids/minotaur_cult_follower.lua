@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Minotaur Cult Follower")
+﻿local mType = Game.createMonsterType("Minotaur Cult Follower")
 local monster = {}
 
 monster.name = "Minotaur Cult Follower"
@@ -82,7 +82,6 @@ monster.loot = {
 	{ name = "cowbell", chance = 22480 },
 	{ name = "cultish robe", chance = 14720 },
 	{ name = "plate shield", chance = 20020 },
-	{ name = "great health potion", chance = 11840 },
 	{ name = "small ruby", chance = 3690, maxCount = 2 },
 	{ name = "small topaz", chance = 3170, maxCount = 2 },
 	{ name = "yellow gem", chance = 280 },

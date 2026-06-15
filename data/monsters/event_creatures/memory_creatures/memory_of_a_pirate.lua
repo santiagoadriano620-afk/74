@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Memory of a Pirate")
+﻿local mType = Game.createMonsterType("Memory of a Pirate")
 local monster = {}
 
 monster.name = "Memory of a Pirate"
@@ -69,7 +69,6 @@ monster.loot = {
 	{ name = "battle shield", chance = 3850 },
 	{ name = "pirate shirt", chance = 1200 },
 	{ id = 37531, chance = 5155 }, -- candy floss
-	{ name = "strong health potion", chance = 670 },
 }
 
 monster.attacks = {

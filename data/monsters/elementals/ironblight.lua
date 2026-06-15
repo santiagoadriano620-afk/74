@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Ironblight")
+﻿local mType = Game.createMonsterType("Ironblight")
 local monster = {}
 
 monster.name = "Ironblight"
@@ -88,17 +88,13 @@ monster.loot = {
 	{ name = "epee", chance = 480 },
 	{ name = "magic sulphur", chance = 830 },
 	{ name = "sapphire hammer", chance = 480 },
-	{ name = "great mana potion", chance = 17640 },
 	{ name = "terra legs", chance = 1110 },
-	{ name = "ultimate health potion", chance = 18330 },
 	{ name = "composite hornbow", chance = 210 },
-	{ name = "springsprout rod", chance = 1720 },
 	{ name = "crystal of balance", chance = 4480 },
 	{ name = "crystal of power", chance = 2480 },
 	{ name = "war crystal", chance = 21230 },
 	{ name = "shiny stone", chance = 15230 },
 	{ name = "jade hat", chance = 210 },
-	{ name = "glacial rod", chance = 960 },
 	{ name = "green crystal shard", chance = 5720 },
 	{ name = "brown crystal splinter", chance = 12610, maxCount = 2 },
 	{ name = "red crystal fragment", chance = 10540 },

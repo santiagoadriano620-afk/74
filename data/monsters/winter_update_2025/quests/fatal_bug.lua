@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Fatal Bug")
+﻿local mType = Game.createMonsterType("Fatal Bug")
 local monster = {}
 
 monster.name = "Fatal Bug"
@@ -68,17 +68,10 @@ monster.voices = {
 monster.loot = {
 	{ name = "crystal coin", chance = 100000, maxCount = 64 }, -- Not confirmed (chance)
 	{ name = "yellow gem", chance = 100000, maxCount = 10 }, -- Not confirmed (chance)
-	{ id = 3039, chance = 100000, maxCount = 10 }, -- red gem (não confirmado (chance))
+	{ id = 3039, chance = 100000, maxCount = 10 }, -- red gem (nÃ£o confirmado (chance))
 	{ name = "blue gem", chance = 100000, maxCount = 2 }, -- Not confirmed (chance)
 	{ name = "giant amethyst", chance = 100000 }, -- Not confirmed (chance)
 	{ name = "giant sapphire", chance = 100000, maxCount = 3 }, -- Not confirmed (chance)
-	{ name = "strong mana potion", chance = 100000, maxCount = 92 }, -- Not confirmed (chance)
-	{ name = "great mana potion", chance = 100000, maxCount = 67 }, -- Not confirmed (chance)
-	{ name = "great spirit potion", chance = 100000, maxCount = 56 }, -- Not confirmed (chance)
-	{ name = "ultimate mana potion", chance = 100000, maxCount = 25 }, -- Not confirmed (chance)
-	{ name = "ultimate spirit potion", chance = 100000, maxCount = 25 }, -- Not confirmed (chance)
-	{ name = "ultimate health potion", chance = 100000, maxCount = 35 }, -- Not confirmed (chance)
-	{ name = "supreme health potion", chance = 100000, maxCount = 11 }, -- Not confirmed (chance)
 	{ name = "guardian gem", chance = 100000 }, -- Not confirmed (chance)
 	{ name = "marksman gem", chance = 100000 }, -- Not confirmed (chance)
 	{ name = "mystic gem", chance = 100000 }, -- Not confirmed (chance)
@@ -89,14 +82,9 @@ monster.loot = {
 	{ name = "greater mystic gem", chance = 100000 }, -- Not confirmed (chance)
 	{ name = "greater sage gem", chance = 100000 }, -- Not confirmed (chance)
 	{ name = "greater spiritualist gem", chance = 100000 }, -- Not confirmed (chance)
-	{ name = "berserk potion", chance = 100000 }, -- Not confirmed (chance)
-	{ name = "bullseye potion", chance = 100000 }, -- Not confirmed (chance)
-	{ name = "transcendence potion", chance = 100000 }, -- Not confirmed (chance)
 	-- { name = "cryptic fossil", chance = 100000 }, -- Not confirmed (chance)
 	-- { name = "fetid heart", chance = 100000 }, -- Not confirmed (chance)
-	{ name = "wand of everblazing", chance = 100000 }, -- Not confirmed (chance)
 	{ name = "composite hornbow", chance = 100000 }, -- Not confirmed (chance)
-	{ name = "muck rod", chance = 100000 }, -- Not confirmed (chance)
 	-- { name = "worn guide book", chance = 100000 }, -- Not confirmed (chance)
 	-- { name = "ancient crypt rune", chance = 100000 }, -- Not confirmed (chance)
 }

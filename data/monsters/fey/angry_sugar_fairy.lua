@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Angry Sugar Fairy")
+﻿local mType = Game.createMonsterType("Angry Sugar Fairy")
 local monster = {}
 
 monster.name = "Angry Sugar Fairy"
@@ -86,7 +86,6 @@ monster.loot = {
 	{ name = "green crystal splinter", chance = 5820 },
 	{ name = "violet crystal shard", chance = 4040 },
 	{ name = "small enchanted ruby", chance = 3840, maxCount = 3 },
-	{ name = "wand of cosmic energy", chance = 3770 },
 	{ name = "white pearl", chance = 2710, maxCount = 3 },
 	{ name = "prismatic quartz", chance = 2320 },
 	{ name = "ruby necklace", chance = 1890 },

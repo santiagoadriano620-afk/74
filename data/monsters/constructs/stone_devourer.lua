@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Stone Devourer")
+﻿local mType = Game.createMonsterType("Stone Devourer")
 local monster = {}
 
 monster.name = "Stone Devourer"
@@ -88,11 +88,7 @@ monster.loot = {
 	{ name = "sapphire hammer", chance = 1490 },
 	{ name = "spiked squelcher", chance = 1490 },
 	{ name = "glorious axe", chance = 3340 },
-	{ name = "strong health potion", chance = 13840, maxCount = 2 },
-	{ name = "strong mana potion", chance = 14900, maxCount = 2 },
-	{ name = "great mana potion", chance = 15610, maxCount = 2 },
 	{ name = "mana potion", chance = 15050, maxCount = 2 },
-	{ name = "ultimate health potion", chance = 14410 },
 	{ id = 12600, chance = 11360 }, -- coal
 	{ name = "ancient stone", chance = 12850 },
 	{ name = "crystalline arrow", chance = 9940, maxCount = 10 },

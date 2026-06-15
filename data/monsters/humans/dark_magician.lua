@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Dark Magician")
+﻿local mType = Game.createMonsterType("Dark Magician")
 local monster = {}
 
 monster.name = "Dark Magician"
@@ -81,8 +81,6 @@ monster.voices = {
 monster.loot = {
 	{ name = "gold coin", chance = 75100, maxCount = 55 },
 	{ name = "blank rune", chance = 10000 },
-	{ name = "strong health potion", chance = 3000 },
-	{ name = "strong mana potion", chance = 2860 },
 	{ name = "health potion", chance = 12000 },
 	{ name = "mana potion", chance = 11900 },
 	{ name = "reins", chance = 20 },

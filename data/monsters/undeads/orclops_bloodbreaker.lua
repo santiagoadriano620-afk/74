@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Orclops Bloodbreaker")
+﻿local mType = Game.createMonsterType("Orclops Bloodbreaker")
 local monster = {}
 
 monster.name = "Orclops Bloodbreaker"
@@ -91,7 +91,6 @@ monster.loot = {
 	{ name = "bloodshot giant eye", chance = 1600 }, -- new item
 	{ name = "war drum", chance = 1400 },
 	{ name = "stone skin amulet", chance = 1200 },
-	{ name = "berserk potion", chance = 800 },
 	{ id = 51487, chance = 800 }, -- norcferatu talisman
 }
 

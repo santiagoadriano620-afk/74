@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Deathling Scout")
+﻿local mType = Game.createMonsterType("Deathling Scout")
 local monster = {}
 
 monster.name = "Deathling Scout"
@@ -74,8 +74,8 @@ monster.light = {
 monster.voices = {
 	interval = 5000,
 	chance = 10,
-	{ text = "VBOX°O", yell = false },
-	{ text = 'O(J-"LJ-T =|-°', yell = false },
+	{ text = "VBOXÂ°O", yell = false },
+	{ text = 'O(J-"LJ-T =|-Â°', yell = false },
 }
 
 monster.loot = {
@@ -87,8 +87,6 @@ monster.loot = {
 	{ name = "deepling filet", chance = 12390 },
 	{ name = "small enchanted sapphire", chance = 11500, maxCount = 8 },
 	{ name = "deepling ridge", chance = 9400 },
-	{ name = "great health potion", chance = 8770 },
-	{ name = "great mana potion", chance = 8280 },
 	{ name = "heavy trident", chance = 5570 },
 	{ name = "eye of a deepling", chance = 5500 },
 	{ name = "warrior's axe", chance = 2890 },

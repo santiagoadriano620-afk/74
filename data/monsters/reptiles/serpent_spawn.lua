@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Serpent Spawn")
+﻿local mType = Game.createMonsterType("Serpent Spawn")
 local monster = {}
 
 monster.name = "Serpent Spawn"
@@ -86,7 +86,6 @@ monster.loot = {
 	{ id = 3051, chance = 590 }, -- energy ring
 	{ id = 3052, chance = 6250 }, -- life ring
 	{ name = "life crystal", chance = 800 },
-	{ name = "snakebite rod", chance = 930 },
 	{ name = "warrior helmet", chance = 560 },
 	{ name = "strange helmet", chance = 670 },
 	{ name = "crown armor", chance = 510 },
@@ -98,7 +97,6 @@ monster.loot = {
 	{ name = "charmer's tiara", chance = 180 },
 	{ name = "mercenary sword", chance = 2070 },
 	{ name = "noble axe", chance = 750 },
-	{ name = "great mana potion", chance = 2000 },
 	{ name = "swamplair armor", chance = 90 },
 	{ name = "spellbook of mind control", chance = 90 },
 	{ name = "snake skin", chance = 14800 },

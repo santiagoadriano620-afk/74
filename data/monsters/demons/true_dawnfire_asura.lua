@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("True Dawnfire Asura")
+﻿local mType = Game.createMonsterType("True Dawnfire Asura")
 local monster = {}
 
 monster.name = "True Dawnfire Asura"
@@ -77,7 +77,6 @@ monster.loot = {
 	{ id = 3035, chance = 100000, maxCount = 8 }, -- platinum coin
 	{ name = "crystal coin", chance = 4670, maxCount = 1 },
 	{ id = 6558, chance = 30110 }, -- flask of demonic blood
-	{ id = 238, chance = 16560, maxCount = 2 }, -- great mana potion
 	{ id = 3033, chance = 6810, maxCount = 2 }, -- small amethyst
 	{ id = 3028, chance = 7500, maxCount = 2 }, -- small diamond
 	{ id = 3032, chance = 18010, maxCount = 2 }, -- small emerald
@@ -100,7 +99,6 @@ monster.loot = {
 	{ id = 3016, chance = 2330 }, -- ruby necklace
 	{ id = 5944, chance = 20140 }, -- soul orb
 	{ id = 8074, chance = 620 }, -- spellbook of mind control
-	{ id = 3071, chance = 1440 }, -- wand of inferno
 }
 
 monster.attacks = {

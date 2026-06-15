@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Many Faces")
+﻿local mType = Game.createMonsterType("Many Faces")
 local monster = {}
 
 monster.name = "Many Faces"
@@ -26,7 +26,6 @@ monster.Bestiary = {
 	Occurrence = 0,
 	Locations = "Mirrored Nightmare.",
 }
-
 
 monster.health = 30000
 monster.maxHealth = 30000
@@ -82,12 +81,9 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "crystal coin", chance = 76710 },
-	{ name = "ultimate health potion", chance = 14920, maxCount = 7 },
 	{ name = "apron", chance = 7990 },
-	{ name = "hailstorm rod", chance = 7610 },
 	{ name = "stone skin amulet", chance = 5780 },
 	{ name = "green gem", chance = 5710 },
-	{ name = "northwind rod", chance = 5630 },
 	{ name = "sacred tree amulet", chance = 5560 },
 	{ name = "violet gem", chance = 5100 },
 	{ name = "blue gem", chance = 5020 },
@@ -96,7 +92,6 @@ monster.loot = {
 	{ name = "glacier shoes", chance = 2510 },
 	{ name = "glacier robe", chance = 2130 },
 	{ name = "gruesome fan", chance = 610 },
-	{ name = "glacial rod", chance = 610 },
 	{ name = "bag you desire", chance = 15 },
 }
 

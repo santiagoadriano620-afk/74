@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Malvaroth")
+﻿local mType = Game.createMonsterType("Malvaroth")
 local monster = {}
 
 monster.name = "Malvaroth"
@@ -82,7 +82,6 @@ monster.loot = {
 	{ id = 3035, chance = 99000, maxCount = 50 }, -- platinum coin
 	{ id = 16124, chance = 99000, maxCount = 1 }, -- blue crystal splinter
 	{ id = 16122, chance = 99000, maxCount = 1 }, -- green crystal splinter
-	{ id = 7642, chance = 99000, maxCount = 1 }, -- great spirit potion
 	{ id = 3029, chance = 99000, maxCount = 3 }, -- small sapphire
 	{ id = 49949, chance = 7000, maxCount = 1 }, -- demonic core essence
 	{ id = 49894, chance = 7000, maxCount = 1 }, -- demonic matter

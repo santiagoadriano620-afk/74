@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Ushuriel")
+﻿local mType = Game.createMonsterType("Ushuriel")
 local monster = {}
 
 monster.name = "Ushuriel"
@@ -102,10 +102,6 @@ monster.loot = {
 	{ name = "thaian sword", chance = 25000 },
 	{ name = "dragon slayer", chance = 8333 },
 	{ name = "runed sword", chance = 6666 },
-	{ name = "great mana potion", chance = 20000 },
-	{ name = "great health potion", chance = 20000 },
-	{ name = "great spirit potion", chance = 20000 },
-	{ name = "ultimate health potion", chance = 20000 },
 	{ id = 8894, chance = 20000 }, -- heavily rusted armor
 	{ name = "gold ingot", chance = 16666 },
 }

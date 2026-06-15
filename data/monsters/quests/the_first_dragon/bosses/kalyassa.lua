@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Kalyassa")
+﻿local mType = Game.createMonsterType("Kalyassa")
 local monster = {}
 
 monster.name = "Kalyassa"
@@ -80,8 +80,6 @@ monster.loot = {
 	{ id = 3583, chance = 75230, maxCount = 9 }, -- dragon ham
 	{ id = 3035, chance = 99080, maxCount = 9 }, -- platinum coin
 	{ id = 24937, chance = 80000, maxCount = 2 }, -- dragon blood
-	{ id = 239, chance = 8260 }, -- great health potion
-	{ id = 238, chance = 9170 }, -- great mana potion
 	{ id = 3392, chance = 25000 }, -- royal helmet
 	{ id = 3386, chance = 25000 }, -- dragon scale mail
 	{ id = 24938, chance = 100000 }, -- dragon tongue

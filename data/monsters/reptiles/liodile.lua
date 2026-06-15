@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Liodile")
+﻿local mType = Game.createMonsterType("Liodile")
 local monster = {}
 
 monster.name = "Liodile"
@@ -83,7 +83,6 @@ monster.loot = {
 	{ name = "yellow gem", chance = 3720 },
 	{ name = "assassin dagger", chance = 2600 },
 	{ name = "terra legs", chance = 2420 },
-	{ name = "springsprout rod", chance = 1610 },
 	{ name = "sacred tree amulet", chance = 830 },
 	{ name = "leviathan's amulet", chance = 720 },
 }

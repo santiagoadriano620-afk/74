@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Lost Basher")
+﻿local mType = Game.createMonsterType("Lost Basher")
 local monster = {}
 
 monster.name = "Lost Basher"
@@ -89,9 +89,7 @@ monster.loot = {
 	{ name = "iron ore", chance = 5280 },
 	{ name = "chaos mace", chance = 160 },
 	{ name = "spiked squelcher", chance = 420 },
-	{ name = "great mana potion", chance = 11240 },
 	{ name = "terra boots", chance = 780 },
-	{ name = "ultimate health potion", chance = 10250 },
 	{ name = "small topaz", chance = 10200 },
 	{ id = 12600, chance = 21130 }, -- coal
 	{ name = "blue crystal shard", chance = 840 },

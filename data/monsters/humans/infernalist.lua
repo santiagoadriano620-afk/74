@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Infernalist")
+﻿local mType = Game.createMonsterType("Infernalist")
 local monster = {}
 
 monster.name = "Infernalist"
@@ -93,8 +93,6 @@ monster.loot = {
 	{ name = "skull staff", chance = 6500 },
 	{ name = "magic sulphur", chance = 600 },
 	{ name = "red piece of cloth", chance = 1420 },
-	{ name = "great mana potion", chance = 19700 },
-	{ name = "great health potion", chance = 1900 },
 	{ name = "small enchanted ruby", chance = 4250 },
 	{ name = "magma boots", chance = 300 },
 	{ name = "raspberry", chance = 8500, maxCount = 5 },

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Dipthrah")
+﻿local mType = Game.createMonsterType("Dipthrah")
 local monster = {}
 
 monster.name = "Dipthrah"
@@ -88,7 +88,6 @@ monster.loot = {
 	{ name = "ornamented ankh", chance = 100000 },
 	{ name = "skull staff", chance = 500 },
 	{ name = "pharaoh sword", chance = 300 },
-	{ name = "great mana potion", chance = 7000 },
 }
 
 monster.attacks = {

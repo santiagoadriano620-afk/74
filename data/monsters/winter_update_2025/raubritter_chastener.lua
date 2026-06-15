@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Raubritter Chastener")
+﻿local mType = Game.createMonsterType("Raubritter Chastener")
 local monster = {}
 
 monster.name = "Raubritter Chastener"
@@ -82,10 +82,8 @@ monster.loot = {
 	{ name = "small ruby", chance = 7700 },
 	{ id = 3039, chance = 5350 }, -- red gem
 	{ name = "magma monocle", chance = 3710 },
-	{ name = "wand of cosmic energy", chance = 2520 },
 	-- { name = "stag parchment", chance = 2050 },
 	-- { name = "silver poniard", chance = 1530 },
-	{ name = "wand of starstorm", chance = 1390 },
 	{ name = "violet gem", chance = 1090 },
 	{ name = "wooden spellbook", chance = 1050 },
 	{ name = "lightning robe", chance = 780 },

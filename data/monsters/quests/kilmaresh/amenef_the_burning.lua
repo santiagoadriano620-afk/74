@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Amenef the Burning")
+﻿local mType = Game.createMonsterType("Amenef the Burning")
 local monster = {}
 
 monster.name = "Amenef the Burning"
@@ -71,20 +71,14 @@ monster.loot = {
 	{ name = "slightly rusted armor", chance = 1203 },
 	{ name = "guardian halberd", chance = 1139 },
 	{ id = 3097, chance = 886 }, -- dwarven ring
-	{ name = "mastermind potion", chance = 823 },
 	{ name = "doublet", chance = 633 },
 	{ name = "knight armor", chance = 570 },
 	{ id = 23529, chance = 506 }, -- ring of blue plasma
 	{ name = "epee", chance = 443 },
-	{ name = "underworld rod", chance = 443 },
 	{ name = "knight axe", chance = 380 },
-	{ name = "springsprout rod", chance = 380 },
-	{ name = "wand of cosmic energy", chance = 316 },
-	{ name = "wand of inferno", chance = 316 },
 	{ id = 281, chance = 253 }, -- giant shimmering pearl (green)
 	{ name = "spellbook of warding", chance = 253 },
 	{ name = "violet gem", chance = 253 },
-	{ name = "wand of starstorm", chance = 253 },
 	{ name = "amber staff", chance = 190 },
 	{ name = "assassin dagger", chance = 190 },
 	{ name = "blue gem", chance = 190 },

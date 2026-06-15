@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Chizzoron the Distorter")
+﻿local mType = Game.createMonsterType("Chizzoron the Distorter")
 local monster = {}
 
 monster.name = "Chizzoron the Distorter"
@@ -86,7 +86,6 @@ monster.loot = {
 	{ id = 5881, chance = 100000 }, -- lizard scale
 	{ id = 3038, chance = 16300 }, -- green gem
 	{ id = 3053, chance = 11025 }, -- time ring
-	{ id = 239, chance = 5750 }, -- great health potion
 	{ id = 3386, chance = 5750 }, -- dragon scale mail
 }
 

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Tremor Worm")
+﻿local mType = Game.createMonsterType("Tremor Worm")
 local monster = {}
 
 monster.name = "Tremor Worm"
@@ -65,8 +65,6 @@ monster.voices = {
 
 monster.loot = {
 	{ id = 3035, chance = 33000, maxCount = 5 }, -- platinum coin
-	{ id = 239, chance = 10000 }, -- great health potion
-	{ id = 238, chance = 10000 }, -- great mana potion
 }
 
 monster.attacks = {

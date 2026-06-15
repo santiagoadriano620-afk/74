@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Mitmah Vanguard")
+﻿local mType = Game.createMonsterType("Mitmah Vanguard")
 local monster = {}
 
 monster.name = "Mitmah Vanguard"
@@ -77,12 +77,6 @@ monster.loot = {
 	{ name = "gold coin", chance = 895000, maxCount = 400 },
 	{ name = "platinum coin", chance = 655000, maxCount = 15 },
 	{ name = "crystal coin", chance = 325000, maxCount = 5 },
-	{ name = "great health potion", chance = 288900, maxCount = 15 },
-	{ name = "great mana potion", chance = 281500 },
-	{ name = "great spirit potion", chance = 65337, maxCount = 45 },
-	{ name = "ultimate health potion", chance = 214800, maxCount = 12 },
-	{ name = "ultimate mana potion", chance = 155600, maxCount = 15 },
-	{ name = "supreme health potion", chance = 33385, maxCount = 23 },
 	{ name = "yellow gem", chance = 11604, maxCount = 5 },
 	{ name = "blue gem", chance = 14144, maxCount = 5 },
 	{ name = "green gem", chance = 11221, maxCount = 4 },

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Morbol")
+﻿local mType = Game.createMonsterType("Morbol")
 local monster = {}
 
 monster.name = "Morbol"
@@ -69,21 +69,14 @@ monster.loot = {
 	{ id = 21292, chance = 1000 }, -- feedbag
 	{ id = 35514, chance = 4000 }, -- jungle flail
 	{ id = 35518, chance = 4000 }, -- jungle bow
-	{ id = 35521, chance = 4000 }, -- jungle rod
-	{ id = 35522, chance = 4000 }, -- jungle wand
 	{ id = 35524, chance = 4000 }, -- jungle quiver
 	{ id = 30393, chance = 4000 }, -- cobra crossbow
 	{ id = 30395, chance = 4000 }, -- cobra club
 	{ id = 30396, chance = 4000 }, -- cobra axe
 	{ id = 30398, chance = 4000 }, -- cobra sword
-	{ id = 30399, chance = 4000 }, -- cobra wand
-	{ id = 30400, chance = 4000 }, -- cobra rod
 	{ name = "bag you desire", chance = 1000, unique = true },
 	{ name = "gold token", minCount = 0, maxCount = 5, chance = 10000 },
 	{ name = "silver token", minCount = 0, maxCount = 5, chance = 20000 },
-	{ name = "supreme health potion", minCount = 0, maxCount = 20, chance = 45000 },
-	{ name = "ultimate mana potion", minCount = 0, maxCount = 6, chance = 42000 },
-	{ name = "ultimate spirit potion", minCount = 0, maxCount = 14, chance = 42000 },
 }
 
 monster.attacks = {

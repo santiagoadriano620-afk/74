@@ -1,4 +1,4 @@
-local internalNpcName = "Hector The Mentor"
+﻿local internalNpcName = "Hector The Mentor"
 local npcType = Game.createNpcType(internalNpcName)
 local npcConfig = {}
 
@@ -149,9 +149,7 @@ npcConfig.shop = {
 	{ itemName = "rapier", clientId = 3272, sell = 5 },
 	{ itemName = "short sword", clientId = 3294, sell = 10 },
 	{ itemName = "shovel", clientId = 3457, sell = 8 },
-	{ itemName = "snakebite rod", clientId = 3066, sell = 100 },
 	{ itemName = "soldier helmet", clientId = 3375, sell = 16 },
-	{ itemName = "spear", clientId = 3277, sell = 3 },
 	{ itemName = "spellbook", clientId = 3059, sell = 30 },
 	{ itemName = "spellbook of the novice", clientId = 21400, sell = 15 },
 	{ itemName = "steel shield", clientId = 3409, sell = 80 },
@@ -160,17 +158,12 @@ npcConfig.shop = {
 	{ itemName = "studded helmet", clientId = 3376, sell = 20 },
 	{ itemName = "studded legs", clientId = 3362, sell = 15 },
 	{ itemName = "studded shield", clientId = 3426, sell = 16 },
-	{ itemName = "wand of vortex", clientId = 3074, sell = 100 },
 	{ itemName = "wolf paw", clientId = 5897, sell = 70 },
 	{ itemName = "wolf tooth chain", clientId = 3012, sell = 100 },
 	{ itemName = "wooden shield", clientId = 3412, sell = 5 },
 	{ itemName = "worm", clientId = 3492, sell = 1 },
-	{ itemName = "antidote potion", clientId = 7644, buy = 7 },
 	{ itemName = "health potion", clientId = 266, buy = 50 },
-	{ itemName = "small health potion", clientId = 7876, buy = 20 },
 	{ itemName = "mana potion", clientId = 268, buy = 56 },
-	{ itemName = "arrow", clientId = 3447, buy = 3 },
-	{ itemName = "bolt", clientId = 3446, buy = 4 },
 	{ itemName = "rope", clientId = 3003, buy = 50 },
 	{ itemName = "shovel", clientId = 3457, buy = 50 },
 	{ itemName = "torch", clientId = 2920, buy = 2 },

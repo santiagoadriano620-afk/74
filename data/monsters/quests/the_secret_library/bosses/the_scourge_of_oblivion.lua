@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("The Scourge of Oblivion")
+﻿local mType = Game.createMonsterType("The Scourge of Oblivion")
 local monster = {}
 
 monster.name = "The Scourge of Oblivion"
@@ -86,14 +86,10 @@ monster.loot = {
 	{ name = "royal star", chance = 66666, maxCount = 100 },
 	{ name = "small amethyst", chance = 66666, maxCount = 12 },
 	{ name = "silver token", chance = 95830, maxCount = 22 },
-	{ name = "mastermind potion", chance = 66666, maxCount = 10 },
-	{ name = "ultimate mana potion", chance = 66666, maxCount = 6 },
 	{ name = "giant emerald", chance = 66666 },
 	{ id = 3039, chance = 66666 }, -- red gem
 	{ name = "small ruby", chance = 33333, maxCount = 12 },
-	{ name = "bullseye potion", chance = 33333, maxCount = 10 },
 	{ name = "gold token", chance = 43750, maxCount = 8 },
-	{ name = "supreme health potion", chance = 33333, maxCount = 6 },
 	{ name = "blue crystal shard", chance = 33333, maxCount = 3 },
 	{ name = "giant sapphire", chance = 33333 },
 	{ name = "green gem", chance = 33333 },
@@ -101,7 +97,6 @@ monster.loot = {
 	{ name = "huge chunk of crude iron", chance = 33333 },
 	{ name = "magic sulphur", chance = 33333 },
 	{ name = "ring of the sky", chance = 33333 },
-	{ name = "ultimate spirit potion", chance = 15000, maxCount = 20 },
 	{ name = "small diamond", chance = 15000, maxCount = 12 },
 	{ name = "small emerald", chance = 15000, maxCount = 12 },
 	{ name = "rift shield", chance = 5000 },

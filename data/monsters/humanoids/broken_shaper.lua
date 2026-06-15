@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Broken Shaper")
+﻿local mType = Game.createMonsterType("Broken Shaper")
 local monster = {}
 
 monster.name = "Broken Shaper"
@@ -93,9 +93,7 @@ monster.loot = {
 	{ id = 5913, chance = 5000, maxCount = 2 }, -- brown piece of cloth
 	{ id = 5914, chance = 2000, maxCount = 2 }, -- yellow piece of cloth
 	{ id = 3079, chance = 230 }, -- boots of haste
-	{ id = 239, chance = 7000 }, -- great health potion
 	{ id = 3284, chance = 1000 }, -- ice rapier
-	{ id = 3046, chance = 1000 }, -- magic light wand
 	{ id = 22193, chance = 4200 }, -- onyx chip
 	{ id = 3098, chance = 2000 }, -- ring of healing
 	{ id = 3030, chance = 3000 }, -- small ruby

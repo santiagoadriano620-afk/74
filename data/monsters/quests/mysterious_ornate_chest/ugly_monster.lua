@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Ugly Monster")
+﻿local mType = Game.createMonsterType("Ugly Monster")
 local monster = {}
 
 monster.name = "Ugly Monster"
@@ -20,7 +20,6 @@ monster.race = "blood"
 monster.corpse = 31551
 monster.speed = 340
 monster.manaCost = 0
-
 
 monster.changeTarget = {
 	interval = 4000,
@@ -67,8 +66,6 @@ monster.loot = {
 	{ name = "cobra axe", chance = 300 },
 	{ name = "cobra boots", chance = 300 },
 	{ name = "cobra sword", chance = 300 },
-	{ name = "cobra wand", chance = 300 },
-	{ name = "cobra rod", chance = 300 },
 	{ name = "cobra club", chance = 300 },
 }
 

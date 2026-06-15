@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Dread Intruder")
+﻿local mType = Game.createMonsterType("Dread Intruder")
 local monster = {}
 
 monster.name = "Dread Intruder"
@@ -85,9 +85,6 @@ monster.loot = {
 	{ id = 23535, chance = 15000 }, -- energy bar
 	{ id = 23519, chance = 15000 }, -- frozen lightning
 	{ id = 23516, chance = 8000 }, -- instable proto matter
-	{ id = 7642, chance = 14000 }, -- great spirit potion
-	{ id = 7643, chance = 13500 }, -- ultimate health potion
-	{ id = 238, chance = 12700 }, -- great mana potion
 	{ id = 23523, chance = 11800 }, -- energy ball
 	{ id = 23510, chance = 9600 }, -- odd organ
 	{ id = 16124, chance = 9500 }, -- blue crystal splinter

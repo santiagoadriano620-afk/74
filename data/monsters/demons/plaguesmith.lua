@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Plaguesmith")
+﻿local mType = Game.createMonsterType("Plaguesmith")
 local monster = {}
 
 monster.name = "Plaguesmith"
@@ -108,7 +108,6 @@ monster.loot = {
 	{ name = "soul orb", chance = 11111 },
 	{ name = "demonic essence", chance = 9033 },
 	{ name = "onyx arrow", chance = 7692, maxCount = 4 },
-	{ name = "great health potion", chance = 10000 },
 	{ id = 8896, chance = 540 }, -- slightly rusted armor
 }
 

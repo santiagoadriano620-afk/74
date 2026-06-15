@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Orshabaal")
+﻿local mType = Game.createMonsterType("Orshabaal")
 local monster = {}
 
 monster.name = "Orshabaal"
@@ -94,7 +94,6 @@ monster.loot = {
 	{ name = "platinum coin", chance = 100000, maxCount = 69 },
 	{ name = "green gem", chance = 6666 },
 	{ name = "blue gem", chance = 20000 },
-	{ id = 3046, chance = 6666 }, -- magic light wand
 	{ name = "might ring", chance = 6666 },
 	{ name = "silver amulet", chance = 20000 },
 	{ name = "platinum amulet", chance = 12500 },
@@ -122,10 +121,6 @@ monster.loot = {
 	{ id = 6299, chance = 50000 }, -- death ring
 	{ name = "demonic essence", chance = 100000 },
 	{ name = "assassin star", chance = 12500, maxCount = 42 },
-	{ name = "great mana potion", chance = 33333 },
-	{ name = "great health potion", chance = 20000 },
-	{ name = "great spirit potion", chance = 12500 },
-	{ name = "ultimate health potion", chance = 33333 },
 	{ name = "gold ingot", chance = 6666 },
 }
 

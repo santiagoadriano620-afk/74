@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Tentugly's Head")
+﻿local mType = Game.createMonsterType("Tentugly's Head")
 local monster = {}
 
 monster.name = "Tentugly's Head"
@@ -19,7 +19,6 @@ monster.race = "blood"
 monster.corpse = 35600
 monster.speed = 0
 monster.manaCost = 0
-
 
 monster.changeTarget = {
 	interval = 4000,
@@ -62,13 +61,7 @@ monster.voices = {
 
 monster.loot = {
 	{ id = 3043, chance = 59860, minCount = 1, maxCount = 3 }, -- crystal coin
-	{ id = 23373, chance = 59860, minCount = 1, maxCount = 34 }, -- ultimate mana potion
-	{ id = 7643, chance = 47890, minCount = 1, maxCount = 33 }, -- ultimate health potion
-	{ id = 23374, chance = 28870, minCount = 2, maxCount = 19 }, -- ultimate spirit potion
-	{ id = 7439, chance = 23940, minCount = 1, maxCount = 9 }, -- berserk potion
 	{ id = 3035, chance = 23240, minCount = 2, maxCount = 19 }, -- platinum coin
-	{ id = 7443, chance = 20420, minCount = 1, maxCount = 9 }, -- bullseye potion
-	{ id = 7440, chance = 16900, minCount = 2, maxCount = 9 }, -- mastermind potion
 	{ id = 35572, chance = 13380, minCount = 3, maxCount = 86 }, -- pirate coin
 	{ id = 35508, chance = 7750 }, -- cheesy key
 	{ id = 32623, chance = 4930 }, -- giant topaz

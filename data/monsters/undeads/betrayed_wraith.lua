@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Betrayed Wraith")
+﻿local mType = Game.createMonsterType("Betrayed Wraith")
 local monster = {}
 
 monster.name = "Betrayed Wraith"
@@ -91,8 +91,6 @@ monster.loot = {
 	{ name = "assassin star", chance = 10780, maxCount = 5 },
 	{ name = "mercenary sword", chance = 1890 },
 	{ name = "bloody edge", chance = 80 },
-	{ name = "great mana potion", chance = 15000, maxCount = 3 },
-	{ name = "ultimate health potion", chance = 15410 },
 	{ name = "unholy bone", chance = 18410 },
 }
 

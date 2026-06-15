@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Eldritch Dragon Lord")
+﻿local mType = Game.createMonsterType("Eldritch Dragon Lord")
 local monster = {}
 
 monster.name = "Eldritch Dragon Lord"
@@ -85,13 +85,6 @@ monster.voices = {
 monster.loot = {
 	{ name = "crystal coin", chance = 100000, maxCount = 61 },
 	{ name = "dragon ham", chance = 50000, maxCount = 4 }, -- Not confirmed
-	{ name = "strong mana potion", chance = 54550, maxCount = 93 }, -- Not confirmed
-	{ name = "great mana potion", chance = 54550, maxCount = 69 },
-	{ name = "great spirit potion", chance = 54550, maxCount = 57 },
-	{ name = "ultimate mana potion", chance = 45450, maxCount = 24 },
-	{ name = "ultimate spirit potion", chance = 63640, maxCount = 25 },
-	{ name = "ultimate health potion", chance = 54550, maxCount = 37 },
-	{ name = "supreme health potion", chance = 54550, maxCount = 18 },
 	{ id = 3039, chance = 36360, maxCount = 9 }, -- red gem
 	{ name = "yellow gem", chance = 27270, maxCount = 8 },
 	{ name = "blue gem", chance = 18180, maxCount = 3 },
@@ -114,7 +107,6 @@ monster.loot = {
 	-- { name = "fetid heart", chance = 5000 }, -- Not confirmed
 	{ name = "dragonbone staff", chance = 5000 }, -- Not confirmed
 	{ name = "dragon shield", chance = 5000 }, -- Not confirmed
-	{ name = "wand of inferno", chance = 5000 }, -- Not confirmed
 	{ name = "fire sword", chance = 5000 }, -- Not confirmed
 	{ name = "dragon slayer", chance = 27270 }, -- Not confirmed
 	-- { name = "fiery crypt rune", chance = 100000 },

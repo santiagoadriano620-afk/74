@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Maxxenius")
+﻿local mType = Game.createMonsterType("Maxxenius")
 local monster = {}
 
 monster.name = "Maxxenius"
@@ -80,9 +80,7 @@ monster.loot = {
 	{ id = 23544, chance = 17860 }, -- collar of red plasma
 	{ id = 3039, chance = 28570 }, -- red gem
 	{ name = "abyss hammer", chance = 3570 },
-	{ name = "berserk potion", chance = 28570, maxCount = 19 },
 	{ name = "blue gem", chance = 10710 },
-	{ name = "bullseye potion", chance = 10710 },
 	{ name = "chaos mace", chance = 7140 },
 	{ name = "crystal coin", chance = 14290, maxCount = 3 },
 	{ name = "energized limb", chance = 3570 },
@@ -94,7 +92,6 @@ monster.loot = {
 	{ name = "green gem", chance = 28570 },
 	{ name = "huge chunk of crude iron", chance = 42860 },
 	{ name = "magic sulphur", chance = 3570 },
-	{ name = "mastermind potion", chance = 42860, maxCount = 6 },
 	{ name = "maxxenius head", chance = 7140 },
 	{ name = "mysterious remains", chance = 85710 },
 	{ name = "ornate locket", chance = 14290 },
@@ -106,9 +103,6 @@ monster.loot = {
 	{ name = "silver token", chance = 100000, maxCount = 3 },
 	{ name = "skull staff", chance = 21430 },
 	{ name = "soul stone", chance = 14290 },
-	{ name = "supreme health potion", chance = 85710, maxCount = 32 },
-	{ name = "ultimate mana potion", chance = 42860, maxCount = 14 },
-	{ name = "ultimate spirit potion", chance = 64290, maxCount = 20 },
 	{ name = "violet gem", chance = 3570 },
 	{ name = "yellow gem", chance = 50000, maxCount = 2 },
 }

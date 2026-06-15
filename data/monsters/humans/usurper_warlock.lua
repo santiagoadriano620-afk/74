@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Usurper Warlock")
+﻿local mType = Game.createMonsterType("Usurper Warlock")
 local monster = {}
 
 monster.name = "Usurper Warlock"
@@ -88,13 +88,9 @@ monster.loot = {
 	{ name = "terra hood", chance = 4667 },
 	{ name = "lightning headband", chance = 3778 },
 	{ name = "green gem", chance = 3556 },
-	{ name = "springsprout rod", chance = 2667 },
 	{ name = "ham", chance = 2444 },
 	{ name = "magma monocle", chance = 1778 },
-	{ name = "wand of cosmic energy", chance = 1778 },
-	{ name = "underworld rod", chance = 1333 },
 	{ name = "knight legs", chance = 1111 },
-	{ name = "wand of starstorm", chance = 667 },
 }
 
 monster.attacks = {

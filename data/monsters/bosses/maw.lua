@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Maw")
+﻿local mType = Game.createMonsterType("Maw")
 local monster = {}
 
 monster.description = "Maw"
@@ -70,9 +70,7 @@ monster.loot = {
     { name = "Gold Coin", chance = 100000, maxCount = 196 },
     { name = "Kollos Shell", chance = 100000, maxCount = 1 },
     { name = "Platinum Coin", chance = 83820, maxCount = 6 },
-    { name = "Great Mana Potion", chance = 66180, maxCount = 2 },
     { id = 14225, chance = 55880, maxCount = 2 },
-    { name = "Ultimate Health Potion", chance = 33820, maxCount = 1 },
     { name = "Small Ruby", chance = 32350, maxCount = 4 },
     { name = "Black Pearl", chance = 29410, maxCount = 4 },
     { id = 3039, chance = 22060, maxCount = 1 },

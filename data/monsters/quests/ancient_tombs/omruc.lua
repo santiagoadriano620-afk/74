@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Omruc")
+﻿local mType = Game.createMonsterType("Omruc")
 local monster = {}
 
 monster.name = "Omruc"
@@ -92,7 +92,6 @@ monster.loot = {
 	{ id = 3449, chance = 10000, maxCount = 15 }, -- burst arrow
 	{ name = "power bolt", chance = 10000, maxCount = 3 },
 	{ name = "onyx arrow", chance = 10000, maxCount = 2 },
-	{ name = "great health potion", chance = 7000 },
 }
 
 monster.attacks = {

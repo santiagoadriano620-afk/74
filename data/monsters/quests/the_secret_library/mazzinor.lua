@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Mazzinor")
+﻿local mType = Game.createMonsterType("Mazzinor")
 local monster = {}
 
 monster.name = "Mazzinor"
@@ -68,11 +68,6 @@ monster.voices = {
 monster.loot = {
 	{ name = "platinum coin", chance = 90000, maxCount = 38 },
 	{ name = "crystal coin", chance = 70000, maxCount = 5 },
-	{ name = "ultimate mana potion", chance = 70000, maxCount = 8 },
-	{ name = "ultimate spirit potion", chance = 70000, maxCount = 4 },
-	{ name = "supreme health potion", chance = 70000, maxCount = 4 },
-	{ name = "berserk potion", chance = 70000, maxCount = 2 },
-	{ name = "mastermind potion", chance = 70000, maxCount = 2 },
 	{ name = "onyx chip", chance = 70000, maxCount = 12 },
 	{ name = "small emerald", chance = 70000, maxCount = 12 },
 	{ name = "demon horn", chance = 70000 },
@@ -80,7 +75,6 @@ monster.loot = {
 	{ id = 3039, chance = 70000 }, -- red gem
 	{ name = "violet gem", chance = 70000 },
 	{ name = "stone skin amulet", chance = 70000 },
-	{ name = "wand of starstorm", chance = 70000 },
 	{ name = "silver token", chance = 85710, maxCount = 6 },
 	{ name = "gold token", chance = 28570, maxCount = 4 },
 	{ name = "assassin dagger", chance = 30000 },
@@ -88,7 +82,6 @@ monster.loot = {
 	{ name = "dreaded cleaver", chance = 30000 },
 	{ name = "frozen lightning", chance = 30000 },
 	{ name = "sinister book", chance = 1000 },
-	{ name = "wand of dimensions", chance = 10 },
 }
 
 monster.attacks = {

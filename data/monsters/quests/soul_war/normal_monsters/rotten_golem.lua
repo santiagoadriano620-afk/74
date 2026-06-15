@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Rotten Golem")
+﻿local mType = Game.createMonsterType("Rotten Golem")
 local monster = {}
 
 monster.name = "Rotten Golem"
@@ -26,7 +26,6 @@ monster.Bestiary = {
 	Occurrence = 0,
 	Locations = "Rotten Wasteland.",
 }
-
 
 monster.health = 28000
 monster.maxHealth = 28000
@@ -79,9 +78,7 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "crystal coin", chance = 60590 },
-	{ name = "great spirit potion", chance = 31180, maxCount = 5 },
 	{ name = "sacred tree amulet", chance = 3590 },
-	{ name = "underworld rod", chance = 3030 },
 	{ id = 281, chance = 2690 }, -- giant shimmering pearl
 	{ name = "titan axe", chance = 2500 },
 	{ name = "terra amulet", chance = 1900 },

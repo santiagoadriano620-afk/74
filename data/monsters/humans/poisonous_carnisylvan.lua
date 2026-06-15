@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Poisonous Carnisylvan")
+﻿local mType = Game.createMonsterType("Poisonous Carnisylvan")
 local monster = {}
 
 monster.name = "Poisonous Carnisylvan"
@@ -86,15 +86,11 @@ monster.loot = {
 	{ name = "mushroom pie", chance = 8640, maxCount = 1 },
 	{ name = "carnisylvan finger", chance = 8640, maxCount = 4 },
 	{ name = "emerald bangle", chance = 4970 },
-	{ name = "great spirit potion", chance = 6810, maxCount = 5 },
 	{ name = "guardian halberd", chance = 4970 },
 	{ id = 23542, chance = 4970 }, -- collar of blue plasma
-	{ name = "terra rod", chance = 7330 },
-	{ name = "underworld rod", chance = 6280 },
 	{ name = "diamond sceptre", chance = 4710 },
 	{ name = "fire mushroom", chance = 3140 },
 	{ name = "knight axe", chance = 5760 },
-	{ name = "wand of starstorm", chance = 4710 },
 	{ name = "sacred tree amulet", chance = 2880 },
 	{ id = 281, chance = 2090 }, -- giant shimmering pearl (green)
 	{ name = "gemmed figurine", chance = 790 },

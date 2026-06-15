@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Omnivora")
+﻿local mType = Game.createMonsterType("Omnivora")
 local monster = {}
 
 monster.name = "Omnivora"
@@ -88,7 +88,6 @@ monster.loot = {
 	{ id = 3297, chance = 780 }, -- serpent sword
 	{ id = 814, chance = 700 }, -- terra amulet
 	{ id = 813, chance = 560 }, -- terra boots
-	{ id = 3069, chance = 430 }, -- necrotic rod
 	{ id = 8072, chance = 320 }, -- spellbook of enlightenment
 	{ id = 12311, chance = 100 }, -- carrot on a stick
 }

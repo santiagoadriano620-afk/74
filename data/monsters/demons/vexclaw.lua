@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Vexclaw")
+﻿local mType = Game.createMonsterType("Vexclaw")
 local monster = {}
 
 monster.name = "Vexclaw"
@@ -81,11 +81,8 @@ monster.voices = {
 monster.loot = {
 	{ name = "gold coin", chance = 100000, maxCount = 200 },
 	{ name = "platinum coin", chance = 100000, maxCount = 6 },
-	{ name = "great spirit potion", chance = 26010, maxCount = 5 },
-	{ name = "great mana potion", chance = 25210, maxCount = 5 },
 	{ name = "vexclaw talon", chance = 21500 },
 	{ name = "demonic essence", chance = 20730 },
-	{ name = "ultimate health potion", chance = 19960, maxCount = 5 },
 	{ name = "fire mushroom", chance = 19940, maxCount = 6 },
 	{ name = "golden sickle", chance = 18940 },
 	{ name = "purple tome", chance = 18450 },
@@ -95,7 +92,6 @@ monster.loot = {
 	{ name = "small ruby", chance = 9590, maxCount = 5 },
 	{ name = "talon", chance = 5400 },
 	{ name = "yellow gem", chance = 5090 },
-	{ name = "wand of voodoo", chance = 4940 },
 	{ id = 3039, chance = 4730 }, -- red gem
 	{ name = "ice rapier", chance = 4730 },
 	{ name = "fire axe", chance = 3520 },

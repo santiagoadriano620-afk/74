@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Crystal Spider")
+﻿local mType = Game.createMonsterType("Crystal Spider")
 local monster = {}
 
 monster.name = "Crystal Spider"
@@ -95,7 +95,6 @@ monster.loot = {
 	{ name = "sniper arrow", chance = 5840, maxCount = 6 },
 	{ name = "sapphire hammer", chance = 140 },
 	{ name = "crystal sword", chance = 2490 },
-	{ name = "strong mana potion", chance = 14950 },
 	{ name = "glacier mask", chance = 670 },
 }
 

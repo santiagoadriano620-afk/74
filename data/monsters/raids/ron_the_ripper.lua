@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Ron the Ripper")
+﻿local mType = Game.createMonsterType("Ron the Ripper")
 local monster = {}
 
 monster.name = "Ron the Ripper"
@@ -75,7 +75,6 @@ monster.loot = {
 	{ id = 3114, chance = 81000, maxCount = 2 }, -- skull
 	{ id = 3357, chance = 63000 }, -- plate armor
 	{ id = 3267, chance = 45000 }, -- dagger
-	{ id = 239, chance = 18000 }, -- great health potion
 	{ id = 3370, chance = 18000 }, -- knight armor
 	{ id = 3577, chance = 18000 }, -- meat
 	{ id = 5926, chance = 18000 }, -- pirate backpack

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Malofur Mangrinder")
+﻿local mType = Game.createMonsterType("Malofur Mangrinder")
 local monster = {}
 
 monster.name = "Malofur Mangrinder"
@@ -79,9 +79,7 @@ monster.loot = {
 	{ id = 23542, chance = 8330 }, -- collar of blue plasma
 	{ id = 23543, chance = 16670 }, -- collar of green plasma
 	{ id = 3039, chance = 47220 }, -- red gem
-	{ name = "berserk potion", chance = 20000 },
 	{ name = "blue gem", chance = 20000 },
-	{ name = "bullseye potion", chance = 20000 },
 	{ name = "chaos mace", chance = 8330 },
 	{ name = "crystal coin", chance = 25000, maxCount = 2 },
 	{ name = "energy bar", chance = 88890 },
@@ -91,7 +89,6 @@ monster.loot = {
 	{ name = "green gem", chance = 11110 },
 	{ name = "huge chunk of crude iron", chance = 40000 },
 	{ name = "magic sulphur", chance = 5560 },
-	{ name = "mastermind potion", chance = 22220 },
 	{ name = "mysterious remains", chance = 88890 },
 	{ name = "piggy bank", chance = 97220 },
 	{ name = "platinum coin", chance = 100000, maxCount = 8 },
@@ -103,9 +100,6 @@ monster.loot = {
 	{ name = "silver token", chance = 100000, maxCount = 2 },
 	{ name = "skull staff", chance = 8330 },
 	{ name = "soul stone", chance = 8330 },
-	{ name = "supreme health potion", chance = 80000, maxCount = 29 },
-	{ name = "ultimate mana potion", chance = 55560, maxCount = 20 },
-	{ name = "ultimate spirit potion", chance = 80000, maxCount = 13 },
 	{ name = "violet gem", chance = 8330 },
 	{ name = "yellow gem", chance = 44440, maxCount = 2 },
 }

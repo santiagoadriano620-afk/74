@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Chopper")
+﻿local mType = Game.createMonsterType("Chopper")
 local monster = {}
 
 monster.description = "Chopper"
@@ -76,8 +76,6 @@ monster.loot = {
     { name = "Waspoid Wing", chance = 77780, maxCount = 1 },
     { name = "Small Topaz", chance = 58020, maxCount = 2 },
     { id = 14225, chance = 56789, maxCount = 2 },
-    { name = "Great Health Potion", chance = 46909, maxCount = 2 },
-    { name = "Great Mana Potion", chance = 32100, maxCount = 2 },
     { name = "Black Pearl", chance = 28399, maxCount = 1 },
     { name = "Yellow Gem", chance = 13580, maxCount = 1 },
     { name = "Emerald Bangle", chance = 7410, maxCount = 1 }

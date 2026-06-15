@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Ghazbaran")
+﻿local mType = Game.createMonsterType("Ghazbaran")
 local monster = {}
 
 monster.name = "Ghazbaran"
@@ -112,11 +112,7 @@ monster.loot = {
 	{ name = "assassin star", chance = 12500, maxCount = 44 },
 	{ name = "havoc blade", chance = 16666 },
 	{ name = "ravenwing", chance = 14285 },
-	{ name = "great mana potion", chance = 20000 },
-	{ name = "great health potion", chance = 20000 },
 	{ name = "glacier kilt", chance = 8333 },
-	{ name = "great spirit potion", chance = 25000 },
-	{ name = "ultimate health potion", chance = 25000 },
 	{ name = "oceanborn leviathan armor", chance = 16666 },
 	{ name = "frozen plate", chance = 8333 },
 	{ name = "spellbook of warding", chance = 20000 },

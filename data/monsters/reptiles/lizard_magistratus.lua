@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Lizard Magistratus")
+﻿local mType = Game.createMonsterType("Lizard Magistratus")
 local monster = {}
 
 monster.name = "Lizard Magistratus"
@@ -13,7 +13,6 @@ monster.outfit = {
 	lookAddons = 0,
 	lookMount = 0,
 }
-
 
 monster.raceId = 655
 monster.Bestiary = {
@@ -82,8 +81,6 @@ monster.loot = {
 	{ name = "platinum coin", chance = 13400, maxCount = 19 },
 	{ name = "lizard leather", chance = 220 },
 	{ name = "lizard scale", chance = 450 },
-	{ name = "strong mana potion", chance = 6280 },
-	{ name = "great mana potion", chance = 4480 },
 }
 
 monster.attacks = {

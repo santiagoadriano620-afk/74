@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Crazed Summer Vanguard")
+﻿local mType = Game.createMonsterType("Crazed Summer Vanguard")
 local monster = {}
 
 monster.name = "Crazed Summer Vanguard"
@@ -89,11 +89,8 @@ monster.loot = {
 	{ name = "knife", chance = 6600 },
 	{ name = "dragon necklace", chance = 7150 },
 	{ name = "magma amulet", chance = 5500 },
-	{ name = "wand of dragonbreath", chance = 4800 },
-	{ name = "wand of draconia", chance = 4800 },
 	{ name = "magma boots", chance = 2900 },
 	{ name = "sun fruit", chance = 900 },
-	{ name = "bullseye potion", chance = 300 },
 }
 
 monster.attacks = {

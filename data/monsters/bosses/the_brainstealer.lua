@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("The Brainstealer")
+﻿local mType = Game.createMonsterType("The Brainstealer")
 local monster = {}
 
 monster.name = "The Brainstealer"
@@ -60,9 +60,7 @@ monster.loot = {
 	{ name = "platinum coin", mincount = 10, maxcount = 50, chance = 100000 },
 	{ name = "crystal coin", mincount = 1, maxcount = 5, chance = 100000 },
 	{ name = "violet gem", chance = 50000 },
-	{ name = "mastermind potion", chance = 50000 },
 	{ name = "moonstone", chance = 50000 },
-	{ name = "ultimate spirit potion", chance = 50000 },
 	{ name = "white gem", chance = 50000 },
 	{ name = "brainstealer's tissue", chance = 6000 },
 	{ name = "brainstealer's brain", chance = 5000 },
@@ -79,13 +77,9 @@ monster.loot = {
 	{ name = "eldritch cuirass", chance = 160 },
 	{ name = "eldritch folio", chance = 170 },
 	{ name = "eldritch tome", chance = 190 },
-	{ name = "eldritch rod", chance = 200 },
-	{ name = "eldritch wand", chance = 180 },
 	{ name = "gilded eldritch claymore", chance = 140 },
 	{ name = "gilded eldritch greataxe", chance = 120 },
 	{ name = "gilded eldritch warmace", chance = 100 },
-	{ name = "gilded eldritch wand", chance = 80 },
-	{ name = "gilded eldritch rod", chance = 60 },
 	{ name = "gilded eldritch bow", chance = 50 },
 	{ name = "eldritch crescent moon spade", chance = 150 },
 	{ name = "eldritch monk boots", chance = 170 },

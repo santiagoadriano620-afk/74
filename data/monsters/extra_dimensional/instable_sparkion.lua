@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Instable Sparkion")
+﻿local mType = Game.createMonsterType("Instable Sparkion")
 local monster = {}
 
 monster.name = "Instable Sparkion"
@@ -83,9 +83,6 @@ monster.loot = {
 	{ id = 3035, chance = 20000 }, -- platinum coin
 	{ id = 23502, chance = 6000 }, -- sparkion claw
 	{ id = 23545, chance = 4900 }, -- energy drink
-	{ id = 7642, chance = 4800 }, -- great spirit potion
-	{ id = 238, chance = 4400 }, -- great mana potion
-	{ id = 239, chance = 4200 }, -- great health potion
 	{ id = 23535, chance = 4200 }, -- energy bar
 	{ id = 23503, chance = 4000 }, -- sparkion tail
 	{ id = 23504, chance = 4000 }, -- sparkion legs

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Bony Sea Devil")
+﻿local mType = Game.createMonsterType("Bony Sea Devil")
 local monster = {}
 
 monster.name = "Bony Sea Devil"
@@ -26,7 +26,6 @@ monster.Bestiary = {
 	Occurrence = 0,
 	Locations = "Ebb and Flow.",
 }
-
 
 monster.health = 24000
 monster.maxHealth = 24000
@@ -81,23 +80,16 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "crystal coin", chance = 59290 },
-	{ name = "ultimate health potion", chance = 19470, maxCount = 6 },
 	{ name = "gold ingot", chance = 15040 },
 	{ id = 282, chance = 9730 }, -- giant shimmering pearl
-	{ name = "hailstorm rod", chance = 7960 },
 	{ name = "onyx chip", chance = 6190 },
 	{ name = "green crystal fragment", chance = 5310 },
-	{ name = "wand of voodoo", chance = 4420 },
 	{ name = "violet gem", chance = 4420 },
 	{ name = "jaws", chance = 3540 },
 	{ name = "rainbow quartz", chance = 2650, maxCount = 3 },
-	{ name = "northwind rod", chance = 1770 },
-	{ name = "underworld rod", chance = 1770 },
 	{ name = "skullcracker armor", chance = 1770 },
-	{ id = 33929, chance = 880 }, -- rod
 	{ name = "goblet of gloom", chance = 880 },
 	{ name = "glacier kilt", chance = 880 },
-	{ name = "glacial rod", chance = 1210 },
 	{ name = "bag you desire", chance = 15 },
 }
 

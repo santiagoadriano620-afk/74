@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Juggernaut")
+﻿local mType = Game.createMonsterType("Juggernaut")
 local monster = {}
 
 monster.name = "Juggernaut"
@@ -109,8 +109,6 @@ monster.loot = {
 	{ name = "assassin star", chance = 25000, maxCount = 10 },
 	{ name = "titan axe", chance = 4430 },
 	{ name = "spiked squelcher", chance = 7761 },
-	{ name = "great mana potion", chance = 35000 },
-	{ name = "great health potion", chance = 32000 },
 	{ name = "skullcracker armor", chance = 400 },
 	{ name = "gold ingot", chance = 7692, maxCount = 2 },
 }

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Memory of an Ogre")
+﻿local mType = Game.createMonsterType("Memory of an Ogre")
 local monster = {}
 
 monster.name = "Memory of an Ogre"
@@ -65,7 +65,6 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "gold coin", chance = 100000, maxCount = 121 },
-	{ name = "strong health potion", chance = 18830, maxCount = 2 },
 	{ name = "onyx chip", chance = 9800 },
 	{ id = 3050, chance = 5070 }, -- power ring
 	{ name = "small ruby", chance = 7430, maxCount = 2 },

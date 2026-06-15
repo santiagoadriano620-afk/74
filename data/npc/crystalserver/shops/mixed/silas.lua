@@ -1,4 +1,4 @@
-local internalNpcName = "Silas"
+﻿local internalNpcName = "Silas"
 local npcType = Game.createNpcType(internalNpcName)
 local npcConfig = {}
 
@@ -207,14 +207,11 @@ nodeLevels:addChildKeyword({ "1" }, StdModule.say, { npcHandler = npcHandler, on
 npcHandler:addModule(FocusModule:new(), npcConfig.name, true, true, true)
 
 npcConfig.shop = {
-	{ itemName = "arrow", clientId = 3447, buy = 3 },
 	{ itemName = "blue quiver", clientId = 35848, buy = 400 },
-	{ itemName = "bolt", clientId = 3446, buy = 4 },
 	{ itemName = "bow", clientId = 3350, buy = 400, sell = 100 },
 	{ itemName = "crossbow", clientId = 3349, sell = 120 },
 	{ itemName = "quiver", clientId = 35562, buy = 400 },
 	{ itemName = "red quiver", clientId = 35849, buy = 400 },
-	{ itemName = "spear", clientId = 3277, buy = 9, sell = 3 },
 }
 -- On buy npc shop message
 npcType.onBuyItem = function(npc, player, itemId, subType, amount, ignore, inBackpacks, totalCost)

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Stalking Stalk")
+﻿local mType = Game.createMonsterType("Stalking Stalk")
 local monster = {}
 
 monster.name = "Stalking Stalk"
@@ -85,7 +85,6 @@ monster.loot = {
 	{ name = "Bow", chance = 2000 },
 	{ name = "Green Gem", chance = 1780 },
 	{ name = "Warrior's Axe", chance = 1700 },
-	{ name = "Muck Rod", chance = 1310 },
 }
 
 monster.attacks = {

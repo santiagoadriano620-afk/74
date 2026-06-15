@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Lizard High Guard")
+﻿local mType = Game.createMonsterType("Lizard High Guard")
 local monster = {}
 
 monster.name = "Lizard High Guard"
@@ -86,8 +86,6 @@ monster.loot = {
 	{ name = "tower shield", chance = 1040 },
 	{ name = "lizard leather", chance = 1000 },
 	{ name = "lizard scale", chance = 970 },
-	{ name = "strong health potion", chance = 11925 },
-	{ name = "great health potion", chance = 7070 },
 	{ name = "red lantern", chance = 1220 },
 	{ name = "bunch of ripe rice", chance = 4950 },
 	{ name = "zaoan armor", chance = 80 },

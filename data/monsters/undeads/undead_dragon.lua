@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Undead Dragon")
+﻿local mType = Game.createMonsterType("Undead Dragon")
 local monster = {}
 
 monster.name = "Undead Dragon"
@@ -99,8 +99,6 @@ monster.loot = {
 	{ name = "assassin star", chance = 26650, maxCount = 5 },
 	{ name = "dragon slayer", chance = 860 },
 	{ name = "dragonbone staff", chance = 4000 },
-	{ name = "great mana potion", chance = 21490 },
-	{ name = "great health potion", chance = 21200 },
 	{ name = "divine plate", chance = 430 },
 	{ name = "skullcracker armor", chance = 290 },
 	{ name = "gold ingot", chance = 570 },

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Jungle Moa")
+﻿local mType = Game.createMonsterType("Jungle Moa")
 local monster = {}
 
 monster.name = "Jungle Moa"
@@ -80,7 +80,6 @@ monster.loot = {
 	{ name = "Meat", chance = 20050 },
 	{ name = "Cyan Crystal Fragment", chance = 11310 },
 	{ name = "Jungle Moa Feather", chance = 10560, minCount = 1, maxCount = 2 },
-	{ name = "Strong Mana Potion", chance = 9780, minCount = 1, maxCount = 2 },
 	{ name = "Jungle Moa Egg", chance = 8370 },
 	{ name = "Doublet", chance = 4420 },
 	{ name = "Spellbook of Enlightenment", chance = 1900 },

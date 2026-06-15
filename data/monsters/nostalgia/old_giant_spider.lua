@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Old Giant Spider")
+﻿local mType = Game.createMonsterType("Old Giant Spider")
 local monster = {}
 
 monster.name = "Giant Spider"
@@ -67,7 +67,6 @@ monster.loot = {
 	{ id = 3557, chance = 7933 }, -- plate legs
 	{ id = 3357, chance = 10010 }, -- plate armor
 	{ id = 3351, chance = 4945 }, -- steel helmet
-	{ id = 236, chance = 3571 }, -- strong health potion
 	{ id = 3371, chance = 850 }, -- knight legs
 	{ id = 3055, chance = 280 }, -- platinum amulet
 	{ id = 3370, chance = 500 }, -- knight armor

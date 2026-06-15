@@ -1,4 +1,4 @@
-local internalNpcName = "Obi"
+﻿local internalNpcName = "Obi"
 local npcType = Game.createNpcType(internalNpcName)
 local npcConfig = {}
 
@@ -147,7 +147,6 @@ npcConfig.shop = {
 	{ itemName = "scythe", clientId = 3453, buy = 12, sell = 3 },
 	{ itemName = "short sword", clientId = 3294, buy = 30, sell = 10 },
 	{ itemName = "sickle", clientId = 3293, buy = 8, sell = 2 },
-	{ itemName = "spear", clientId = 3277, buy = 10, sell = 3 },
 	{ itemName = "sword", clientId = 3264, sell = 25 },
 }
 -- On buy npc shop message

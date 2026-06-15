@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Orewalker")
+﻿local mType = Game.createMonsterType("Orewalker")
 local monster = {}
 
 monster.name = "Orewalker"
@@ -88,16 +88,11 @@ monster.loot = {
 	{ name = "magic sulphur", chance = 3000 },
 	{ name = "titan axe", chance = 2600 },
 	{ name = "glorious axe", chance = 1870 },
-	{ name = "strong health potion", chance = 15600, maxCount = 2 },
-	{ name = "strong mana potion", chance = 14000, maxCount = 2 },
-	{ name = "great mana potion", chance = 14000, maxCount = 2 },
 	{ name = "mana potion", chance = 14000, maxCount = 4 },
-	{ name = "ultimate health potion", chance = 9500, maxCount = 2 },
 	{ name = "crystalline armor", chance = 560 },
 	{ name = "small topaz", chance = 16500, maxCount = 3 },
 	{ name = "shiny stone", chance = 13700 },
 	{ name = "sulphurous stone", chance = 20700 },
-	{ name = "wand of defiance", chance = 1300 },
 	{ name = "green crystal shard", chance = 8000 },
 	{ name = "blue crystal splinter", chance = 16000, maxCount = 2 },
 	{ name = "cyan crystal fragment", chance = 13000 },

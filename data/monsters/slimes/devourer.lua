@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Devourer")
+﻿local mType = Game.createMonsterType("Devourer")
 local monster = {}
 
 monster.name = "Devourer"
@@ -99,8 +99,6 @@ monster.loot = {
 	{ id = 21178, chance = 510 }, -- glooth club
 	{ id = 21180, chance = 390 }, -- glooth axe
 	{ id = 21158, chance = 370 }, -- glooth spear
-	{ id = 8084, chance = 250 }, -- springsprout rod
-	{ id = 3065, chance = 260 }, -- terra rod
 }
 
 monster.attacks = {

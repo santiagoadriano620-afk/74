@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Reflection of Mawhawk")
+﻿local mType = Game.createMonsterType("Reflection of Mawhawk")
 local monster = {}
 
 monster.name = "Reflection of Mawhawk"
@@ -71,8 +71,6 @@ monster.loot = {
 	{ id = 5878, chance = 14710 }, -- minotaur leather
 	{ id = 11472, chance = 6580, maxCount = 2 }, -- minotaur horn
 	{ id = 21201, chance = 13160 }, -- execowtioner mask
-	{ id = 239, chance = 11480 }, -- great health potion
-	{ id = 238, chance = 10060 }, -- great mana potion
 	{ id = 3577, chance = 7230 }, -- meat
 	{ id = 9057, chance = 5810, maxCount = 2 }, -- small topaz
 	{ id = 3030, chance = 4520, maxCount = 2 }, -- small ruby

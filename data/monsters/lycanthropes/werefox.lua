@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Werefox")
+﻿local mType = Game.createMonsterType("Werefox")
 local monster = {}
 
 monster.name = "Werefox"
@@ -90,12 +90,9 @@ monster.loot = {
 	{ name = "platinum coin", chance = 4050, maxCount = 2 },
 	{ name = "fox paw", chance = 4050, maxCount = 2 },
 	{ name = "werefox tail", chance = 4050, maxCount = 2 },
-	{ name = "strong mana potion", chance = 4050, maxCount = 2 },
-	{ name = "great mana potion", chance = 4050, maxCount = 2 },
 	{ name = "mana potion", chance = 4050, maxCount = 2 },
 	{ name = "small enchanted emerald", chance = 4050, maxCount = 2 },
 	{ name = "emerald bangle", chance = 4050, maxCount = 2 },
-	{ name = "moonlight rod", chance = 500 },
 	{ name = "troll green", chance = 500, maxCount = 2 },
 	{ name = "assassin star", chance = 300, maxCount = 5 },
 	{ name = "platinum amulet", chance = 130 },

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Rustheap Golem")
+﻿local mType = Game.createMonsterType("Rustheap Golem")
 local monster = {}
 
 monster.name = "Rustheap Golem"
@@ -90,8 +90,6 @@ monster.loot = {
 	{ id = 3035, chance = 58310, maxCount = 3 }, -- platinum coin
 	{ id = 3026, chance = 1300 }, -- white pearl
 	{ id = 3027, chance = 1630 }, -- black pearl
-	{ id = 236, chance = 10100, maxCount = 2 }, -- strong health potion
-	{ id = 237, chance = 7170, maxCount = 2 }, -- strong mana potion
 	{ id = 3279, chance = 3580 }, -- war hammer
 	{ id = 7452, chance = 330 }, -- spiked squelcher
 	{ id = 21171, chance = 330 }, -- metal bat

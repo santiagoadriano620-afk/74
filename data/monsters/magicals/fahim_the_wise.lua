@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Fahim the Wise")
+﻿local mType = Game.createMonsterType("Fahim the Wise")
 local monster = {}
 
 monster.name = "Fahim the Wise"
@@ -75,7 +75,6 @@ monster.loot = {
 	{ name = "noble turban", chance = 66670 },
 	{ name = "royal spear", chance = 57140, maxCount = 3 },
 	{ name = "shiny stone", chance = 47620 },
-	{ name = "strong mana potion", chance = 42860, maxCount = 3 },
 	{ name = "blueberry", chance = 40480, maxCount = 22 },
 	{ name = "mystic turban", chance = 33330 },
 	{ name = "small sapphire", chance = 14290, maxCount = 2 },

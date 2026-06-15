@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Midnight Asura")
+﻿local mType = Game.createMonsterType("Midnight Asura")
 local monster = {}
 
 monster.name = "Midnight Asura"
@@ -92,14 +92,12 @@ monster.loot = {
 	{ id = 3030, chance = 3090, maxCount = 1 }, -- small ruby
 	{ id = 3029, chance = 5550, maxCount = 3 }, -- small sapphire
 	{ id = 9057, chance = 2910, maxCount = 1 }, -- small topaz
-	{ id = 239, chance = 8450, maxCount = 2 }, -- great health potion
 	{ id = 3026, chance = 5660 }, -- white pearl
 	{ id = 7404, chance = 350 }, -- assassin dagger
 	{ id = 3041, chance = 290 }, -- blue gem
 	{ id = 3567, chance = 530 }, -- blue robe
 	{ id = 9058, chance = 140 }, -- gold ingot
 	{ id = 21974, chance = 12700 }, -- golden lotus brooch
-	{ id = 3069, chance = 2460 }, -- necrotic rod
 	{ id = 21981, chance = 390 }, -- oriental shoes
 	{ id = 21975, chance = 10740 }, -- peacock feather fan
 	{ id = 8061, chance = 180 }, -- skullcracker armor
@@ -108,7 +106,6 @@ monster.loot = {
 	{ id = 5944, chance = 14580 }, -- soul orb
 	{ id = 8074, chance = 150 }, -- spellbook of mind control
 	{ id = 3403, chance = 2030 }, -- tribal mask
-	{ id = 8082, chance = 760 }, -- underworld rod
 	{ id = 3037, chance = 870 }, -- yellow gem
 }
 

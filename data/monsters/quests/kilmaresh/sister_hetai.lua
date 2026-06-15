@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Sister Hetai")
+﻿local mType = Game.createMonsterType("Sister Hetai")
 local monster = {}
 
 monster.name = "Sister Hetai"
@@ -71,20 +71,16 @@ monster.loot = {
 	{ name = "sacred tree amulet", chance = 781 },
 	{ name = "gold ingot", chance = 677, maxCount = 1 },
 	{ name = "lightning headband", chance = 469 },
-	{ name = "underworld rod", chance = 469 },
 	{ name = "violet gem", chance = 469 },
-	{ name = "wand of cosmic energy", chance = 469 },
 	{ name = "onyx chip", chance = 417 },
 	{ name = "rainbow quartz", chance = 417 },
 	{ name = "small diamond", chance = 417 },
-	{ name = "wand of inferno", chance = 417 },
 	{ name = "knight armor", chance = 365 },
 	{ name = "lightning pendant", chance = 365 },
 	{ name = "small emerald", chance = 365 },
 	{ name = "focus cape", chance = 313 },
 	{ name = "magma coat", chance = 313 },
 	{ id = 3098, chance = 313 }, -- ring of healing
-	{ name = "wand of starstorm", chance = 313 },
 	{ name = "magma boots", chance = 260 },
 	{ name = "metal spats", chance = 260 },
 	{ name = "warrior's shield", chance = 260 },

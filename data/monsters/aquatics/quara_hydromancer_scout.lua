@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Quara Hydromancer Scout")
+﻿local mType = Game.createMonsterType("Quara Hydromancer Scout")
 local monster = {}
 
 monster.name = "Quara Hydromancer Scout"
@@ -90,7 +90,6 @@ monster.loot = {
 	{ name = "fish fin", chance = 2080 },
 	{ name = "obsidian lance", chance = 1540 },
 	{ id = 3098, chance = 960 }, -- ring of healing
-	{ name = "wand of cosmic energy", chance = 880 },
 	{ name = "knight armor", chance = 500 },
 }
 

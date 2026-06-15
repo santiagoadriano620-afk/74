@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Tremendous Tyrant")
+﻿local mType = Game.createMonsterType("Tremendous Tyrant")
 local monster = {}
 
 monster.name = "Tremendous Tyrant"
@@ -86,13 +86,10 @@ monster.loot = {
 	{ name = "tremendous tyrant shell", chance = 4550 },
 	{ name = "yellow gem", chance = 9090, maxCount = 1 },
 	{ name = "spellbook of warding", chance = 8180 },
-	{ name = "wand of starstorm", chance = 910 },
 	{ name = "ice rapier", chance = 1820 },
-	{ name = "hailstorm rod", chance = 2730 },
 	{ name = "knight axe", chance = 4550 },
 	{ name = "dragonbone staff", chance = 3640 },
 	{ name = "tremendous tyrant head", chance = 8180 },
-	{ name = "wand of cosmic energy", chance = 2730 },
 	{ name = "warrior's shield", chance = 1820 },
 	{ name = "elven amulet", chance = 2730 },
 	{ name = "focus cape", chance = 1820 },

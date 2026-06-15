@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Hydra")
+﻿local mType = Game.createMonsterType("Hydra")
 local monster = {}
 
 monster.name = "Hydra"
@@ -92,7 +92,6 @@ monster.loot = {
 	{ name = "life crystal", chance = 930 },
 	{ id = 3098, chance = 840 }, -- ring of healing
 	{ name = "hydra egg", chance = 840 },
-	{ name = "strong mana potion", chance = 840 },
 	{ name = "stone skin amulet", chance = 750 },
 	{ name = "boots of haste", chance = 190 },
 	{ name = "medusa shield", chance = 190 },

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Grand Master Oberon")
+﻿local mType = Game.createMonsterType("Grand Master Oberon")
 local monster = {}
 
 monster.name = "Grand Master Oberon"
@@ -25,7 +25,6 @@ monster.race = "blood"
 monster.corpse = 28625
 monster.speed = 115
 monster.manaCost = 0
-
 
 monster.changeTarget = {
 	interval = 4000,
@@ -78,8 +77,6 @@ monster.loot = {
 	{ name = "falcon bow", chance = 350, maxCount = 1 },
 	{ name = "falcon circlet", chance = 350, maxCount = 1 },
 	{ name = "falcon coif", chance = 350, maxCount = 1 },
-	{ name = "falcon rod", chance = 350, maxCount = 1 },
-	{ name = "falcon wand", chance = 350, maxCount = 1 },
 	{ name = "falcon shield", chance = 200, maxCount = 1 },
 	{ name = "falcon greaves", chance = 200, maxCount = 1 },
 	{ name = "falcon plate", chance = 200, maxCount = 1 },

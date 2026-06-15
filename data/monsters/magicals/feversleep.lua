@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Feversleep")
+﻿local mType = Game.createMonsterType("Feversleep")
 local monster = {}
 
 monster.name = "Feversleep"
@@ -82,8 +82,6 @@ monster.loot = {
 	{ name = "small amethyst", chance = 12000, maxCount = 3 },
 	{ name = "platinum coin", chance = 100000, maxCount = 9 },
 	{ name = "blue robe", chance = 1500 },
-	{ name = "great mana potion", chance = 40000, maxCount = 2 },
-	{ name = "ultimate health potion", chance = 18000 },
 	{ name = "small topaz", chance = 16000, maxCount = 2 },
 	{ name = "blue crystal shard", chance = 11000 },
 	{ name = "blue crystal splinter", chance = 13000 },

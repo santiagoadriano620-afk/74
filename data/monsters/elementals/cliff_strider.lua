@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Cliff Strider")
+﻿local mType = Game.createMonsterType("Cliff Strider")
 local monster = {}
 
 monster.name = "Cliff Strider"
@@ -96,13 +96,9 @@ monster.loot = {
 	{ name = "soul orb", chance = 17080 },
 	{ name = "sapphire hammer", chance = 1350 },
 	{ name = "spiked squelcher", chance = 1040 },
-	{ name = "great mana potion", chance = 30950, maxCount = 4 },
-	{ name = "ultimate health potion", chance = 25260, maxCount = 2 },
 	{ name = "crystal of balance", chance = 2690 },
 	{ name = "crystal of power", chance = 720 },
 	{ name = "shiny stone", chance = 11280 },
-	{ name = "wand of defiance", chance = 2000 },
-	{ name = "glacial rod", chance = 1240 },
 	{ name = "blue crystal shard", chance = 6520 },
 	{ name = "blue crystal splinter", chance = 7970, maxCount = 2 },
 	{ name = "cyan crystal fragment", chance = 8070 },

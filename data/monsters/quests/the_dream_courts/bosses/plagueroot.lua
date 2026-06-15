@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Plagueroot")
+﻿local mType = Game.createMonsterType("Plagueroot")
 local monster = {}
 
 monster.name = "Plagueroot"
@@ -76,15 +76,9 @@ monster.loot = {
 	{ name = "piggy bank", chance = 100000 },
 	{ name = "energy bar", chance = 100000 },
 	{ name = "royal star", chance = 80000, maxCount = 184 },
-	{ name = "ultimate mana potion", chance = 80000, maxCount = 22 },
-	{ name = "supreme health potion", chance = 60000, maxCount = 13 },
 	{ name = "gold token", chance = 60000, maxCount = 3 },
 	{ id = 3039, chance = 60000 }, -- red gem
-	{ name = "mastermind potion", chance = 40000, maxCount = 13 },
 	{ name = "crunor idol", chance = 40000 },
-	{ name = "bullseye potion", chance = 20000 },
-	{ name = "ultimate spirit potion", chance = 20000 },
-	{ name = "berserk potion", chance = 20000 },
 	{ name = "gold ingot", chance = 20000 },
 	{ name = "violet gem", chance = 20000 },
 	{ name = "pomegranate", chance = 20000 },
@@ -98,17 +92,11 @@ monster.loot = {
 	{ name = "mysterious remains", chance = 91840 },
 	{ name = "energy bar", chance = 87760 },
 	{ name = "gold token", chance = 80000 },
-	{ name = "ultimate spirit potion", chance = 59180, maxCount = 20 },
-	{ name = "ultimate mana potion", chance = 57140, maxCount = 20 },
 	{ name = "royal star", chance = 48980 },
-	{ name = "supreme health potion", chance = 46940, maxCount = 20 },
 	{ name = "yellow gem", chance = 40820, maxCount = 2 },
 	{ name = "huge chunk of crude iron", chance = 38780 },
 	{ name = "crystal coin", chance = 26530, maxCount = 3 },
-	{ name = "mastermind potion", chance = 22450 },
 	{ name = "gold ingot", chance = 22450 },
-	{ name = "bullseye potion", chance = 20410 },
-	{ name = "berserk potion", chance = 16329 },
 	{ name = "skull staff", chance = 16329 },
 	{ name = "pomegranate", chance = 16329 },
 	{ id = 23542, chance = 14290 }, -- collar of blue plasma

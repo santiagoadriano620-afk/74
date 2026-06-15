@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Stabilizing Reality Reaver")
+﻿local mType = Game.createMonsterType("Stabilizing Reality Reaver")
 local monster = {}
 
 monster.name = "Stabilizing Reality Reaver"
@@ -80,9 +80,6 @@ monster.voices = {
 monster.loot = {
 	{ id = 3031, chance = 100000, maxCount = 100 }, -- gold coin
 	{ id = 3035, chance = 100000, maxCount = 4 }, -- platinum coin
-	{ id = 239, chance = 14200 }, -- great health potion
-	{ id = 7642, chance = 14000 }, -- great spirit potion
-	{ id = 238, chance = 12700 }, -- great mana potion
 	{ id = 23545, chance = 11200 }, -- energy drink
 	{ id = 23535, chance = 10900 }, -- energy bar
 	{ id = 23501, chance = 9900 }, -- condensed energy
@@ -93,7 +90,6 @@ monster.loot = {
 	{ id = 16124, chance = 2700, maxCount = 2 }, -- blue crystal splinter
 	{ id = 16119, chance = 1900 }, -- blue crystal shard
 	{ id = 3039, chance = 1500 }, -- red gem
-	{ id = 8092, chance = 1100 }, -- wand of starstorm
 }
 
 monster.attacks = {

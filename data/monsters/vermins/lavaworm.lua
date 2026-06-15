@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Lavaworm")
+﻿local mType = Game.createMonsterType("Lavaworm")
 local monster = {}
 
 monster.name = "Lavaworm"
@@ -85,11 +85,9 @@ monster.loot = {
 	{ name = "lavaworm spikes", chance = 4230 },
 	{ name = "green gem", chance = 4130 },
 	{ name = "butterfly ring", chance = 3120 },
-	{ name = "underworld rod", chance = 2920 },
 	{ name = "lavaworm jaws", chance = 2620 },
 	{ name = "blue crystal shard", chance = 2520 },
 	{ name = "warrior helmet", chance = 1560 },
-	{ name = "wand of voodoo", chance = 1560 },
 	{ name = "crusader helmet", chance = 1560 },
 	{ name = "strange helmet", chance = 500 },
 }

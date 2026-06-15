@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Parder")
+﻿local mType = Game.createMonsterType("Parder")
 local monster = {}
 
 monster.name = "Parder"
@@ -81,7 +81,6 @@ monster.loot = {
 	{ name = "Parder Fur", chance = 19070 },
 	{ name = "Parder Tooth", chance = 14320, minCount = 1, maxCount = 2 },
 	{ name = "Red Crystal Fragment", chance = 14030 },
-	{ name = "Strong Health Potion", chance = 7560, minCount = 1, maxCount = 3 },
 	{ name = "Barbarian Axe", chance = 4540 },
 	{ id = 7385, chance = 1510 }, -- Crimson Sword
 }

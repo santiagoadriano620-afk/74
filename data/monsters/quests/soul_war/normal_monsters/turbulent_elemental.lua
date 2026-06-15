@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Turbulent Elemental")
+﻿local mType = Game.createMonsterType("Turbulent Elemental")
 local monster = {}
 
 monster.name = "Turbulent Elemental"
@@ -26,7 +26,6 @@ monster.Bestiary = {
 	Occurrence = 0,
 	Locations = "Ebb and Flow.",
 }
-
 
 monster.health = 28000
 monster.maxHealth = 28000
@@ -80,11 +79,8 @@ monster.voices = {
 monster.loot = {
 	{ name = "crystal coin", chance = 74880 },
 	{ name = "gold ingot", chance = 22270 },
-	{ name = "ultimate health potion", chance = 17300, maxCount = 4 },
 	{ name = "sacred tree amulet", chance = 6160 },
 	{ name = "blue gem", chance = 4980 },
-	{ name = "springsprout rod", chance = 4270 },
-	{ name = "northwind rod", chance = 3320 },
 	{ name = "violet gem", chance = 3080 },
 	{ name = "glacier amulet", chance = 2840 },
 	{ name = "glacier robe", chance = 1900 },

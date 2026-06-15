@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Lost Soul")
+﻿local mType = Game.createMonsterType("Lost Soul")
 local monster = {}
 
 monster.name = "Lost Soul"
@@ -95,8 +95,6 @@ monster.loot = {
 	{ name = "skeleton decoration", chance = 1250 },
 	{ name = "haunted blade", chance = 740 },
 	{ name = "titan axe", chance = 1000 },
-	{ name = "great mana potion", chance = 14200, maxCount = 2 },
-	{ name = "great health potion", chance = 8800, maxCount = 2 },
 	{ id = 8896, chance = 3500 }, -- slightly rusted armor
 	{ name = "unholy bone", chance = 33010 },
 }

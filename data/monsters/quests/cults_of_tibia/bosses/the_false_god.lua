@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("The False God")
+﻿local mType = Game.createMonsterType("The False God")
 local monster = {}
 
 monster.name = "The False God"
@@ -81,7 +81,6 @@ monster.loot = {
 	{ name = "red piece of cloth", chance = 16370, maxCount = 6 },
 	{ name = "yellow gem", chance = 29460 },
 	{ name = "blue gem", chance = 21892 },
-	{ name = "underworld rod", chance = 117270 },
 	{ name = "war axe", chance = 127270 },
 	{ name = "pair of iron fists", chance = 9510 },
 	{ name = "mysterious remains", chance = 100000 },
@@ -92,9 +91,6 @@ monster.loot = {
 	{ name = "small emerald", chance = 14700, maxCount = 10 },
 	{ name = "small amethyst", chance = 12259, maxCount = 10 },
 	{ name = "energy bar", chance = 16872, maxCount = 3 },
-	{ name = "ultimate health potion", chance = 27652, maxCount = 10 },
-	{ name = "great mana potion", chance = 33721, maxCount = 10 },
-	{ name = "great spirit potion", chance = 25690, maxCount = 5 },
 	{ name = "piece of royal steel", chance = 15890 },
 	{ name = "execowtioner axe", chance = 7890 },
 	{ name = "maimer", chance = 1890 },

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Mindmasher")
+﻿local mType = Game.createMonsterType("Mindmasher")
 local monster = {}
 
 monster.description = "Mindmasher"
@@ -69,8 +69,6 @@ monster.loot = {
     { id = 14225, chance = 100000, maxCount = 3 },
     { name = "Gold Coin", chance = 100000, maxCount = 233 },
     { name = "Platinum Coin", chance = 77360, maxCount = 4 },
-    { name = "Great Mana Potion", chance = 50940, maxCount = 2 },
-    { name = "Great Health Potion", chance = 49060, maxCount = 2 },
     { name = "Small Sapphire", chance = 43400, maxCount = 2 },
     { name = "Small Emerald", chance = 37740, maxCount = 2 },
     { name = "Ripper Lance", chance = 32079, maxCount = 1 },

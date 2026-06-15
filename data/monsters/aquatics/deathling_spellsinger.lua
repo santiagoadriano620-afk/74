@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Deathling Spellsinger")
+﻿local mType = Game.createMonsterType("Deathling Spellsinger")
 local monster = {}
 
 monster.name = "Deathling Spellsinger"
@@ -74,8 +74,8 @@ monster.light = {
 monster.voices = {
 	interval = 5000,
 	chance = 10,
-	{ text = 'BOQOL"°', yell = false },
-	{ text = 'QOL" VBOXCL°', yell = false },
+	{ text = 'BOQOL"Â°', yell = false },
+	{ text = 'QOL" VBOXCLÂ°', yell = false },
 }
 
 monster.loot = {
@@ -85,9 +85,7 @@ monster.loot = {
 	{ name = "deeptags", chance = 13180 },
 	{ name = "deepling filet", chance = 12580 },
 	{ name = "deepling ridge", chance = 9020 },
-	{ name = "great health potion", chance = 8750 },
 	{ name = "deepling warts", chance = 8280 },
-	{ name = "great mana potion", chance = 7970 },
 	{ name = "vortex bolt", chance = 5350, maxCount = 25 },
 	{ name = "eye of a deepling", chance = 4840 },
 	{ name = "warrior's shield", chance = 3370 },

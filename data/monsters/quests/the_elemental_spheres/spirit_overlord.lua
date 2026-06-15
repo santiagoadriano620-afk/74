@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Spirit Overlord")
+﻿local mType = Game.createMonsterType("Spirit Overlord")
 local monster = {}
 
 monster.name = "Spirit Overlord"
@@ -67,8 +67,6 @@ monster.loot = {
 	{ name = "gold coin", chance = 44000, maxCount = 120 },
 	{ name = "platinum coin", chance = 29000, maxCount = 3 },
 	{ name = "holy ash", chance = 10800 },
-	{ name = "great spirit potion", chance = 8750, maxCount = 2 },
-	{ name = "moonlight rod", chance = 8300 },
 -- { name = "spirited soil", chance = 7000 },
 	{ name = "holy orchid", chance = 6000 },
 }

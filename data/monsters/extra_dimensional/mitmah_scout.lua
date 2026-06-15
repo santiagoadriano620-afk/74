@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Mitmah Scout")
+﻿local mType = Game.createMonsterType("Mitmah Scout")
 local monster = {}
 
 monster.name = "Mitmah Scout"
@@ -86,7 +86,6 @@ monster.loot = {
 	{ name = "brown crystal splinter", chance = 7620 },
 	{ id = 281, chance = 7400 }, -- giant shimmering pearl
 	{ name = "green crystal splinter", chance = 6890 },
-	{ name = "strong health potion", chance = 6170, maxCount = 3 },
 	{ name = "opal", chance = 4080 },
 	{ name = "onyx chip", chance = 3670 },
 	{ name = "gold ingot", chance = 2880 },

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Eradicator")
+﻿local mType = Game.createMonsterType("Eradicator")
 local monster = {}
 
 monster.name = "Eradicator"
@@ -58,7 +58,6 @@ monster.flags = {
 	canWalkOnPoison = true,
 }
 
-
 monster.light = {
 	level = 0,
 	color = 0,
@@ -73,12 +72,9 @@ monster.loot = {
 	{ id = 3031, chance = 100000, maxCount = 200 }, -- gold coin
 	{ id = 3035, chance = 100000, maxCount = 25 }, -- platinum coin
 	{ id = 16121, chance = 8000, maxCount = 3 }, -- green crystal shard
-	{ id = 238, chance = 8000, maxCount = 5 }, -- great mana potion
-	{ id = 7642, chance = 8000, maxCount = 5 }, -- great spirit potion
 	{ id = 3033, chance = 8000, maxCount = 5 }, -- small amethyst
 	{ id = 3030, chance = 8000, maxCount = 5 }, -- small ruby
 	{ id = 9057, chance = 8000, maxCount = 5 }, -- small topaz
-	{ id = 7643, chance = 8000, maxCount = 10 }, -- ultimate health potion
 	{ id = 16120, chance = 8000, maxCount = 3 }, -- violet crystal shard
 	{ id = 23535, chance = 8000 }, -- energy bar
 	{ id = 23520, chance = 8000 }, -- plasmatic lightning

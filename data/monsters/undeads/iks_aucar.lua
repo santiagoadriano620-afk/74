@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Iks Aucar")
+﻿local mType = Game.createMonsterType("Iks Aucar")
 local monster = {}
 
 monster.name = "Iks Aucar"
@@ -87,7 +87,6 @@ monster.loot = {
 	{ name = "opal", chance = 7260 },
 	{ name = "small emerald", chance = 6820 },
 	{ name = "war hammer", chance = 5620 },
-	{ name = "strong health potion", chance = 5180, maxCount = 2 },
 	{ name = "small ruby", chance = 4300, maxCount = 2 },
 -- { name = "rotten feather", chance = 2170 },
 -- { name = "ritual tooth", chance = 1330 },

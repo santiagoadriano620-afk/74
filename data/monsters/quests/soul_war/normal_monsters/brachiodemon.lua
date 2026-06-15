@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Brachiodemon")
+﻿local mType = Game.createMonsterType("Brachiodemon")
 local monster = {}
 
 monster.name = "Brachiodemon"
@@ -26,7 +26,6 @@ monster.Bestiary = {
 	Occurrence = 0,
 	Locations = "Claustrophobic Inferno.",
 }
-
 
 monster.health = 25000
 monster.maxHealth = 25000
@@ -82,7 +81,6 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "crystal coin", chance = 58990 },
-	{ name = "ultimate health potion", chance = 29110, maxCount = 4 },
 	{ id = 33936, chance = 5490 }, -- hand
 	{ id = 33937, chance = 3710 }, -- head brachiodemon
 	{ name = "epee", chance = 3290 },

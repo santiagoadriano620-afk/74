@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Blood Priest")
+﻿local mType = Game.createMonsterType("Blood Priest")
 local monster = {}
 
 monster.name = "Blood Priest"
@@ -84,10 +84,8 @@ monster.loot = {
 	{ name = "mystic turban", chance = 2170 },
 	{ id = 5909, chance = 3040 }, -- white piece of cloth
 	{ name = "red piece of cloth", chance = 640 },
-	{ name = "strong mana potion", chance = 6000 },
 	{ name = "spellbook of warding", chance = 290 },
 	{ name = "spellbook of mind control", chance = 180 },
-	{ name = "underworld rod", chance = 470 },
 	{ name = "book of necromantic rituals", chance = 13550 },
 	{ id = 3039, chance = 880 }, -- red gem
 	{ name = "lancet", chance = 14410 },

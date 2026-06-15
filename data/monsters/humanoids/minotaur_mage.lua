@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Minotaur Mage")
+﻿local mType = Game.createMonsterType("Minotaur Mage")
 local monster = {}
 
 monster.name = "Minotaur Mage"
@@ -81,7 +81,6 @@ monster.voices = {
 monster.loot = {
 	{ id = 2920, chance = 4950 }, -- torch
 	{ name = "gold coin", chance = 85780, maxCount = 35 },
-	{ name = "wand of cosmic energy", chance = 600 },
 	{ name = "leather helmet", chance = 3000 },
 	{ name = "leather legs", chance = 5190 },
 	{ id = 3595, chance = 15003, maxCount = 8 }, -- carrot

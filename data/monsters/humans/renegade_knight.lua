@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Renegade Knight")
+﻿local mType = Game.createMonsterType("Renegade Knight")
 local monster = {}
 
 monster.name = "Renegade Knight"
@@ -85,7 +85,6 @@ monster.loot = {
 	{ id = 3447, chance = 90450, maxCount = 10 }, -- arrow
 	{ id = 3031, chance = 75410, maxCount = 30 }, -- gold coin
 	{ id = 3592, chance = 1210 }, -- grapes
-	{ id = 239, chance = 1210 }, -- great health potion
 	{ id = 3577, chance = 1210, maxCount = 2 }, -- meat
 	{ id = 7364, chance = 1210, maxCount = 4 }, -- sniper arrow
 	{ id = 3381, chance = 210 }, -- crown armor

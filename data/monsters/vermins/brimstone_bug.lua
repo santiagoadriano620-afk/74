@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Brimstone Bug")
+﻿local mType = Game.createMonsterType("Brimstone Bug")
 local monster = {}
 
 monster.name = "Brimstone Bug"
@@ -80,8 +80,6 @@ monster.loot = {
 	{ id = 3049, chance = 892 }, -- stealth ring
 	{ name = "platinum amulet", chance = 110 },
 	{ name = "magic sulphur", chance = 1639 },
-	{ name = "strong health potion", chance = 9003 },
-	{ name = "strong mana potion", chance = 9025 },
 	{ name = "poisonous slime", chance = 50000 },
 	{ name = "lump of earth", chance = 20000 },
 	{ name = "sulphurous stone", chance = 14970 },

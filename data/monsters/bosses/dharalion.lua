@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Dharalion")
+﻿local mType = Game.createMonsterType("Dharalion")
 local monster = {}
 
 monster.name = "Dharalion"
@@ -90,7 +90,6 @@ monster.loot = {
 	{ name = "melon", chance = 24750 },
 	{ name = "bread", chance = 13860 },
 	{ name = "elven amulet", chance = 16830 },
-	{ name = "great mana potion", chance = 15840 },
 	{ name = "life crystal", chance = 12870 },
 	{ name = "sling herb", chance = 10890 },
 	{ id = 3257, chance = 7920 }, -- cornucopia

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Ashmunrah")
+﻿local mType = Game.createMonsterType("Ashmunrah")
 local monster = {}
 
 monster.name = "Ashmunrah"
@@ -88,7 +88,6 @@ monster.loot = {
 	{ name = "gold coin", chance = 50000, maxCount = 60 },
 	{ name = "might ring", chance = 1000 },
 	{ name = "crown armor", chance = 80000 },
-	{ name = "great mana potion", chance = 1500 },
 }
 
 monster.attacks = {

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Tarbaz")
+﻿local mType = Game.createMonsterType("Tarbaz")
 local monster = {}
 
 monster.name = "Tarbaz"
@@ -78,11 +78,8 @@ monster.loot = {
 	{ id = 6558, chance = 10000 }, -- flask of demonic blood
 	{ id = 3037, chance = 1000 }, -- yellow gem
 	{ id = 3031, chance = 98000, maxCount = 184 }, -- gold coin
-	{ id = 238, chance = 23000, maxCount = 10 }, -- great mana potion
 	{ id = 281, chance = 14000, maxCount = 5 }, -- giant shimmering pearl (green)
 	{ id = 282, chance = 14000, maxCount = 5 }, -- giant shimmering pearl (brown)
-	{ id = 7642, chance = 46100, maxCount = 10 }, -- great spirit potion
-	{ id = 7643, chance = 23000, maxCount = 10 }, -- ultimate health potion
 	{ id = 9057, chance = 10000, maxCount = 8 }, -- small topaz
 	{ id = 3029, chance = 12000, maxCount = 9 }, -- small sapphire
 	{ id = 3026, chance = 12000, maxCount = 8 }, -- white pearl
@@ -99,7 +96,6 @@ monster.loot = {
 	{ id = 22867, chance = 800 }, -- rift crossbow
 	{ id = 22727, chance = 800 }, -- rift lance
 	{ id = 3038, chance = 1000 }, -- green gem
-	{ id = 8082, chance = 4000 }, -- underworld rod
 	{ id = 22757, chance = 500, unique = true }, -- shroud of despair
 }
 

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("The Nightmare Beast")
+﻿local mType = Game.createMonsterType("The Nightmare Beast")
 local monster = {}
 
 monster.name = "The Nightmare Beast"
@@ -80,9 +80,7 @@ monster.loot = {
 	{ name = "abyss hammer", chance = 2830 },
 	{ id = 3341, chance = 3130 }, -- arcane staff
 	{ name = "beast's nightmare-cushion", chance = 3770 },
-	{ name = "berserk potion", chance = 16129, maxCount = 9 },
 	{ name = "blue gem", chance = 6450 },
-	{ name = "bullseye potion", chance = 32259, maxCount = 19 },
 	{ name = "chaos mace", chance = 10380 },
 	{ name = "crystal coin", chance = 22580, maxCount = 3 },
 	{ name = "dark whispers", chance = 3230 },
@@ -99,7 +97,6 @@ monster.loot = {
 	{ name = "huge chunk of crude iron", chance = 38710 },
 	{ name = "ice shield", chance = 9680 },
 	{ name = "magic sulphur", chance = 8490 },
-	{ name = "mastermind potion", chance = 12900, maxCount = 18 },
 	{ name = "mysterious remains", chance = 93400 },
 	{ name = "piggy bank", chance = 100000 },
 	{ name = "piggy bank", chance = 94340 },
@@ -110,10 +107,7 @@ monster.loot = {
 	{ name = "silver token", chance = 91670, maxCount = 4 },
 	{ name = "skull staff", chance = 12900 },
 	{ name = "soul stone", chance = 4720 },
-	{ name = "supreme health potion", chance = 58060, maxCount = 29 },
 	{ name = "turquoise tendril lantern", chance = 7550 },
-	{ name = "ultimate mana potion", chance = 64519, maxCount = 29 },
-	{ name = "ultimate spirit potion", chance = 58060, maxCount = 24 },
 	{ name = "violet gem", chance = 6450 },
 	{ name = "yellow gem", chance = 45160, maxCount = 2 },
 }

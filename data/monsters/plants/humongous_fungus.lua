@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Humongous Fungus")
+﻿local mType = Game.createMonsterType("Humongous Fungus")
 local monster = {}
 
 monster.name = "Humongous Fungus"
@@ -85,10 +85,6 @@ monster.loot = {
 	{ name = "drill bolt", chance = 15120, maxCount = 15 },
 	{ name = "humongous chunk", chance = 10470 },
 	{ id = 5909, chance = 10230 }, -- white piece of cloth
-	{ name = "strong health potion", chance = 5040, maxCount = 2 },
-	{ name = "great mana potion", chance = 4960, maxCount = 2 },
-	{ name = "great health potion", chance = 4950, maxCount = 2 },
-	{ name = "strong mana potion", chance = 4930, maxCount = 2 },
 	{ name = "mana potion", chance = 4750, maxCount = 3 },
 	{ name = "blue piece of cloth", chance = 4440 },
 	{ name = "red piece of cloth", chance = 2670 },
@@ -97,7 +93,6 @@ monster.loot = {
 	{ name = "angelic axe", chance = 1420 },
 	{ name = "terra legs", chance = 1160 },
 	{ name = "terra mantle", chance = 870 },
-	{ name = "muck rod", chance = 640 },
 	{ name = "mushroom backpack", chance = 20 },
 	{ name = "mycological bow", chance = 140 },
 }

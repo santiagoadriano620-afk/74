@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Lizard Zaogun")
+﻿local mType = Game.createMonsterType("Lizard Zaogun")
 local monster = {}
 
 monster.name = "Lizard Zaogun"
@@ -86,8 +86,6 @@ monster.loot = {
 	{ name = "tower shield", chance = 1000 },
 	{ name = "lizard leather", chance = 14360 },
 	{ name = "lizard scale", chance = 12520 },
-	{ name = "strong health potion", chance = 1900 },
-	{ name = "great health potion", chance = 7000, maxCount = 3 },
 	{ name = "red lantern", chance = 2170 },
 	{ name = "zaoan armor", chance = 530 },
 	{ name = "zaoan shoes", chance = 1000 },

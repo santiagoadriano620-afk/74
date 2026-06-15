@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Wrathful Archivist")
+﻿local mType = Game.createMonsterType("Wrathful Archivist")
 local monster = {}
 
 monster.name = "Wrathful Archivist"
@@ -82,8 +82,6 @@ monster.loot = {
 	{ name = "mana potion", chance = 6000, maxCount = 14 },
 	{ name = "violet crystal shard", chance = 5000, maxCount = 2 },
 	{ name = "blue crystal splinter", chance = 4800 },
-	{ name = "great mana potion", chance = 4000, maxCount = 6 },
-	{ name = "strong mana potion", chance = 3800, maxCount = 14 },
 	{ name = "small ruby", chance = 3800, maxCount = 3 },
 	{ name = "small sapphire", chance = 3800, maxCount = 3 },
 	{ name = "small emerald", chance = 3500, maxCount = 3 },

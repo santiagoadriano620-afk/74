@@ -1,4 +1,4 @@
-local internalNpcName = "Coltrayne"
+﻿local internalNpcName = "Coltrayne"
 local npcType = Game.createNpcType(internalNpcName)
 local npcConfig = {}
 
@@ -83,9 +83,7 @@ npcHandler:setMessage(MESSAGE_SENDTRADE, "Take a look at my wares.")
 npcHandler:addModule(FocusModule:new(), npcConfig.name, true, true, true)
 
 npcConfig.shop = {
-	{ itemName = "arrow", clientId = 3447, buy = 3 },
 	{ itemName = "axe", clientId = 3274, buy = 20, sell = 7 },
-	{ itemName = "bolt", clientId = 3446, buy = 4 },
 	{ itemName = "bone club", clientId = 3337, sell = 5 },
 	{ itemName = "brass helmet", clientId = 3354, sell = 22 },
 	{ itemName = "brass shield", clientId = 3411, sell = 25 },
@@ -113,7 +111,6 @@ npcConfig.shop = {
 	{ itemName = "scythe", clientId = 3453, buy = 12, sell = 3 },
 	{ itemName = "short sword", clientId = 3294, buy = 30, sell = 10 },
 	{ itemName = "sickle", clientId = 3293, buy = 8, sell = 2 },
-	{ itemName = "spear", clientId = 3277, buy = 10, sell = 3 },
 	{ itemName = "studded armor", clientId = 3378, sell = 10 },
 	{ itemName = "studded helmet", clientId = 3376, buy = 63, sell = 20 },
 	{ itemName = "studded legs", clientId = 3362, sell = 15 },

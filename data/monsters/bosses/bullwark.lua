@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Bullwark")
+﻿local mType = Game.createMonsterType("Bullwark")
 local monster = {}
 
 monster.name = "Bullwark"
@@ -71,9 +71,6 @@ monster.voices = {
 monster.loot = {
 	{ name = "gold coin", chance = 100000, maxCount = 375 },
 	{ name = "platinum coin", chance = 100000, maxCount = 9 },
-	{ name = "great health potion", chance = 25930, maxCount = 9 },
-	{ name = "great mana potion", chance = 33950, maxCount = 9 },
-	{ name = "great spirit potion", chance = 40120, maxCount = 9 },
 	{ name = "ham", chance = 53700, maxCount = 9 },
 	{ name = "meat", chance = 46300, maxCount = 9 },
 	{ name = "minotaur leather", chance = 100000, maxCount = 1 },

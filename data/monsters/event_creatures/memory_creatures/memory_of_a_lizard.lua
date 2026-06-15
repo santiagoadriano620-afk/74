@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Memory of a Lizard")
+﻿local mType = Game.createMonsterType("Memory of a Lizard")
 local monster = {}
 
 monster.name = "Memory of a Lizard"
@@ -66,8 +66,6 @@ monster.loot = {
 	{ name = "tower shield", chance = 1040 },
 	{ name = "lizard leather", chance = 1000 },
 	{ name = "lizard scale", chance = 970 },
-	{ name = "strong health potion", chance = 11925 },
-	{ name = "great health potion", chance = 7070 },
 	{ name = "red lantern", chance = 1220 },
 	{ name = "bunch of ripe rice", chance = 4950 },
 	{ name = "zaoan legs", chance = 720 },

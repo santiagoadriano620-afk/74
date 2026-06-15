@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Adult Goanna")
+﻿local mType = Game.createMonsterType("Adult Goanna")
 local monster = {}
 
 monster.name = "Adult Goanna"
@@ -81,7 +81,6 @@ monster.loot = {
 	{ name = "goanna meat", chance = 11650 },
 	{ name = "small enchanted emerald", chance = 10030 },
 	{ name = "green crystal splinter", chance = 9100 },
-	{ name = "terra rod", chance = 8250 },
 	{ name = "red goanna scale", chance = 7910 },
 	{ name = "blue crystal shard", chance = 7820 },
 	{ name = "small sapphire", chance = 6890, maxCount = 2 },

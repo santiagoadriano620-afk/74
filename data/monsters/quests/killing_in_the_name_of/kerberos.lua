@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Kerberos")
+﻿local mType = Game.createMonsterType("Kerberos")
 local monster = {}
 
 monster.name = "Kerberos"
@@ -76,7 +76,6 @@ monster.loot = {
 	{ id = 3280, chance = 46880 }, -- fire sword
 	{ id = 4871, chance = 65630 }, -- explorer brooch
 	{ id = 817, chance = 96880 }, -- magma amulet
-	{ id = 238, chance = 96880, maxCount = 3 }, -- great mana potion
 	{ id = 7453, chance = 3130 }, -- executioner
 	{ id = 3360, chance = 31250 }, -- golden armor
 }

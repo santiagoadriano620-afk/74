@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Quara Pincher")
+﻿local mType = Game.createMonsterType("Quara Pincher")
 local monster = {}
 
 monster.name = "Quara Pincher"
@@ -80,7 +80,6 @@ monster.loot = {
 	{ name = "gold coin", chance = 100000, maxCount = 150 },
 	{ name = "platinum coin", chance = 40430 },
 	{ name = "quara pincers", chance = 14560 },
-	{ name = "great health potion", chance = 10110 },
 	{ name = "small ruby", chance = 7710, maxCount = 2 },
 	{ name = "halberd", chance = 6910 },
 	{ name = "shrimp", chance = 4910, maxCount = 5 },

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Goshnar's Malice")
+﻿local mType = Game.createMonsterType("Goshnar's Malice")
 local monster = {}
 
 monster.name = "Goshnar's Malice"
@@ -80,12 +80,6 @@ monster.loot = {
 	{ name = "yellow gem", chance = 10000, maxCount = 3 },
 	{ name = "white gem", chance = 6000, maxCount = 3 },
 	{ name = "dragon figurine", chance = 10000, maxCount = 1 },
-	{ name = "bullseye potion", chance = 15000, minCount = 10, maxCount = 25 },
-	{ name = "mastermind potion", chance = 15000, minCount = 10, maxCount = 25 },
-	{ name = "berserk potion", chance = 15000, minCount = 10, maxCount = 25 },
-	{ name = "ultimate mana potion", chance = 18000, minCount = 50, maxCount = 100 },
-	{ name = "supreme health potion", chance = 18000, minCount = 50, maxCount = 100 },
-	{ name = "ultimate spirit potion", chance = 18000, minCount = 50, maxCount = 100 },
 	{ name = "malice's spine", chance = 2000, maxCount = 1 },
 	{ name = "malice's horn", chance = 2000, maxCount = 1 },
 	{ name = "bracelet of strengthening", chance = 400 },

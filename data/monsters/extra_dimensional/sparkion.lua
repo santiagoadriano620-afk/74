@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Sparkion")
+﻿local mType = Game.createMonsterType("Sparkion")
 local monster = {}
 
 monster.name = "Sparkion"
@@ -86,16 +86,12 @@ monster.loot = {
 	{ id = 23535, chance = 14600 }, -- energy bar
 	{ id = 23505, chance = 14100 }, -- sparkion stings
 	{ id = 23504, chance = 11100 }, -- sparkion legs
-	{ id = 238, chance = 10100, maxCount = 2 }, -- great mana potion
-	{ id = 7642, chance = 9700, maxCount = 2 }, -- great spirit potion
-	{ id = 239, chance = 9500, maxCount = 2 }, -- great health potion
 	{ id = 23503, chance = 9100 }, -- sparkion tail
 	{ id = 16124, chance = 8600 }, -- blue crystal splinter
 	{ id = 16125, chance = 6000 }, -- cyan crystal fragment
 	{ id = 3029, chance = 4900, maxCount = 2 }, -- small sapphire
 	{ id = 16119, chance = 4200 }, -- blue crystal shard
 	{ id = 3041, chance = 1000 }, -- blue gem
-	{ id = 3073, chance = 920 }, -- wand of cosmic energy
 	{ id = 23531, chance = 370 }, -- ring of green plasma
 	{ id = 23533, chance = 370 }, -- ring of red plasma
 	{ id = 23529, chance = 240 }, -- ring of blue plasma

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Werewolf")
+﻿local mType = Game.createMonsterType("Werewolf")
 local monster = {}
 
 monster.name = "Werewolf"
@@ -96,9 +96,6 @@ monster.loot = {
 	{ name = "relic sword", chance = 480 },
 	{ name = "dreaded cleaver", chance = 160 },
 	{ name = "bonebreaker", chance = 400 },
-	{ name = "berserk potion", chance = 1200 },
-	{ name = "strong health potion", chance = 5000 },
-	{ name = "ultimate health potion", chance = 2400 },
 	{ id = 8895, chance = 210 }, -- rusted armor
 	{ id = 22052, chance = 15000 }, -- werewolf fangs
 	{ name = "werewolf fur", chance = 10650 },

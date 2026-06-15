@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Sulphur Scuttler")
+﻿local mType = Game.createMonsterType("Sulphur Scuttler")
 local monster = {}
 
 monster.name = "Sulphur Scuttler"
@@ -69,8 +69,6 @@ monster.loot = {
 	{ id = 10305, chance = 75000 }, -- lump of earth
 	{ id = 10315, chance = 96670 }, -- sulphurous stone
 	{ id = 11703, chance = 100000 }, -- brimstone shell
-	{ id = 237, chance = 71670 }, -- strong mana potion
-	{ id = 236, chance = 75000 }, -- strong health potion
 	{ id = 11702, chance = 100000 }, -- brimstone fangs
 	{ id = 3032, chance = 65000, maxCount = 4 }, -- small emerald
 	{ id = 5904, chance = 81670 }, -- magic sulphur

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Sight of Surrender")
+﻿local mType = Game.createMonsterType("Sight of Surrender")
 local monster = {}
 
 monster.name = "Sight of Surrender"
@@ -86,9 +86,6 @@ monster.loot = {
 	{ name = "steel boots", chance = 920 },
 	{ name = "onyx flail", chance = 920 },
 	{ name = "jade hammer", chance = 920 },
-	{ name = "great mana potion", chance = 78000, maxCount = 5 },
-	{ name = "great spirit potion", chance = 72000, maxCount = 5 },
-	{ name = "ultimate health potion", chance = 30000, maxCount = 5 },
 	{ name = "blue crystal shard", chance = 23000, maxCount = 3 },
 	{ name = "violet crystal shard", chance = 32000, maxCount = 3 },
 	{ name = "green crystal shard", chance = 21600, maxCount = 3 },

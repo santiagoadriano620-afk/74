@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Icecold Book")
+﻿local mType = Game.createMonsterType("Icecold Book")
 local monster = {}
 
 monster.name = "Icecold Book"
@@ -79,8 +79,6 @@ monster.loot = {
 	{ name = "small diamond", chance = 100000, maxCount = 8 },
 	{ name = "small sapphire", chance = 100000, maxCount = 8 },
 	{ name = "quill", chance = 100000, maxCount = 8 },
-	{ name = "ultimate health potion", chance = 100000, maxCount = 8 },
-	{ name = "ultimate mana potion", chance = 100000, maxCount = 8 },
 	{ name = "diamond sceptre", chance = 100000 },
 	{ name = "frosty heart", chance = 100000, maxCount = 8 },
 	{ name = "glacier mask", chance = 350 },
@@ -93,7 +91,6 @@ monster.loot = {
 	{ name = "strange helmet", chance = 1000 },
 	{ name = "sapphire hammer", chance = 300 },
 	{ id = 7441, chance = 100000 }, -- ice cube
-	{ name = "glacial rod", chance = 150 },
 	{ name = "crystalline armor", chance = 250 },
 }
 

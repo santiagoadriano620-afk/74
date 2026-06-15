@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Memory of a Fungus")
+﻿local mType = Game.createMonsterType("Memory of a Fungus")
 local monster = {}
 
 monster.name = "Memory of a Fungus"
@@ -65,10 +65,7 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "gold coin", chance = 100000, maxCount = 200 },
-	{ name = "great mana potion", chance = 4960, maxCount = 2 },
-	{ name = "strong health potion", chance = 5040, maxCount = 2 },
 	{ name = "mushroom pie", chance = 17130, maxCount = 3 },
-	{ name = "great health potion", chance = 4950, maxCount = 2 },
 	{ id = 37531, chance = 5155 }, -- candy floss
 	{ name = "yellow gem", chance = 4000 },
 }

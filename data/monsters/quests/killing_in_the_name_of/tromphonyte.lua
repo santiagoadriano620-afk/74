@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Tromphonyte")
+﻿local mType = Game.createMonsterType("Tromphonyte")
 local monster = {}
 
 monster.name = "Tromphonyte"
@@ -70,8 +70,6 @@ monster.loot = {
 	{ id = 9057, chance = 100000, maxCount = 5 }, -- small topaz
 	{ id = 12312, chance = 100000 }, -- stampor horn
 	{ id = 12313, chance = 100000, maxCount = 2 }, -- stampor talons
-	{ id = 236, chance = 100000, maxCount = 2 }, -- strong health potion
-	{ id = 237, chance = 100000, maxCount = 2 }, -- strong mana potion
 	{ id = 7452, chance = 50000 }, -- spiked squelcher
 }
 

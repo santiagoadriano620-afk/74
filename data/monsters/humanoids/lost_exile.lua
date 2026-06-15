@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Lost Exile")
+﻿local mType = Game.createMonsterType("Lost Exile")
 local monster = {}
 
 monster.name = "Lost Exile"
@@ -81,8 +81,6 @@ monster.voices = {
 monster.loot = {
 	{ name = "gold coin", chance = 100000, maxCount = 200 },
 	{ name = "platinum coin", chance = 60240, maxCount = 2 },
-	{ name = "strong health potion", chance = 10950, maxCount = 2 },
-	{ name = "great mana potion", chance = 8330, maxCount = 2 },
 	{ name = "brown mushroom", chance = 16900, maxCount = 2 },
 	{ id = 12600, chance = 13100 }, -- coal
 	{ name = "holy ash", chance = 13100 },

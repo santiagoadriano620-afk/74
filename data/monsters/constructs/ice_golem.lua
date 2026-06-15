@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Ice Golem")
+﻿local mType = Game.createMonsterType("Ice Golem")
 local monster = {}
 
 monster.name = "Ice Golem"
@@ -87,8 +87,6 @@ monster.loot = {
 	{ name = "shard", chance = 200 },
 	{ id = 7441, chance = 5000 }, -- ice cube
 	{ name = "crystal sword", chance = 600 },
-	{ name = "strong health potion", chance = 2500 },
-	{ name = "strong mana potion", chance = 3000 },
 	{ name = "glacier mask", chance = 200 },
 	{ name = "frosty heart", chance = 14500 },
 }

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Knight's Apparition")
+﻿local mType = Game.createMonsterType("Knight's Apparition")
 local monster = {}
 
 monster.name = "Knight's Apparition"
@@ -33,7 +33,6 @@ monster.race = "blood"
 monster.corpse = 111
 monster.speed = 235
 monster.manaCost = 0
-
 
 monster.changeTarget = {
 	interval = 4000,
@@ -81,7 +80,6 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "crystal coin", chance = 76610 },
-	{ name = "ultimate health potion", chance = 9010 },
 	{ name = "epee", chance = 6870 },
 	{ name = "green gem", chance = 4940 },
 	{ name = "violet gem", chance = 3860 },

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Renegade Quara Predator")
+﻿local mType = Game.createMonsterType("Renegade Quara Predator")
 local monster = {}
 
 monster.name = "Renegade Quara Predator"
@@ -80,7 +80,6 @@ monster.loot = {
 	{ name = "platinum coin", chance = 80550, maxCount = 4 },
 	{ name = "quara bone", chance = 10340, maxCount = 1 },
 	{ name = "royal spear", chance = 8180, maxCount = 7 },
-	{ name = "great health potion", chance = 6240, maxCount = 2 },
 	{ name = "mind stone", chance = 6820 },
 	{ name = "assassin star", chance = 5060, maxCount = 10 },
 	{ name = "shrimp", chance = 4750, maxCount = 3 },

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Ancient Lion Knight")
+﻿local mType = Game.createMonsterType("Ancient Lion Knight")
 local monster = {}
 
 monster.name = "Ancient Lion Knight"
@@ -91,9 +91,7 @@ monster.loot = {
 	{ name = "lion axe", chance = 35 },
 	{ name = "lion longbow", chance = 35 },
 	{ name = "lion spellbook", chance = 35 },
-	{ name = "lion wand", chance = 35 },
 	{ name = "lion amulet", chance = 35 },
-	{ name = "lion rod", chance = 35 },
 	{ name = "lion claws", chance = 35 },
 }
 

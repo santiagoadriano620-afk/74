@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Elf Arcanist")
+﻿local mType = Game.createMonsterType("Elf Arcanist")
 local monster = {}
 
 monster.name = "Elf Arcanist"
@@ -85,7 +85,6 @@ monster.loot = {
 	{ name = "gold coin", chance = 37000, maxCount = 47 },
 	{ name = "yellow gem", chance = 50 },
 	{ name = "life crystal", chance = 970 },
-	{ name = "wand of cosmic energy", chance = 1160 },
 	{ name = "elven amulet", chance = 1999 },
 	{ name = "blank rune", chance = 18000 },
 	{ name = "arrow", chance = 6000, maxCount = 3 },
@@ -97,7 +96,6 @@ monster.loot = {
 	{ name = "grave flower", chance = 880 },
 	{ name = "sling herb", chance = 5000 },
 	{ name = "holy orchid", chance = 2100 },
-	{ name = "strong mana potion", chance = 3000 },
 	{ name = "health potion", chance = 4000 },
 	{ name = "elvish talisman", chance = 10000 },
 	{ name = "elven astral observer", chance = 7710 },

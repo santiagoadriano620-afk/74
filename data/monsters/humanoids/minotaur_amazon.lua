@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Minotaur Amazon")
+﻿local mType = Game.createMonsterType("Minotaur Amazon")
 local monster = {}
 
 monster.name = "Minotaur Amazon"
@@ -85,8 +85,6 @@ monster.loot = {
 	{ id = 3035, chance = 62080, maxCount = 3 }, -- platinum coin
 	{ id = 9058, chance = 290 }, -- gold ingot
 	{ id = 5878, chance = 17950 }, -- minotaur leather
-	{ id = 239, chance = 7670 }, -- great health potion
-	{ id = 238, chance = 7380 }, -- great mana potion
 	{ id = 11472, chance = 6800, maxCount = 2 }, -- minotaur horn
 	{ id = 3098, chance = 3040 }, -- ring of healing
 	{ id = 3030, chance = 5500, maxCount = 2 }, -- small ruby
@@ -100,7 +98,6 @@ monster.loot = {
 	{ id = 3081, chance = 850 }, -- stone skin amulet
 	{ id = 3037, chance = 870 }, -- yellow gem
 	{ id = 3369, chance = 1160 }, -- warrior helmet
-	{ id = 7443, chance = 720 }, -- bullseye potion
 }
 
 monster.attacks = {

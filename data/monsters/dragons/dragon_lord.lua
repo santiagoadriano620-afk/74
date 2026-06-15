@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Dragon Lord")
+﻿local mType = Game.createMonsterType("Dragon Lord")
 local monster = {}
 
 monster.name = "Dragon Lord"
@@ -96,7 +96,6 @@ monster.loot = {
 	{ name = "golden mug", chance = 3310 },
 	{ name = "red dragon scale", chance = 1940 },
 	{ name = "red dragon leather", chance = 1150 },
-	{ name = "strong health potion", chance = 800 },
 	{ name = "life crystal", chance = 650 },
 	{ name = "strange helmet", chance = 520 },
 	{ name = "tower shield", chance = 410 },

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Brinebrute Inferniarch")
+﻿local mType = Game.createMonsterType("Brinebrute Inferniarch")
 local monster = {}
 
 monster.name = "Brinebrute Inferniarch"
@@ -80,7 +80,6 @@ monster.voices = {
 monster.loot = {
 	{ name = "Platinum Coin", chance = 16500, maxCount = 40 },
 	{ name = "Brinebrute Claw", chance = 18500, maxCount = 1 },
-	{ name = "great spirit potion", chance = 11500, maxCount = 15 },
 	{ name = "Blue Crystal Shard", chance = 12500, maxCount = 2 },
 	{ name = "Green Crystal Shard", chance = 13500, maxCount = 2 },
 	{ name = "Violet Crystal Shard", chance = 12500, maxCount = 2 },
@@ -89,7 +88,6 @@ monster.loot = {
 	{ name = "Green Crystal Splinter", chance = 14500, maxCount = 2 },
 	{ name = "Brown Crystal Splinter", chance = 14500, maxCount = 2 },
 	{ id = 3039, chance = 5000, maxCount = 1 }, -- Red gem
-	{ name = "Ultimate Health Potion", chance = 5500, maxCount = 10 },
 	{ name = "Demonic Core Essence", chance = 1500, maxCount = 1 },
 	{ name = "Demonic Matter", chance = 1500, maxCount = 1 },
 	{ name = "Bloodstained Scythe", chance = 2500, maxCount = 1 },

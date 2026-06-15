@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("The Flaming Orchid")
+﻿local mType = Game.createMonsterType("The Flaming Orchid")
 local monster = {}
 
 monster.name = "The Flaming Orchid"
@@ -69,16 +69,12 @@ monster.loot = {
 	{ name = "gold ingot", chance = 29700, maxCount = 5 },
 	{ name = "assassin star", chance = 29700, maxCount = 13 },
 	{ name = "demonic essence", chance = 330 },
-	{ name = "great spirit potion", chance = 330 },
 	{ name = "soul orb", chance = 19530 },
 	{ name = "small amethyst", chance = 8310, maxCount = 2 },
 	{ name = "small amethyst", chance = 8310, maxCount = 2 },
-	{ name = "ultimate health potion", chance = 700, maxCount = 4 },
 	{ name = "golden lotus brooch", chance = 19740 },
 	{ name = "green gem", chance = 15780 },
 	{ name = "magma coat", chance = 1050 },
-	{ name = "moonlight rod", chance = 1050 },
-	{ name = "necrotic rod", chance = 1050 },
 	{ name = "oriental shoes", chance = 490 },
 	{ name = "peacock feather fan", chance = 16870 },
 }

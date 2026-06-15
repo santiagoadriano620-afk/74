@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Goshnar's Megalomania Blue")
+﻿local mType = Game.createMonsterType("Goshnar's Megalomania Blue")
 local monster = {}
 
 monster.name = "Goshnar's Megalomania"
@@ -21,7 +21,6 @@ monster.corpse = 33889
 monster.speed = 0
 monster.manaCost = 0
 monster.maxSummons = 4
-
 
 monster.changeTarget = {
 	interval = 4000,
@@ -76,12 +75,6 @@ monster.loot = {
 	{ name = "yellow gem", chance = 10000, maxCount = 3 },
 	{ name = "white gem", chance = 6000, maxCount = 3 },
 	{ name = "dragon figurine", chance = 10000, maxCount = 1 },
-	{ name = "bullseye potion", chance = 15000, minCount = 10, maxCount = 25 },
-	{ name = "mastermind potion", chance = 15000, minCount = 10, maxCount = 25 },
-	{ name = "berserk potion", chance = 15000, minCount = 10, maxCount = 25 },
-	{ name = "ultimate mana potion", chance = 18000, minCount = 50, maxCount = 100 },
-	{ name = "supreme health potion", chance = 18000, minCount = 50, maxCount = 100 },
-	{ name = "ultimate spirit potion", chance = 18000, minCount = 50, maxCount = 100 },
 	{ name = "figurine of malice", chance = 400 },
 	{ name = "figurine of cruelty", chance = 400 },
 	{ name = "figurine of hatred", chance = 400 },

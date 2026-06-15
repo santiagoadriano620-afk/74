@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Shadow Pupil")
+﻿local mType = Game.createMonsterType("Shadow Pupil")
 local monster = {}
 
 monster.name = "Shadow Pupil"
@@ -91,7 +91,6 @@ monster.loot = {
 	{ name = "clerical mace", chance = 290 },
 	{ name = "mystic turban", chance = 580 },
 	{ name = "brown mushroom", chance = 5170 },
-	{ name = "strong mana potion", chance = 470 },
 	{ name = "spellbook of enlightenment", chance = 290 },
 	{ name = "book of necromantic rituals", chance = 6920 },
 	{ name = "horoscope", chance = 15000 },

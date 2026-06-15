@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Preceptor Lazare")
+﻿local mType = Game.createMonsterType("Preceptor Lazare")
 local monster = {}
 
 monster.name = "Preceptor Lazare"
@@ -25,7 +25,6 @@ monster.race = "blood"
 monster.corpse = 28643
 monster.speed = 105
 monster.manaCost = 0
-
 
 monster.changeTarget = {
 	interval = 2000,
@@ -72,7 +71,6 @@ monster.loot = {
 	{ name = "gold coin", chance = 100000, maxCount = 90 },
 	{ name = "gold coin", chance = 100000, maxCount = 45 },
 	{ name = "platinum coin", chance = 100000, maxCount = 3 },
-	{ name = "great mana potion", chance = 100000, maxCount = 3 },
 	{ name = "demonic essence", chance = 100000, maxCount = 5 },
 	{ id = 3039, chance = 700, maxCount = 3 }, -- red gem
 	{ name = "assassin star", chance = 100000, maxCount = 5 },
@@ -90,7 +88,6 @@ monster.loot = {
 	{ name = "demonbone amulet", chance = 800 },
 	{ name = "heavy mace", chance = 600 },
 	{ name = "mastermind shield", chance = 500 },
-	{ name = "falcon rod", chance = 200 },
 	{ name = "falcon greaves", chance = 110 },
 }
 

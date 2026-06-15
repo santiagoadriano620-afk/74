@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Marziel")
+﻿local mType = Game.createMonsterType("Marziel")
 local monster = {}
 
 monster.description = "Marziel"
@@ -82,7 +82,6 @@ monster.voices = {
 monster.loot = {
     { name = "Gold Coin", chance = 100000, maxCount = 88 },
     { name = "Platinum Coin", chance = 22219, maxCount = 5 },
-    { name = "Strong Health Potion", chance = 22219, maxCount = 1 },
     { id = 3098, chance = 5560, maxCount = 1 },
     { name = "Vampire Shield", chance = 5560, maxCount = 1 }
 }

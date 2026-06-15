@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Capricious Phantom")
+﻿local mType = Game.createMonsterType("Capricious Phantom")
 local monster = {}
 
 monster.name = "Capricious Phantom"
@@ -26,7 +26,6 @@ monster.Bestiary = {
 	Occurrence = 0,
 	Locations = "Ebb and Flow.",
 }
-
 
 monster.health = 30000
 monster.maxHealth = 30000
@@ -83,7 +82,6 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "crystal coin", chance = 77650 },
-	{ name = "great spirit potion", chance = 61410, maxCount = 5 },
 	{ name = "blue gem", chance = 9410 },
 	{ name = "gold ingot", chance = 9410 },
 	{ name = "capricious heart", chance = 7530 },
@@ -93,7 +91,6 @@ monster.loot = {
 	{ name = "fur armor", chance = 1650 },
 	{ name = "wood cape", chance = 1410 },
 	{ id = 23542, chance = 1180 }, -- collar of blue plasma
-	{ name = "glacial rod", chance = 940 },
 	{ name = "ornate crossbow", chance = 940 },
 	{ name = "bag you desire", chance = 15 },
 }

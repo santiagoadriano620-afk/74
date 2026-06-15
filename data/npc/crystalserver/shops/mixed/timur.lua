@@ -1,4 +1,4 @@
-local internalNpcName = "Timur"
+﻿local internalNpcName = "Timur"
 local npcType = Game.createNpcType(internalNpcName)
 local npcConfig = {}
 
@@ -63,9 +63,7 @@ npcHandler:setMessage(MESSAGE_WALKAWAY, "Bye, bye.")
 npcHandler:addModule(FocusModule:new(), npcConfig.name, true, true, true)
 
 npcConfig.shop = {
-	{ itemName = "arrow", clientId = 3447, buy = 3 },
 	{ itemName = "basket", clientId = 2855, buy = 6 },
-	{ itemName = "bolt", clientId = 3446, buy = 4 },
 	{ itemName = "bottle", clientId = 2875, buy = 3 },
 	{ itemName = "bow", clientId = 3350, sell = 130 },
 	{ itemName = "bucket", clientId = 2873, buy = 4 },

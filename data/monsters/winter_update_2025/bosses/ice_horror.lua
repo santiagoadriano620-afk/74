@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Ice Horror")
+﻿local mType = Game.createMonsterType("Ice Horror")
 local monster = {}
 
 monster.name = "Ice Horror"
@@ -84,15 +84,8 @@ monster.voices = {
 monster.loot = {
 	{ name = "crystal coin", chance = 100000, maxCount = 51 },
 	{ name = "yellow gem", chance = 50000, maxCount = 10 }, -- Not confirmed
-	{ name = "strong mana potion", chance = 50000, maxCount = 95 }, -- Not confirmed
-	{ name = "great mana potion", chance = 50000, maxCount = 69 }, -- Not confirmed
-	{ name = "great spirit potion", chance = 50000, maxCount = 53 }, -- Not confirmed
-	{ name = "ultimate mana potion", chance = 41670, maxCount = 25 }, -- Not confirmed
-	{ name = "ultimate spirit potion", chance = 41670, maxCount = 23 }, -- Not confirmed
-	{ name = "ultimate health potion", chance = 41670, maxCount = 38 }, -- Not confirmed
-	{ name = "supreme health potion", chance = 41670, maxCount = 15 }, -- Not confirmed
 	{ name = "blue gem", chance = 25000, maxCount = 3 }, -- Not confirmed
-	{ id = 3039, chance = 25000, maxCount = 7 }, -- red gem (não confirmado)
+	{ id = 3039, chance = 25000, maxCount = 7 }, -- red gem (nÃ£o confirmado)
 	{ name = "giant ruby", chance = 10000, maxCount = 2 }, -- Not confirmed
 	{ name = "giant emerald", chance = 10000 }, -- Not confirmed
 	{ name = "giant sapphire", chance = 10000, maxCount = 3 }, -- Not confirmed
@@ -106,19 +99,18 @@ monster.loot = {
 	{ name = "greater mystic gem", chance = 3000 }, -- Not confirmed
 	{ name = "greater sage gem", chance = 3000 }, -- Not confirmed
 	{ name = "greater spiritualist gem", chance = 3000 }, -- Not confirmed
-	{ id = 7441, chance = 10000 }, -- ice cube (não confirmado)
-	{ id = 2992, chance = 10000, maxCount = 6 }, -- snowball (não confirmado)
+	{ id = 7441, chance = 10000 }, -- ice cube (nÃ£o confirmado)
+	{ id = 2992, chance = 10000, maxCount = 6 }, -- snowball (nÃ£o confirmado)
 	{ name = "frosty heart", chance = 8000 }, -- Not confirmed
-	{ id = 3007, chance = 5000 }, -- crystal ring (não confirmado)
+	{ id = 3007, chance = 5000 }, -- crystal ring (nÃ£o confirmado)
 	{ name = "pair of earmuffs", chance = 5000 }, -- Not confirmed
 	{ name = "crystal mace", chance = 5000 }, -- Not confirmed
 	{ name = "glacier mask", chance = 5000 }, -- Not confirmed
-	{ name = "glacial rod", chance = 5000 }, -- Not confirmed
 	{ name = "ice rapier", chance = 5000 },
 	-- { name = "cryptic fossil", chance = 5000 }, -- Not confirmed
 	-- { name = "fetid heart", chance = 5000 }, -- Not confirmed
 	-- { name = "frozen crapace", chance = 5000 },
-	{ id = 52729, chance = 3000 }, -- frozen claw (não confirmado)
+	{ id = 52729, chance = 3000 }, -- frozen claw (nÃ£o confirmado)
 	-- { name = "icy scales", chance = 5000 },
 	-- { name = "icy horns", chance = 5000 },
 	-- { name = "icy crypt rune", chance = 100000 },

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Clavius")
+﻿local mType = Game.createMonsterType("Clavius")
 local monster = {}
 
 monster.name = "Clavius"
@@ -85,7 +85,6 @@ monster.loot = {
 	{ name = "dark armor", chance = 14170 },
 	{ name = "white pearl", chance = 12600 },
 	{ name = "blue gem", chance = 11810 },
-	{ name = "wand of cosmic energy", chance = 10240 },
 	-- { name = "silver poniard", chance = 9450 },
 	-- { name = "stag parchment", chance = 9450 },
 	{ id = 3059, chance = 7870 }, -- spellbook
@@ -93,7 +92,6 @@ monster.loot = {
 	-- { name = "repair kit for boats", chance = 7090 },
 	{ name = "strange helmet", chance = 5510 },
 	{ name = "white gem", chance = 5510 },
-	{ name = "wand of starstorm", chance = 4720 },
 	{ name = "clerical mace", chance = 3940 },
 	{ name = "terra hood", chance = 3940 },
 	{ name = "magma monocle", chance = 2360 },

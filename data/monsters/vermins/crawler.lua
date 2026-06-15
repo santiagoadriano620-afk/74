@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Crawler")
+﻿local mType = Game.createMonsterType("Crawler")
 local monster = {}
 
 monster.name = "Crawler"
@@ -79,9 +79,6 @@ monster.loot = {
 	{ name = "gold coin", chance = 50000, maxCount = 90 },
 	{ name = "yellow gem", chance = 530 },
 	{ name = "war hammer", chance = 2070 },
-	{ name = "great mana potion", chance = 9300 },
-	{ name = "great health potion", chance = 6200 },
-	{ name = "springsprout rod", chance = 710 },
 	{ name = "small topaz", chance = 10040, maxCount = 2 },
 	{ name = "crawler head plating", chance = 18430 },
 	{ name = "compound eye", chance = 14640 },

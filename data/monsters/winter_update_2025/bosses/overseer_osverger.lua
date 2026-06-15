@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Overseer Osverger")
+﻿local mType = Game.createMonsterType("Overseer Osverger")
 local monster = {}
 
 monster.name = "Overseer Osverger"
@@ -97,12 +97,10 @@ monster.loot = {
 	{ name = "green gem", chance = 11670 },
 	{ id = 6299, chance = 10000 }, -- death ring
 	-- { name = "silver poniard", chance = 9170 },
-	{ name = "wand of cosmic energy", chance = 9170 },
 	{ name = "white gem", chance = 7500 },
 	{ id = 3059, chance = 6670 }, -- spellbook
 	{ name = "gold ingot", chance = 5000 },
 	{ name = "strange helmet", chance = 5000 },
-	{ name = "wand of starstorm", chance = 5000 },
 	{ name = "terra hood", chance = 4170 },
 	{ name = "clerical mace", chance = 3330 },
 	{ name = "wooden spellbook", chance = 3330 }, -- Not confirmed

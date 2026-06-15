@@ -251,7 +251,7 @@ void mainLoader(const std::shared_ptr<ServiceManager>& services)
 
 	// set RSA key
 	try {
-		std::ifstream key{"key.pem"};
+		std::ifstream key{"data/key.pem"};
 		std::string pem{std::istreambuf_iterator<char>{key}, std::istreambuf_iterator<char>{}};
 		tfs::rsa::loadPEM(pem);
 	} catch (const std::exception& e) {

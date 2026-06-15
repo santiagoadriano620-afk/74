@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Battlemaster Zunzu")
+﻿local mType = Game.createMonsterType("Battlemaster Zunzu")
 local monster = {}
 
 monster.name = "Battlemaster Zunzu"
@@ -70,7 +70,6 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ name = "great health potion", chance = 2775, maxCount = 2 },
 	{ name = "red lantern", chance = 100000 },
 	{ name = "zaoan armor", chance = 1050 },
 	{ name = "zaoan shoes", chance = 3150 },

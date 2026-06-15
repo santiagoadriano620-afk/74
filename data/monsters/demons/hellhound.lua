@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Hellhound")
+﻿local mType = Game.createMonsterType("Hellhound")
 local monster = {}
 
 monster.name = "Hellhound"
@@ -91,8 +91,6 @@ monster.loot = {
 	{ id = 3280, chance = 7000 }, -- fire sword
 	{ id = 3281, chance = 1000 }, -- giant sword
 	{ id = 9058, chance = 1500 }, -- gold ingot
-	{ id = 238, chance = 30000, maxCount = 3 }, -- great mana potion
-	{ id = 7642, chance = 20000 }, -- great spirit potion
 	{ id = 3038, chance = 1000 }, -- green gem
 	{ id = 3582, chance = 30000, maxCount = 14 }, -- ham
 	{ id = 5925, chance = 10000 }, -- hardened bone
@@ -111,8 +109,6 @@ monster.loot = {
 	{ id = 3030, chance = 10000, maxCount = 3 }, -- small ruby
 	{ id = 9057, chance = 10000, maxCount = 3 }, -- small topaz
 	{ id = 5944, chance = 20000 }, -- soul orb
-	{ id = 7643, chance = 16000 }, -- ultimate health potion
-	{ id = 3071, chance = 7000 }, -- wand of inferno
 	{ id = 3037, chance = 4500 }, -- yellow gem
 	{ id = 5911, chance = 3000 }, -- red piece of cloth
 	{ id = 5910, chance = 5000 }, -- green piece of cloth

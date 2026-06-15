@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Ink Blob")
+﻿local mType = Game.createMonsterType("Ink Blob")
 local monster = {}
 
 monster.name = "Ink Blob"
@@ -86,7 +86,6 @@ monster.loot = {
 	{ name = "terra hood", chance = 980, maxCount = 4 },
 	{ name = "protection amulet", chance = 1200, maxCount = 4 },
 	{ name = "sacred tree amulet", chance = 1200, maxCount = 4 },
-	{ name = "springsprout rod", chance = 790, maxCount = 4 },
 	{ name = "stone skin amulet", chance = 1200, maxCount = 4 },
 	{ name = "terra legs", chance = 650, maxCount = 4 },
 	{ name = "terra mantle", chance = 550, maxCount = 4 },

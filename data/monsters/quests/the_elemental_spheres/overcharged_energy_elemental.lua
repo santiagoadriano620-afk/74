@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Overcharged Energy Elemental")
+﻿local mType = Game.createMonsterType("Overcharged Energy Elemental")
 local monster = {}
 
 monster.name = "Overcharged Energy Elemental"
@@ -68,8 +68,6 @@ monster.loot = {
 	{ name = "gold coin", chance = 50000, maxCount = 100 },
 	{ name = "gold coin", chance = 50000, maxCount = 56 },
 	{ name = "small amethyst", chance = 10000, maxCount = 2 },
-	{ name = "berserk potion", chance = 2173 },
-	{ name = "great health potion", chance = 10000 },
 	{ name = "energy soil", chance = 14285 },
 }
 

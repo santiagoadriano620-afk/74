@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Corrupted Ghost")
+﻿local mType = Game.createMonsterType("Corrupted Ghost")
 local monster = {}
 
 monster.name = "Corrupted Ghost"
@@ -84,8 +84,6 @@ monster.loot = {
 	{ id = 7620, chance = 20010 }, -- mana potion (20.01%)
 	{ id = 3723, chance = 11530, maxCount = 2 }, -- white mushroom (11.53%)
 	{ id = 2643, chance = 3040 }, -- cape (3.04%)
-	{ id = 3178, chance = 1790, maxCount = 2 }, -- light stone shower rune (1.79%)
-	{ id = 3174, chance = 1520, maxCount = 5 }, -- lightest missile rune (1.52%)
 	{ id = 10319, chance = 140 }, -- ranger's cloak (0.14%)
 	{ id = 3375, chance = 140 }, -- soldier helmet (0.14%)
 	{ id = 3081, chance = 70 }, -- stone skin amulet (0.07%)

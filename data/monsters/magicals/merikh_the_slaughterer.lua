@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Merikh the Slaughterer")
+﻿local mType = Game.createMonsterType("Merikh the Slaughterer")
 local monster = {}
 
 monster.name = "Merikh the Slaughterer"
@@ -77,7 +77,6 @@ monster.loot = {
 	{ name = "seeds", chance = 100 },
 	{ name = "jewelled belt", chance = 100000 },
 	{ name = "shiny stone", chance = 58300 },
-	{ name = "strong mana potion", chance = 41650, maxCount = 3 },
 	{ name = "small emerald", chance = 2800, maxCount = 2 },
 	{ name = "small oil lamp", chance = 100 },
 	{ name = "royal spear", chance = 55550, maxCount = 3 },

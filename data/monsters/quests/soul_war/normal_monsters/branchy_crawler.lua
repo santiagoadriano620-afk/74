@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Branchy Crawler")
+﻿local mType = Game.createMonsterType("Branchy Crawler")
 local monster = {}
 
 monster.name = "Branchy Crawler"
@@ -26,7 +26,6 @@ monster.Bestiary = {
 	Occurrence = 0,
 	Locations = "Rotten Wasteland.",
 }
-
 
 monster.health = 27000
 monster.maxHealth = 27000
@@ -83,7 +82,6 @@ monster.voices = {
 monster.loot = {
 	{ name = "crystal coin", chance = 55480 },
 	{ name = "gold ingot", chance = 9090 },
-	{ name = "ultimate health potion", chance = 8810, maxCount = 8 },
 	{ name = "roots", chance = 6000 },
 	{ name = "blue gem", chance = 1900 },
 	{ name = "crawler's essence", chance = 1450 },

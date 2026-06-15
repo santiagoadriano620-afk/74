@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Mummy")
+﻿local mType = Game.createMonsterType("Mummy")
 local monster = {}
 
 monster.name = "Mummy"
@@ -86,7 +86,6 @@ monster.loot = {
 	{ name = "black pearl", chance = 1000 },
 	{ name = "gold coin", chance = 38000, maxCount = 80 },
 	{ name = "strange talisman", chance = 5000 },
-	{ id = 3046, chance = 5800 }, -- magic light wand
 	{ name = "silver amulet", chance = 100 },
 	{ name = "poison dagger", chance = 450 },
 	{ name = "black shield", chance = 170 },

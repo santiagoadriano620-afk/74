@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Cyclops Smith")
+﻿local mType = Game.createMonsterType("Cyclops Smith")
 local monster = {}
 
 monster.name = "Cyclops Smith"
@@ -91,7 +91,6 @@ monster.loot = {
 	{ name = "meat", chance = 49950 },
 	{ id = 7398, chance = 140 }, -- cyclops trophy
 	{ name = "spiked squelcher", chance = 150 },
-	{ name = "strong health potion", chance = 390 },
 	{ name = "cyclops toe", chance = 10280 },
 }
 

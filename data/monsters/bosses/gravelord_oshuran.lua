@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Gravelord Oshuran")
+﻿local mType = Game.createMonsterType("Gravelord Oshuran")
 local monster = {}
 
 monster.name = "Gravelord Oshuran"
@@ -78,7 +78,6 @@ monster.voices = {
 
 monster.loot = {
 	{ id = 3031, chance = 88460, maxCount = 115 }, -- gold coin
-	{ id = 237, chance = 8750 }, -- strong mana potion
 	{ id = 3027, chance = 11540 }, -- black pearl
 	{ id = 3026, chance = 7690 }, -- white pearl
 	{ id = 3098, chance = 19230 }, -- ring of healing

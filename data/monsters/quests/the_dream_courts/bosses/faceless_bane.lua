@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Faceless Bane")
+﻿local mType = Game.createMonsterType("Faceless Bane")
 local monster = {}
 
 monster.name = "Faceless Bane"
@@ -86,29 +86,21 @@ monster.loot = {
 	{ name = "gold ingot", chance = 8330 },
 	{ name = "green crystal shard", chance = 4390 },
 	{ name = "green gem", chance = 8330 },
-	{ name = "hailstorm rod", chance = 9650 },
 	{ name = "hexagonal ruby", chance = 880 },
 	{ name = "ice rapier", chance = 18420 },
 	{ name = "knife", chance = 12280 },
 	{ name = "life crystal", chance = 10530 },
 	{ name = "lightning pendant", chance = 2630 },
-	{ name = "moonlight rod", chance = 5260 },
-	{ name = "necrotic rod", chance = 2630 },
 	{ name = "orb", chance = 2630 },
 	{ name = "platinum coin", chance = 83330, maxCount = 19 },
 	{ name = "red crystal fragment", chance = 16670 },
 	{ name = "small sapphire", chance = 33330, maxCount = 4 },
-	{ name = "snakebite rod", chance = 7020 },
 	{ name = "spear", chance = 16670, maxCount = 3 },
 	{ name = "spirit guide", chance = 1750 },
-	{ name = "springsprout rod", chance = 880 },
 	{ name = "strange talisman", chance = 2630 },
-	{ name = "terra rod", chance = 22810 },
 	{ name = "twin hooks", chance = 13160 },
-	{ name = "underworld rod", chance = 3510 },
 	{ name = "violet crystal shard", chance = 2630 },
 	{ name = "violet gem", chance = 1750 },
-	{ name = "wand of everblazing", chance = 880 },
 	{ name = "yellow gem", chance = 16670 },
 }
 

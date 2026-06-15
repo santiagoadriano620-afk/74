@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Cobra Vizier")
+﻿local mType = Game.createMonsterType("Cobra Vizier")
 local monster = {}
 
 monster.name = "Cobra Vizier"
@@ -78,8 +78,6 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "platinum coin", chance = 85480, maxCount = 4 },
-	{ name = "terra rod", chance = 43000 },
-	{ name = "snakebite rod", chance = 20970 },
 	{ name = "cobra crest", chance = 16130 },
 	{ name = "terra hood", chance = 13710 },
 	{ name = "cyan crystal fragment", chance = 10805 },

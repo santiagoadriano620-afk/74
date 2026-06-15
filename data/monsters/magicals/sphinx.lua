@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Sphinx")
+﻿local mType = Game.createMonsterType("Sphinx")
 local monster = {}
 
 monster.name = "Sphinx"
@@ -84,8 +84,6 @@ monster.loot = {
 	{ name = "magma boots", chance = 3600 },
 	{ name = "lightning pendant", chance = 3500 },
 	{ name = "lightning headband", chance = 3100 },
-	{ name = "wand of starstorm", chance = 2900 },
-	{ name = "wand of defiance", chance = 1800 },
 	{ name = "magma monocle", chance = 1400 },
 	{ name = "magma legs", chance = 1300 },
 }

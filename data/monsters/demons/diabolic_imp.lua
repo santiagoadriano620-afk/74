@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Diabolic Imp")
+﻿local mType = Game.createMonsterType("Diabolic Imp")
 local monster = {}
 
 monster.name = "Diabolic Imp"
@@ -85,7 +85,6 @@ monster.loot = {
 	{ name = "gold coin", chance = 3390, maxCount = 7 },
 	{ name = "small amethyst", chance = 2250, maxCount = 3 },
 	{ id = 3049, chance = 2702 }, -- stealth ring
-	{ name = "necrotic rod", chance = 830 },
 	{ name = "blank rune", chance = 16666, maxCount = 2 },
 	{ name = "double axe", chance = 1994 },
 	{ id = 3307, chance = 5660 }, -- scimitar

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Darklight Matter")
+﻿local mType = Game.createMonsterType("Darklight Matter")
 local monster = {}
 
 monster.name = "Darklight Matter"
@@ -82,7 +82,6 @@ monster.loot = {
 	{ name = "crystal coin", chance = 11755, maxCount = 1 },
 -- { name = "unstable darklight matter", chance = 9060, maxCount = 1 },
 	{ name = "darklight core", chance = 12887, maxCount = 1 },
-	{ name = "ultimate health potion", chance = 6553, maxCount = 6 },
 	{ id = 3039, chance = 1430 }, -- red gem
 	{ name = "darklight matter", chance = 8849, maxCount = 1 },
 	{ name = "rubber cap", chance = 7180, maxCount = 1 },

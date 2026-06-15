@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Glooth Anemone")
+﻿local mType = Game.createMonsterType("Glooth Anemone")
 local monster = {}
 
 monster.name = "Glooth Anemone"
@@ -83,9 +83,6 @@ monster.loot = {
 	{ id = 3732, chance = 3180 }, -- green mushroom
 	{ id = 21183, chance = 320 }, -- glooth amulet
 	{ id = 3031, chance = 100000, maxCount = 170 }, -- gold coin
-	{ id = 236, chance = 6690, maxCount = 2 }, -- strong health potion
-	{ id = 237, chance = 6690, maxCount = 2 }, -- strong mana potion
-	{ id = 7643, chance = 960 }, -- ultimate health potion
 	{ id = 3035, chance = 57320, maxCount = 3 }, -- platinum coin
 	{ id = 9057, chance = 1240, maxCount = 3 }, -- small topaz
 	{ id = 3032, chance = 1600, maxCount = 3 }, -- small emerald

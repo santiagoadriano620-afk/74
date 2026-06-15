@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Infernatil")
+﻿local mType = Game.createMonsterType("Infernatil")
 local monster = {}
 
 monster.name = "Infernatil"
@@ -103,12 +103,10 @@ monster.loot = {
 	{ id = 3038, chance = 1500 }, -- green gem
 	{ id = 3284, chance = 7500 }, -- ice rapier
 	{ id = 3061, chance = 1000 }, -- life crystal
-	{ id = 3046, chance = 11500 }, -- magic light wand
 	{ id = 3366, chance = 3000 }, -- magic plate armor
 	{ id = 3414, chance = 7500 }, -- mastermind shield
 	{ id = 3048, chance = 5000 }, -- might ring
 	{ id = 3062, chance = 4000 }, -- mind stone
-	{ id = 3070, chance = 3500 }, -- moonlight rod
 	{ id = 3060, chance = 12000 }, -- orb
 	{ id = 3055, chance = 4500 }, -- platinum amulet
 	{ id = 3084, chance = 4500 }, -- protection amulet
@@ -122,7 +120,6 @@ monster.loot = {
 	{ id = 3028, chance = 9500, maxCount = 5 }, -- small diamond
 	{ id = 3032, chance = 15500, maxCount = 10 }, -- small emerald
 	{ id = 3029, chance = 13500, maxCount = 10 }, -- small sapphire
-	{ id = 3066, chance = 3500 }, -- snakebite rod
 	{ id = 3049, chance = 9500 }, -- stealth ring
 	{ id = 3081, chance = 4000 }, -- stone skin amulet
 	{ id = 3058, chance = 2500 }, -- strange symbol
@@ -130,9 +127,7 @@ monster.loot = {
 	{ id = 2993, chance = 14500 }, -- teddy bear
 	{ id = 3309, chance = 13500 }, -- thunder hammer
 	{ id = 3265, chance = 20000 }, -- two handed sword
-	{ id = 3069, chance = 3500 }, -- necrotic rod
 	{ id = 3002, chance = 100 }, -- voodoo doll
-	{ id = 3072, chance = 2500 }, -- wand of decay
 	{ id = 3026, chance = 12500, maxCount = 15 }, -- white pearl
 }
 

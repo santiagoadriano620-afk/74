@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Glooth Golem")
+﻿local mType = Game.createMonsterType("Glooth Golem")
 local monster = {}
 
 monster.name = "Glooth Golem"
@@ -90,8 +90,6 @@ monster.loot = {
 	{ id = 21143, chance = 1970 }, -- glooth sandwich
 	{ id = 3035, chance = 6010, maxCount = 4 }, -- platinum coin
 	{ id = 21103, chance = 2840 }, -- glooth injection tube
-	{ id = 7643, chance = 4470 }, -- ultimate health potion
-	{ id = 238, chance = 9280 }, -- great mana potion
 	{ id = 21167, chance = 690 }, -- heat core
 	{ id = 21179, chance = 440 }, -- glooth blade
 	{ id = 21178, chance = 230 }, -- glooth club

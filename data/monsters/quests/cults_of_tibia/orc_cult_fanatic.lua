@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Orc Cult Fanatic")
+﻿local mType = Game.createMonsterType("Orc Cult Fanatic")
 local monster = {}
 
 monster.name = "Orc Cult Fanatic"
@@ -84,7 +84,6 @@ monster.loot = {
 	{ name = "brass legs", chance = 2950 },
 	{ name = "plate legs", chance = 4830 },
 	{ id = 3578, chance = 29760 }, -- fish
-	{ name = "great health potion", chance = 10190 },
 	{ name = "orc tooth", chance = 1340 },
 	{ name = "warrior helmet", chance = 10190 },
 	{ name = "orc leather", chance = 22250 },

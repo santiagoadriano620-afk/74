@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("King Zelos")
+﻿local mType = Game.createMonsterType("King Zelos")
 local monster = {}
 
 monster.name = "King Zelos"
@@ -24,7 +24,6 @@ monster.maxHealth = 480000
 monster.race = "venom"
 monster.corpse = 31611
 monster.speed = 212
-
 
 monster.changeTarget = {
 	interval = 4000,
@@ -53,11 +52,6 @@ monster.flags = {
 monster.loot = {
 	{ name = "platinum coin", minCount = 1, maxCount = 5, chance = 100000 },
 	{ name = "crystal coin", minCount = 0, maxCount = 5, chance = 50000 },
-	{ name = "supreme health potion", minCount = 0, maxCount = 20, chance = 45000 },
-	{ name = "ultimate mana potion", minCount = 0, maxCount = 6, chance = 42000 },
-	{ name = "ultimate spirit potion", minCount = 0, maxCount = 14, chance = 42000 },
-	{ name = "bullseye potion", minCount = 0, maxCount = 10, chance = 22000 },
-	{ name = "berserk potion", minCount = 0, maxCount = 10, chance = 22000 },
 	{ name = "gold token", maxCount = 3, chance = 78570 },
 	{ name = "silver token", maxCount = 4, chance = 100000 },
 	{ name = "green gem", chance = 19000 },

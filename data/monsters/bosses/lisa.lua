@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Lisa")
+﻿local mType = Game.createMonsterType("Lisa")
 local monster = {}
 
 monster.name = "Lisa"
@@ -71,9 +71,6 @@ monster.voices = {
 monster.loot = {
 	{ name = "bowl of glooth soup", chance = 55000, maxCount = 5 },
 	{ name = "glooth sandwich", chance = 34500, maxCount = 5 },
-	{ name = "great health potion", chance = 33000, maxCount = 5 },
-	{ name = "great mana potion", chance = 33000, maxCount = 5 },
-	{ name = "great spirit potion", chance = 33000, maxCount = 5 },
 	{ name = "glooth steak", chance = 28000, maxCount = 5 },
 	{ name = "slimy leaf tentacle", chance = 22000, maxCount = 3 },
 	{ name = "small amethyst", chance = 21000, maxCount = 5 },

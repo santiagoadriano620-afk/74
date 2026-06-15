@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Cinder Wyrmling")
+﻿local mType = Game.createMonsterType("Cinder Wyrmling")
 local monster = {}
 
 monster.name = "Cinder Wyrmling"
@@ -47,7 +47,6 @@ monster.loot = {
 	{ name = "small ruby", chance = 5590 },
 	{ name = "red crystal fragment", chance = 3030 },
 	{ name = "book with a dragon", chance = 2500 }, -- new item
-	{ name = "wand of dragonbreath", chance = 1900 },
 	{ name = "magma coat", chance = 1000 },
 	{ name = "magma monocle", chance = 1000 },
 	{ name = "dragon shield", chance = 1000 },

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Grand Canon Dominus")
+﻿local mType = Game.createMonsterType("Grand Canon Dominus")
 local monster = {}
 
 monster.name = "Grand Canon Dominus"
@@ -25,7 +25,6 @@ monster.race = "blood"
 monster.corpse = 28737
 monster.speed = 105
 monster.manaCost = 0
-
 
 monster.changeTarget = {
 	interval = 4000,
@@ -68,7 +67,6 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "platinum coin", chance = 100000, maxCount = 5 },
-	{ name = "great health potion", chance = 100000, maxCount = 3 },
 	{ name = "assassin star", chance = 100000, maxCount = 2 },
 	{ name = "small amethyst", chance = 100000, maxCount = 2 },
 	{ name = "golden armor", chance = 1700 },
@@ -77,7 +75,6 @@ monster.loot = {
 	{ id = 3039, chance = 1800 }, -- red gem
 	{ name = "violet gem", chance = 1850 },
 	{ name = "falcon bow", chance = 180 },
-	{ name = "falcon wand", chance = 180 },
 	{ name = "falcon plate", chance = 100 },
 }
 

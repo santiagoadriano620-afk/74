@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Inkwing")
+﻿local mType = Game.createMonsterType("Inkwing")
 local monster = {}
 
 monster.name = "Inkwing"
@@ -83,12 +83,9 @@ monster.loot = {
 	{ name = "proficiency catalyst", chance = 6000 },
 	{ name = "dragon ham", chance = 5000, maxCount = 2 },
 	{ name = "book with a dragon", chance = 4800 },
-	{ name = "strong mana potion", chance = 4000 },
 	{ id = 3041, chance = 3000 }, -- blue gem
 	{ name = "dragon necklace", chance = 3800 },
 	{ id = 3039, chance = 3000 }, -- red gem
-	{ name = "strong health potion", chance = 3500 },
-	{ name = "wand of dragonbreath", chance = 3200 },
 	{ id = 3037, chance = 3000 }, -- yellow gem
 	{ name = "dragon shield", chance = 3000 },
 	{ name = "blank imbuement scroll", chance = 3000 },

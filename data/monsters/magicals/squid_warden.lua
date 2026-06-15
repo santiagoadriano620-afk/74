@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Squid Warden")
+﻿local mType = Game.createMonsterType("Squid Warden")
 local monster = {}
 
 monster.name = "Squid Warden"
@@ -80,8 +80,6 @@ monster.loot = {
 	{ name = "frosty heart", chance = 11000, maxCount = 4 },
 	{ id = 7441, chance = 20000 }, -- ice cube
 	{ id = 28568, chance = 20000 }, -- inkwell
-	{ name = "ultimate health potion", chance = 10003, maxCount = 4 },
-	{ name = "ultimate mana potion", chance = 10003, maxCount = 4 },
 	{ name = "ice rapier", chance = 500 },
 	{ name = "glacier mask", chance = 400 },
 	{ name = "piece of dead brain", chance = 10001, maxCount = 4 },

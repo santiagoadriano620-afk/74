@@ -1,4 +1,4 @@
-local internalNpcName = "The Librarian"
+﻿local internalNpcName = "The Librarian"
 local npcType = Game.createNpcType(internalNpcName)
 local npcConfig = {}
 
@@ -90,7 +90,6 @@ npcConfig.shop = {
 	{ itemName = "bunch of reed", clientId = 30975, sell = 25 },
 	{ itemName = "document", clientId = 2834, buy = 20 },
 	{ itemName = "gemmed book", clientId = 2842, sell = 150 },
-	{ itemName = "glowing rune", clientId = 28570, sell = 350 },
 	{ itemName = "green book", clientId = 2831, sell = 30 },
 	{ itemName = "greeting card", clientId = 6386, buy = 40 },
 	{ itemName = "grey small book", clientId = 2839, buy = 20 },

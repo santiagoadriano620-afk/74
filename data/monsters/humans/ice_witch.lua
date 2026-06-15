@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Ice Witch")
+﻿local mType = Game.createMonsterType("Ice Witch")
 local monster = {}
 
 monster.name = "Ice Witch"
@@ -87,7 +87,6 @@ monster.loot = {
 	{ id = 7441, chance = 10000 }, -- ice cube
 	{ name = "crystal sword", chance = 400 },
 	{ name = "pair of earmuffs", chance = 90 },
-	{ name = "strong mana potion", chance = 820 },
 	{ name = "glacier shoes", chance = 280 },
 }
 

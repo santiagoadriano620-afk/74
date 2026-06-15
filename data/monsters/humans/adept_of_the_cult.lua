@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Adept of the Cult")
+﻿local mType = Game.createMonsterType("Adept of the Cult")
 local monster = {}
 
 monster.name = "Adept of the Cult"
@@ -92,7 +92,6 @@ monster.loot = {
 	{ name = "gold coin", chance = 65520, maxCount = 60 },
 	{ id = 3053, chance = 420 }, -- time ring
 	{ name = "silver amulet", chance = 1020 },
-	{ name = "hailstorm rod", chance = 220 },
 	{ name = "clerical mace", chance = 1260 },
 	{ name = "red robe", chance = 80 },
 	{ name = "pirate voodoo doll", chance = 1730 },

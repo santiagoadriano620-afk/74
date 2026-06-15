@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Grynch Clan Goblin")
+﻿local mType = Game.createMonsterType("Grynch Clan Goblin")
 local monster = {}
 
 monster.name = "Grynch Clan Goblin"
@@ -111,7 +111,6 @@ monster.loot = {
 	{ name = "piggy bank", chance = 1000 },
 	{ name = "gold coin", chance = 22500, maxCount = 22 },
 	{ name = "scarab coin", chance = 500, maxCount = 2 },
-	{ id = 3047, chance = 4000 }, -- magic light wand
 	{ name = "blank rune", chance = 5000 },
 	{ id = 3211, chance = 1500 }, -- witchesbroom
 	{ id = 3463, chance = 1000 }, -- mirror

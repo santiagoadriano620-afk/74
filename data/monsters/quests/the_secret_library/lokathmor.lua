@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Lokathmor")
+﻿local mType = Game.createMonsterType("Lokathmor")
 local monster = {}
 
 monster.name = "Lokathmor"
@@ -75,11 +75,6 @@ monster.voices = {
 monster.loot = {
 	{ name = "platinum coin", chance = 90000, maxCount = 63 },
 	{ name = "crystal coin", chance = 70000, maxCount = 4 },
-	{ name = "great mana potion", chance = 70000, maxCount = 18 },
-	{ name = "great spirit potion", chance = 70000, maxCount = 18 },
-	{ name = "ultimate mana potion", chance = 70000, maxCount = 12 },
-	{ name = "ultimate health potion", chance = 70000, maxCount = 18 },
-	{ name = "mastermind potion", chance = 70000, maxCount = 2 },
 	{ name = "onyx chip", chance = 70000, maxCount = 12 },
 	{ name = "small emerald", chance = 70000, maxCount = 12 },
 	{ name = "small amethyst", chance = 70000, maxCount = 12 },
@@ -97,7 +92,6 @@ monster.loot = {
 	{ name = "blue robe", chance = 30000 },
 	{ name = "dreaded cleaver", chance = 30000 },
 	{ name = "slightly rusted shield", chance = 26670 },
-	{ name = "wand of inferno", chance = 30000 },
 	{ name = "sturdy book", chance = 1000 },
 }
 

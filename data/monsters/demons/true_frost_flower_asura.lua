@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("True Frost Flower Asura")
+﻿local mType = Game.createMonsterType("True Frost Flower Asura")
 local monster = {}
 
 monster.name = "True Frost Flower Asura"
@@ -77,7 +77,6 @@ monster.loot = {
 	{ name = "crystal coin", chance = 7380, maxCount = 1 },
 	{ id = 3035, chance = 100000, maxCount = 8 }, -- platinum coin
 	{ id = 6558, chance = 19790 }, -- flask of demonic blood
-	{ id = 239, chance = 21030, maxCount = 2 }, -- great health potion
 	{ id = 3028, chance = 11900, maxCount = 2 }, -- small diamond
 	{ id = 3032, chance = 16000, maxCount = 2 }, -- small emerald
 	{ id = 3029, chance = 10970, maxCount = 2 }, -- small sapphire
@@ -100,11 +99,9 @@ monster.loot = {
 	{ id = 3027, chance = 10360, maxCount = 2 }, -- black pearl
 	{ id = 3037, chance = 4510 }, -- yellow gem
 	{ id = 3026, chance = 8620, maxCount = 2 }, -- white pearl
-	{ name = "northwind rod", chance = 3180 },
 	{ id = 3054, chance = 2260 }, -- silver amulet
 	{ id = 7404, chance = 730 }, -- assassin dagger
 	{ id = 8061, chance = 730 }, -- skullcracker armor
-	{ id = 3067, chance = 1030 }, -- hailstorm rod
 	{ id = 3007, chance = 820 }, -- crystal ring
 }
 

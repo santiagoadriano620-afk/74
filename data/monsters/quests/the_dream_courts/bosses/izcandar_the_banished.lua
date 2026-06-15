@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Izcandar the Banished")
+﻿local mType = Game.createMonsterType("Izcandar the Banished")
 local monster = {}
 
 monster.name = "Izcandar the Banished"
@@ -78,9 +78,7 @@ monster.loot = {
 	{ id = 23544, chance = 9380 }, -- collar of red plasma
 	{ id = 3039, chance = 33330 }, -- red gem
 	{ id = 3341, chance = 3130 }, -- arcane staff
-	{ name = "berserk potion", chance = 18750 },
 	{ name = "blue gem", chance = 50000 },
-	{ name = "bullseye potion", chance = 25000 },
 	{ name = "chaos mace", chance = 9380 },
 	{ name = "crystal coin", chance = 33330, maxCount = 3 },
 	{ name = "energy bar", chance = 100000 },
@@ -94,7 +92,6 @@ monster.loot = {
 	{ name = "izcandar's snow globe", chance = 3130 },
 	{ name = "izcandar's sundial", chance = 3130 },
 	{ name = "magic sulphur", chance = 16670 },
-	{ name = "mastermind potion", chance = 9380 },
 	{ name = "mysterious remains", chance = 93750 },
 	{ name = "piggy bank", chance = 93750 },
 	{ name = "platinum coin", chance = 100000, maxCount = 9 },
@@ -105,9 +102,6 @@ monster.loot = {
 	{ name = "skull staff", chance = 6250 },
 	{ name = "soul stone", chance = 16670 },
 	{ name = "summerblade", chance = 3130 },
-	{ name = "supreme health potion", chance = 66670, maxCount = 14 },
-	{ name = "ultimate mana potion", chance = 56250, maxCount = 20 },
-	{ name = "ultimate spirit potion", chance = 66670, maxCount = 5 },
 	{ name = "violet gem", chance = 3130 },
 	{ name = "winterblade", chance = 6250 },
 	{ name = "yellow gem", chance = 34380, maxCount = 2 },

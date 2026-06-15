@@ -1,4 +1,4 @@
-local internalNpcName = "Yasir"
+﻿local internalNpcName = "Yasir"
 local npcType = Game.createNpcType(internalNpcName)
 local npcConfig = {}
 
@@ -264,7 +264,6 @@ npcConfig.shop = {
 	{ itemName = "dragolisk poison gland", clientId = 44747, sell = 475 },
 	{ itemName = "dragon blood", clientId = 24937, sell = 700 },
 	{ itemName = "dragon claw", clientId = 5919, sell = 8000 },
-	{ itemName = "dragon priest's wandtip", clientId = 10444, sell = 175 },
 	{ itemName = "dragon tongue", clientId = 24938, sell = 550 },
 	{ itemName = "dragon's tail", clientId = 11457, sell = 100 },
 	{ itemName = "draken sulphur", clientId = 11658, sell = 550 },
@@ -335,7 +334,6 @@ npcConfig.shop = {
 	{ itemName = "glob of mercury", clientId = 9053, sell = 20 },
 	{ itemName = "glob of tar", clientId = 9055, sell = 30 },
 	{ itemName = "gloom wolf fur", clientId = 22007, sell = 70 },
-	{ itemName = "glowing rune", clientId = 28570, sell = 350 },
 	{ itemName = "goanna claw", clientId = 31561, sell = 260 },
 	{ itemName = "goanna meat", clientId = 31560, sell = 190 },
 	{ itemName = "goblet of gloom", clientId = 34022, sell = 12000 },
@@ -582,7 +580,6 @@ npcConfig.shop = {
 	{ itemName = "ripptor claw", clientId = 39389, sell = 2600 },
 	{ itemName = "ripptor scales", clientId = 39391, sell = 1200 },
 	{ itemName = "ritual tooth", clientId = 40528, sell = 135 },
-	{ itemName = "rod", clientId = 33929, sell = 2200 },
 	{ itemName = "rogue naga scales", clientId = 39416, sell = 570 },
 	{ itemName = "root tentacle", clientId = 48516, sell = 300000 },
 	{ itemName = "roots", clientId = 33938, sell = 1200 },
@@ -750,7 +747,6 @@ npcConfig.shop = {
 	{ itemName = "warwolf fur", clientId = 10318, sell = 30 },
 	{ itemName = "waspoid claw", clientId = 14080, sell = 320 },
 	{ itemName = "waspoid wing", clientId = 14081, sell = 190 },
-	{ itemName = "weaver's wandtip", clientId = 10397, sell = 250 },
 	{ itemName = "werebadger claws", clientId = 22051, sell = 160 },
 	{ itemName = "werebadger skull", clientId = 22055, sell = 185 },
 	{ itemName = "werebear fur", clientId = 22057, sell = 185 },

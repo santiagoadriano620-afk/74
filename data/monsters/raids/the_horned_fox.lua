@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("The Horned Fox")
+﻿local mType = Game.createMonsterType("The Horned Fox")
 local monster = {}
 
 monster.name = "The Horned Fox"
@@ -91,7 +91,6 @@ monster.loot = {
 	{ id = 3577, chance = 18000, maxCount = 3 }, -- meat
 	{ id = 3049, chance = 10000 }, -- stealth ring
 	{ id = 3483, chance = 7410 }, -- fishing rod
-	{ id = 236, chance = 7410 }, -- strong health potion
 	{ id = 7401, chance = 900 }, -- minotaur trophy,
 	{ id = 21174, chance = 12000 }, -- mino lance
 	{ id = 21175, chance = 6000 }, -- mino shield

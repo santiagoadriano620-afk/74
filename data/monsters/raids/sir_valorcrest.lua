@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Sir Valorcrest")
+﻿local mType = Game.createMonsterType("Sir Valorcrest")
 local monster = {}
 
 monster.name = "Sir Valorcrest"
@@ -80,7 +80,6 @@ monster.voices = {
 monster.loot = {
 	{ id = 7427, chance = 250 }, -- chaos mace
 	{ id = 8192, chance = 100000 }, -- vampire lord token
-	{ id = 236, chance = 1500 }, -- strong health potion
 	{ id = 3091, chance = 1400 }, -- sword ring
 	{ id = 3114, chance = 15000 }, -- skull
 	{ id = 8192, chance = 100000 }, -- vampire lord token

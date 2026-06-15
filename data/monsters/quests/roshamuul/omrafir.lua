@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Omrafir")
+﻿local mType = Game.createMonsterType("Omrafir")
 local monster = {}
 
 monster.name = "Omrafir"
@@ -89,8 +89,6 @@ monster.loot = {
 	{ id = 281, chance = 43750 }, -- giant shimmering pearl (green)
 	{ id = 282, chance = 43750 }, -- giant shimmering pearl (brown)
 	{ id = 3031, chance = 18750, maxCount = 100 }, -- gold coin
-	{ id = 238, chance = 6250, maxCount = 8 }, -- great mana potion
-	{ id = 7642, chance = 56250, maxCount = 8 }, -- great spirit potion
 	{ id = 16127, chance = 37500, maxCount = 3 }, -- green crystal fragment
 	{ id = 16121, chance = 18750, maxCount = 5 }, -- green crystal shard
 	{ id = 3038, chance = 18750 }, -- green gem
@@ -104,7 +102,6 @@ monster.loot = {
 	{ id = 3098, chance = 6250 }, -- ring of healing
 	{ id = 5741, chance = 6250 }, -- skull helmet
 	{ id = 3554, chance = 6250 }, -- steel boots
-	{ id = 7643, chance = 31250, maxCount = 8 }, -- ultimate health potion
 	{ id = 20264, chance = 81250, maxCount = 3 }, -- unrealized dream
 	{ id = 16120, chance = 18750, maxCount = 5 }, -- violet crystal shard
 }

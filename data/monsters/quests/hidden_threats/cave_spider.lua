@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Cave Spider")
+﻿local mType = Game.createMonsterType("Cave Spider")
 local monster = {}
 
 monster.name = "Cave Spider"
@@ -69,7 +69,6 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "gold coin", chance = 99990, maxCount = 76 },
-	{ name = "strong health potion", chance = 50000 },
 	{ name = "small diamond", chance = 50000, maxCount = 3 },
 	{ name = "black pearl", chance = 16670 },
 	{ name = "spider silk", chance = 16670 },

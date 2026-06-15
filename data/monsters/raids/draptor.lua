@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Draptor")
+﻿local mType = Game.createMonsterType("Draptor")
 local monster = {}
 
 monster.name = "Draptor"
@@ -83,8 +83,6 @@ monster.voices = {
 monster.loot = {
 	{ name = "gold coin", chance = 33750, maxCount = 90 },
 	{ name = "gold coin", chance = 33750, maxCount = 60 },
-	{ name = "strong health potion", chance = 3150 },
-	{ name = "strong mana potion", chance = 4150 },
 	{ name = "dragon robe", chance = 950 },
 	{ name = "draptor scales", chance = 6650 },
 }

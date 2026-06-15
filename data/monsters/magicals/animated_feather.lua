@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Animated Feather")
+﻿local mType = Game.createMonsterType("Animated Feather")
 local monster = {}
 
 monster.name = "Animated Feather"
@@ -81,9 +81,7 @@ monster.loot = {
 	{ id = 7441, chance = 4000 }, -- ice cube
 	{ name = "shard", chance = 250, maxCount = 3 },
 	{ name = "glacier mask", chance = 250 },
-	{ name = "hailstorm rod", chance = 250 },
 	{ name = "life crystal", chance = 8700 },
-	{ name = "great mana potion", chance = 900, maxCount = 6 },
 	{ name = "golden mug", chance = 500 },
 	{ name = "glowing rune", chance = 500, maxCount = 10 },
 	{ id = 3051, chance = 8700 }, -- energy ring

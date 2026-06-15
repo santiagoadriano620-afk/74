@@ -1,4 +1,4 @@
-local internalNpcName = "Fiona"
+﻿local internalNpcName = "Fiona"
 local npcType = Game.createNpcType(internalNpcName)
 local npcConfig = {}
 
@@ -69,7 +69,6 @@ npcConfig.shop = {
 	{ itemName = "basalt figurine", clientId = 17857, sell = 160 },
 	{ itemName = "bat wing", clientId = 5894, sell = 50 },
 	{ itemName = "behemoth claw", clientId = 5930, sell = 2000 },
-	{ itemName = "berserk potion", clientId = 7439, sell = 500 },
 	{ itemName = "blazing bone", clientId = 16131, sell = 610 },
 	{ itemName = "blood tincture in a vial", clientId = 18928, sell = 360 },
 	{ itemName = "bloody dwarven beard", clientId = 17827, sell = 110 },
@@ -80,7 +79,6 @@ npcConfig.shop = {
 	{ itemName = "brimstone fangs", clientId = 11702, sell = 380 },
 	{ itemName = "brimstone shell", clientId = 11703, sell = 210 },
 	{ itemName = "broken throwing axe", clientId = 17851, sell = 230 },
-	{ itemName = "bullseye potion", clientId = 7443, sell = 500 },
 	{ itemName = "carrion worm fang", clientId = 10275, sell = 35 },
 	{ itemName = "cheese cutter", clientId = 17817, sell = 50 },
 	{ itemName = "chicken feather", clientId = 5890, sell = 30 },
@@ -88,7 +86,6 @@ npcConfig.shop = {
 	{ itemName = "demon dust", clientId = 5906, sell = 300 },
 	{ itemName = "demon horn", clientId = 5954, sell = 1000 },
 	{ itemName = "demonic skeletal hand", clientId = 9647, sell = 80 },
-	{ itemName = "dragon priests wandtip", clientId = 10444, sell = 175 },
 	{ itemName = "dragon's tail", clientId = 11457, sell = 100 },
 	{ itemName = "draken sulphur", clientId = 11658, sell = 550 },
 	{ itemName = "elder bonelord tentacle", clientId = 10276, sell = 150 },
@@ -122,7 +119,6 @@ npcConfig.shop = {
 	{ itemName = "luminous orb", clientId = 11454, sell = 1000 },
 	{ itemName = "mad froth", clientId = 17854, sell = 80 },
 	{ itemName = "magic sulphur", clientId = 5904, sell = 8000 },
-	{ itemName = "mastermind potion", clientId = 7440, sell = 500 },
 	{ itemName = "miraculum", clientId = 11474, sell = 60 },
 	{ itemName = "mystical hourglass", clientId = 9660, sell = 700 },
 	{ itemName = "pair of hellflayer horns", clientId = 22729, sell = 1300 },
@@ -142,7 +138,6 @@ npcConfig.shop = {
 	{ itemName = "turtle shell", clientId = 5899, sell = 90 },
 	{ itemName = "vampire dust", clientId = 5905, sell = 100 },
 	{ itemName = "vexclaw talon", clientId = 22728, sell = 1100 },
-	{ itemName = "weaver's wandtip", clientId = 10397, sell = 250 },
 	{ itemName = "wimp tooth chain", clientId = 17847, sell = 120 },
 	{ itemName = "wyrm scale", clientId = 9665, sell = 400 },
 	{ itemName = "wyvern talisman", clientId = 9644, sell = 265 },

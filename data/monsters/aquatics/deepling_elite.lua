@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Deepling Elite")
+﻿local mType = Game.createMonsterType("Deepling Elite")
 local monster = {}
 
 monster.name = "Deepling Elite"
@@ -81,11 +81,9 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "gold coin", chance = 100000, maxCount = 186 },
-	{ name = "great health potion", chance = 25790 },
 	{ name = "eye of a deepling", chance = 25340 },
 	{ name = "deepling filet", chance = 25340 },
 	{ name = "vortex bolt", chance = 25080, maxCount = 5 },
-	{ name = "great mana potion", chance = 24370 },
 	{ name = "deepling warts", chance = 24330 },
 	{ name = "deeptags", chance = 20570 },
 	{ name = "deepling ridge", chance = 18710 },

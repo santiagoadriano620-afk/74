@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Nightfiend")
+﻿local mType = Game.createMonsterType("Nightfiend")
 local monster = {}
 
 monster.name = "Nightfiend"
@@ -84,8 +84,6 @@ monster.loot = {
 	{ name = "emerald bangle", chance = 120 },
 	{ name = "vampire teeth", chance = 10000 },
 	{ name = "vampire shield", chance = 50 },
-	{ name = "strong health potion", chance = 4761 },
-	{ name = "strong mana potion", chance = 5000 },
 	{ id = 3039, chance = 55 }, -- red gem
 	{ id = 3098, chance = 1000 }, -- ring of healing
 }

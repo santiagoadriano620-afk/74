@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Megasylvan Yselda")
+﻿local mType = Game.createMonsterType("Megasylvan Yselda")
 local monster = {}
 
 monster.name = "Megasylvan Yselda"
@@ -70,13 +70,7 @@ monster.voices = {
 monster.loot = {
 	{ id = 3035, chance = 100000, minCount = 1, maxCount = 9 }, -- platinum coin
 	{ id = 8010, chance = 100000, minCount = 1, maxCount = 5 }, -- potato
-	{ id = 23375, chance = 57140, minCount = 1, maxCount = 33 }, -- supreme health potion
-	{ id = 23373, chance = 57140, minCount = 1, maxCount = 31 }, -- ultimate mana potion
-	{ id = 23374, chance = 30000, minCount = 1, maxCount = 11 }, -- ultimate spirit potion
-	{ id = 7443, chance = 22860, minCount = 4, maxCount = 19 }, -- bullseye potion
-	{ id = 7439, chance = 21430, minCount = 1, maxCount = 16 }, -- berserk potion
 	{ id = 3041, chance = 18570, count = 1 }, -- blue gem
-	{ id = 7440, chance = 17140, minCount = 4, maxCount = 19 }, -- mastermind potion
 	{ id = 3038, chance = 17140, minCount = 1, maxCount = 2 }, -- green gem
 	{ id = 3036, chance = 15710, minCount = 1, maxCount = 2 }, -- violet gem
 	{ id = 3039, chance = 14290, minCount = 1, maxCount = 2 }, -- red gem
@@ -86,7 +80,6 @@ monster.loot = {
 	{ id = 36809, chance = 4290 }, -- curl of hair
 	{ id = 14112, chance = 4290 }, -- bar of gold
 	{ id = 814, chance = 2860 }, -- terra amulet
-	{ id = 3065, chance = 2860 }, -- terra rod
 	{ id = 830, chance = 2860 }, -- terra hood
 	{ id = 36811, chance = 1430 }, -- megasylvan sapling
 	{ id = 36808, chance = 1430 }, -- old royal diary

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Ayana the crimson curse")
+﻿local mType = Game.createMonsterType("Ayana the crimson curse")
 local monster = {}
 
 monster.name = "Ayana the crimson curse"
@@ -69,7 +69,6 @@ monster.loot = {
 	{ name = "platinum coin", chance = 100000, maxCount = 5 },
 	{ name = "amulet of loss", chance = 120 },
 	{ name = "gold ring", chance = 1870 },
-	{ name = "hailstorm rod", chance = 10000 },
 	{ name = "garlic necklace", chance = 2050 },
 	{ name = "blank rune", chance = 26250, maxCount = 2 },
 	{ name = "golden sickle", chance = 350 },
@@ -85,13 +84,11 @@ monster.loot = {
 	{ id = 43857, chance = 7000 },
 	{ name = "demonic essence", chance = 28000 },
 	{ name = "assassin star", chance = 5900, maxCount = 10 },
-	{ name = "great mana potion", chance = 31360, maxCount = 3 },
 	{ id = 281, chance = 4450 },
 	{ id = 282, chance = 4450 },
 	{ name = "seeds", chance = 4300 },
 	{ name = "terra mantle", chance = 1050 },
 	{ name = "terra legs", chance = 2500 },
-	{ name = "ultimate health potion", chance = 14720, maxCount = 2 },
 	{ name = "gold ingot", chance = 5270 },
 	{ name = "bundle of cursed straw", chance = 15000 },
 }

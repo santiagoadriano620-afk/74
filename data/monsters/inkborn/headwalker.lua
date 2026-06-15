@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Headwalker")
+﻿local mType = Game.createMonsterType("Headwalker")
 local monster = {}
 
 monster.name = "Headwalker"
@@ -83,7 +83,6 @@ monster.loot = {
 	{ name = "gold coin", chance = 60000, minCount = 1, maxCount = 150 },
 	{ name = "platinum coin", chance = 45000, minCount = 1, maxCount = 8 },
 	{ name = "torn page", chance = 2800 },
-	{ name = "great health potion", chance = 2000 },
 	{ id = 281, chance = 1800 }, -- giant shimmering pearl
 	{ name = "white pearl", chance = 1800 },
 	{ name = "black pearl", chance = 1800 },

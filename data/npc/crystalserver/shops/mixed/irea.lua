@@ -1,4 +1,4 @@
-local internalNpcName = "Irea"
+﻿local internalNpcName = "Irea"
 local npcType = Game.createNpcType(internalNpcName)
 local npcConfig = {}
 
@@ -55,14 +55,11 @@ npcHandler:setMessage(MESSAGE_FAREWELL, "Good bye!")
 npcHandler:addModule(FocusModule:new(), npcConfig.name, true, true, true)
 
 npcConfig.shop = {
-	{ itemName = "arrow", clientId = 3447, buy = 3 },
 	{ itemName = "blue quiver", clientId = 35848, buy = 400 },
-	{ itemName = "bolt", clientId = 3446, buy = 4 },
 	{ itemName = "bow", clientId = 3350, buy = 400 },
 	{ itemName = "crossbow", clientId = 3349, buy = 500 },
 	{ itemName = "quiver", clientId = 35562, buy = 400 },
 	{ itemName = "red quiver", clientId = 35849, buy = 400 },
-	{ itemName = "spear", clientId = 3277, buy = 10 },
 }
 
 local node1 = keywordHandler:addKeyword({ "conjure explosive arrow" }, StdModule.say, { npcHandler = npcHandler, onlyFocus = true, text = "Would you like to learn {conjure explosive arrow} magic spell for 1000 gold?" })

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Enraged Crystal Golem")
+﻿local mType = Game.createMonsterType("Enraged Crystal Golem")
 local monster = {}
 
 monster.name = "Enraged Crystal Golem"
@@ -81,8 +81,6 @@ monster.loot = {
 	{ name = "gold coin", chance = 100000, maxCount = 100 },
 	{ name = "crystal sword", chance = 4710 },
 	{ name = "glorious axe", chance = 360 },
-	{ name = "strong health potion", chance = 7140 },
-	{ name = "strong mana potion", chance = 8270 },
 	{ name = "blue crystal splinter", chance = 4120 },
 	{ name = "cyan crystal fragment", chance = 1050 },
 	{ name = "crystalline spikes", chance = 7980 },

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Alptramun")
+﻿local mType = Game.createMonsterType("Alptramun")
 local monster = {}
 
 monster.name = "Alptramun"
@@ -78,9 +78,7 @@ monster.loot = {
 	{ id = 3039, chance = 27500, maxCount = 2 }, -- red gem
 	{ name = "abyss hammer", chance = 2500 },
 	{ name = "alptramun's toothbrush", chance = 7500 },
-	{ name = "berserk potion", chance = 12500 },
 	{ name = "blue gem", chance = 20000, maxCount = 2 },
-	{ name = "bullseye potion", chance = 12500 },
 	{ name = "chaos mace", chance = 10000 },
 	{ name = "crunor idol", chance = 7500 },
 	{ name = "crystal coin", chance = 20000 },
@@ -93,7 +91,6 @@ monster.loot = {
 	{ name = "green gem", chance = 20000, maxCount = 2 },
 	{ name = "huge chunk of crude iron", chance = 37500 },
 	{ name = "magic sulphur", chance = 7500 },
-	{ name = "mastermind potion", chance = 60000, maxCount = 11 },
 	{ name = "mysterious remains", chance = 92500 },
 	{ name = "pair of dreamwalkers", chance = 5000 },
 	{ name = "piggy bank", chance = 92500 },
@@ -105,9 +102,6 @@ monster.loot = {
 	{ name = "silver token", chance = 100000, maxCount = 5 },
 	{ name = "skull staff", chance = 32500 },
 	{ name = "soul stone", chance = 5000 },
-	{ name = "supreme health potion", chance = 60000, maxCount = 24 },
-	{ name = "ultimate mana potion", chance = 52500, maxCount = 20 },
-	{ name = "ultimate spirit potion", chance = 80000, maxCount = 24 },
 	{ name = "violet gem", chance = 17500 },
 	{ name = "yellow gem", chance = 32500, maxCount = 2 },
 }

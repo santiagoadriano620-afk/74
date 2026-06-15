@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Leviathan")
+﻿local mType = Game.createMonsterType("Leviathan")
 local monster = {}
 
 monster.name = "Leviathan"
@@ -73,7 +73,6 @@ monster.loot = {
 	{ id = 8898, chance = 77000 }, -- rusted legs
 	{ id = 7428, chance = 58000 }, -- bonebreaker
 	{ id = 3029, chance = 50000, maxCount = 5 }, -- small sapphire
-	{ id = 237, chance = 50000 }, -- strong mana potion
 	{ id = 9604, chance = 14000 }, -- moon backpack
 	{ id = 8059, chance = 1500 }, -- frozen plate
 }

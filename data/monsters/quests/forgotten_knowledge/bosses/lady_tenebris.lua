@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Lady Tenebris")
+﻿local mType = Game.createMonsterType("Lady Tenebris")
 local monster = {}
 
 monster.name = "Lady Tenebris"
@@ -78,8 +78,6 @@ monster.loot = {
 	{ id = 3028, chance = 10000, maxCount = 10 }, -- small diamond
 	{ id = 3030, chance = 10000, maxCount = 10 }, -- small ruby
 	{ id = 9057, chance = 10000, maxCount = 10 }, -- small topaz
-	{ id = 238, chance = 10000, maxCount = 100 }, -- great mana potion
-	{ id = 7642, chance = 10000, maxCount = 100 }, -- great spirit potion
 	{ id = 20062, chance = 12000, maxCount = 2 }, -- cluster of solace
 	{ id = 16119, chance = 2000, maxCount = 3 }, -- blue crystal shard
 	{ id = 16121, chance = 5000, maxCount = 5 }, -- green crystal shard
@@ -87,7 +85,6 @@ monster.loot = {
 	{ id = 16120, chance = 5000, maxCount = 3 }, -- violet crystal shard
 	{ id = 281, chance = 6000 }, -- giant shimmering pearl (green)
 	{ id = 3038, chance = 2000 }, -- green gem
-	{ id = 7440, chance = 2000 }, -- mastermind potion
 	{ id = 22195, chance = 2000 }, -- onyx pendant
 	{ id = 3039, chance = 1000 }, -- red gem
 	{ id = 3006, chance = 2000 }, -- ring of the sky
@@ -96,7 +93,6 @@ monster.loot = {
 	{ id = 8073, chance = 1000 }, -- spellbook of warding
 	{ id = 3324, chance = 1000 }, -- skull staff
 	{ id = 3037, chance = 1000 }, -- yellow gem
-	{ id = 16096, chance = 1000 }, -- wand of defiance
 	{ id = 22721, chance = 35710 }, -- gold token
 	{ id = 22516, chance = 28570 }, -- silver token
 	{ id = 3341, chance = 200 }, -- arcane staff
@@ -104,7 +100,6 @@ monster.loot = {
 	{ id = 24974, chance = 200 }, -- shadow paint
 	{ id = 22755, chance = 200 }, -- book of lies
 	{ id = 20088, chance = 200 }, -- crude umbral spellbook
-	{ id = 24957, chance = 500, unique = true }, -- part of a rune
 	{ id = 3021, chance = 200 }, -- sapphire amulet
 	{ id = 20089, chance = 200 }, -- umbral spellbook
 }

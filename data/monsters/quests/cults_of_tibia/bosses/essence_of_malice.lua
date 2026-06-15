@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Essence of Malice")
+﻿local mType = Game.createMonsterType("Essence of Malice")
 local monster = {}
 
 monster.name = "Essence of Malice"
@@ -86,7 +86,6 @@ monster.loot = {
 	{ name = "odd organ", chance = 100000 },
 	{ name = "energy bar", chance = 16872, maxCount = 3 },
 	{ id = 23529, chance = 8762 }, -- ring of blue plasma
-	{ name = "ultimate health potion", chance = 27652, maxCount = 10 },
 	{ name = "blade of corruption", chance = 3775 },
 }
 

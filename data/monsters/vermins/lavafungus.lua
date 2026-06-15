@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Lavafungus")
+﻿local mType = Game.createMonsterType("Lavafungus")
 local monster = {}
 
 monster.name = "Lavafungus"
@@ -75,13 +75,10 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "platinum coin", chance = 70000, maxCount = 22 },
-	{ name = "terra rod", chance = 41860, maxCount = 1 },
 	{ name = "lavafungus ring", chance = 9300, maxCount = 4 },
 	{ id = 3039, chance = 9300, maxCount = 1 }, -- red gem
-	{ name = "hailstorm rod", chance = 4650 },
 	{ name = "blue crystal shard", chance = 4000 },
 	{ name = "violet gem", chance = 4650 },
-	{ name = "wand of inferno", chance = 4650 },
 	{ name = "green gem", chance = 9300 },
 	{ name = "lavafungus head", chance = 4650 },
 	{ name = "cyan crystal fragment", chance = 4650 },
@@ -95,7 +92,6 @@ monster.loot = {
 	{ name = "spellbook of warding", chance = 2500 },
 	{ name = "magma amulet", chance = 2330 },
 	{ name = "focus cape", chance = 2330 },
-	{ name = "wand of starstorm", chance = 2330 },
 	{ name = "crystal mace", chance = 1700 },
 	{ id = 3097, chance = 2330 }, -- dwarven ring
 }

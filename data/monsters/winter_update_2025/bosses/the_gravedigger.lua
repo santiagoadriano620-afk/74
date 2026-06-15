@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("The Gravedigger")
+﻿local mType = Game.createMonsterType("The Gravedigger")
 local monster = {}
 
 monster.name = "The Gravedigger"
@@ -82,13 +82,7 @@ monster.voices = {
 monster.loot = {
 	{ name = "crystal coin", chance = 100000, maxCount = 54 },
 	{ name = "yellow gem", chance = 50000, maxCount = 9 }, -- Not confirmed
-	{ name = "strong mana potion", chance = 50000, maxCount = 96 }, -- Not confirmed
-	{ name = "great mana potion", chance = 40000, maxCount = 42 }, -- Not confirmed
-	{ name = "ultimate mana potion", chance = 40000, maxCount = 24 }, -- Not confirmed
-	{ name = "ultimate spirit potion", chance = 30000, maxCount = 20 }, -- Not confirmed
-	{ name = "ultimate health potion", chance = 30000, maxCount = 37 }, -- Not confirmed
-	{ name = "supreme health potion", chance = 30000, maxCount = 17 }, -- Not confirmed
-	{ id = 3039, chance = 25000, maxCount = 4 }, -- red gem (não confirmado)
+	{ id = 3039, chance = 25000, maxCount = 4 }, -- red gem (nÃ£o confirmado)
 	{ name = "blue gem", chance = 15000, maxCount = 2 }, -- Not confirmed
 	{ name = "giant ruby", chance = 10000, maxCount = 2 }, -- Not confirmed
 	{ name = "guardian gem", chance = 5000 }, -- Not confirmed
@@ -103,9 +97,7 @@ monster.loot = {
 	{ name = "greater spiritualist gem", chance = 3000 }, -- Not confirmed
 	{ name = "small flask of eyedrops", chance = 15000, maxCount = 2 }, -- Not confirmed
 	{ name = "bonelord eye", chance = 10000 }, -- Not confirmed
-	{ id = 3457, chance = 10000 }, -- shovel (não confirmado)
-	{ name = "terra rod", chance = 10000 }, -- Not confirmed
-	{ name = "necrotic rod", chance = 10000 }, -- Not confirmed
+	{ id = 3457, chance = 10000 }, -- shovel (nÃ£o confirmado)
 	{ name = "bonelord shield", chance = 8000 }, -- Not confirmed
 	-- { name = "shrunken head", chance = 5000 }, -- Not confirmed
 	-- { name = "cryptic fossil", chance = 5000 }, -- Not confirmed

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Deepworm")
+﻿local mType = Game.createMonsterType("Deepworm")
 local monster = {}
 
 monster.name = "Deepworm"
@@ -13,7 +13,6 @@ monster.outfit = {
 	lookAddons = 0,
 	lookMount = 0,
 }
-
 
 monster.raceId = 1531
 monster.Bestiary = {
@@ -90,7 +89,6 @@ monster.loot = {
 	{ name = "deepworm spikes", chance = 9880 },
 	{ name = "small enchanted amethyst", chance = 3430, maxCount = 2 },
 	{ name = "terra amulet", chance = 5060 },
-	{ name = "springsprout rod", chance = 1120 },
 	{ name = "sacred tree amulet", chance = 2390 },
 	{ id = 281, chance = 860 }, -- giant shimmering pearl (green)
 	{ name = "suspicious device", chance = 530 },

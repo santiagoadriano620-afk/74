@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Misguided Shadow")
+﻿local mType = Game.createMonsterType("Misguided Shadow")
 local monster = {}
 
 monster.name = "Misguided Shadow"
@@ -65,7 +65,6 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ id = 236, chance = 15000 }, -- strong health potion
 	{ id = 3039, chance = 6000 }, -- red gem
 }
 

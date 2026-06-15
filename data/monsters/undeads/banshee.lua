@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Banshee")
+﻿local mType = Game.createMonsterType("Banshee")
 local monster = {}
 
 monster.name = "Banshee"
@@ -103,7 +103,6 @@ monster.loot = {
 	{ name = "red robe", chance = 150 },
 	{ name = "blue robe", chance = 700 },
 	{ name = "simple dress", chance = 6050 },
-	{ name = "strong mana potion", chance = 680 },
 	{ name = "terra mantle", chance = 340 },
 	{ name = "petrified scream", chance = 4150 },
 	{ name = "hair of a banshee", chance = 4810 },

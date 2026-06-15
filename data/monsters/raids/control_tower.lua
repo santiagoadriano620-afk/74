@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Control Tower")
+﻿local mType = Game.createMonsterType("Control Tower")
 local monster = {}
 
 monster.name = "Control Tower"
@@ -59,8 +59,6 @@ monster.voices = {
 
 monster.loot = {
 	{ id = 3035, chance = 100000, maxCount = 5 }, -- platinum coin
-	{ id = 238, chance = 14285 }, -- great mana potion
-	{ id = 239, chance = 14285 }, -- great health potion
 }
 
 monster.defenses = {

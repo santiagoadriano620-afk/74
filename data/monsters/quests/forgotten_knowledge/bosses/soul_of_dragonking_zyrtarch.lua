@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Soul of Dragonking Zyrtarch")
+﻿local mType = Game.createMonsterType("Soul of Dragonking Zyrtarch")
 local monster = {}
 
 monster.name = "Soul of Dragonking Zyrtarch"
@@ -86,20 +86,16 @@ monster.loot = {
 	{ id = 3033, chance = 3000, maxCount = 5 }, -- small amethyst
 	{ id = 8021, chance = 500 }, -- modified crossbow
 	{ id = 3041, chance = 1000 }, -- blue gem
-	{ id = 7642, chance = 3000, maxCount = 3 }, -- great spirit potion
 	{ id = 3400, chance = 15, unique = true }, -- dragon scale helmet
 	{ id = 3039, chance = 1000 }, -- red gem
 	{ id = 16120, chance = 3000, maxCount = 5 }, -- violet crystal shard
 	{ id = 16121, chance = 3000, maxCount = 5 }, -- green crystal shard
 	{ id = 5887, chance = 500 }, -- piece of royal steel
-	{ id = 238, chance = 3000, maxCount = 3 }, -- great mana potion
 	{ id = 3038, chance = 1000 }, -- green gem
 	{ id = 5948, chance = 5000 }, -- red dragon leather
 	{ id = 5904, chance = 500 }, -- magic sulphur
-	{ id = 24955, chance = 500, unique = true }, -- part of a rune
 	{ id = 16119, chance = 3000, maxCount = 5 }, -- blue crystal shard
 	{ id = 281, chance = 500 }, -- giant shimmering pearl (green)
-	{ id = 7643, chance = 3000, maxCount = 3 }, -- ultimate health potion
 	{ id = 8074, chance = 500 }, -- spellbook of mind control
 	{ id = 11692, chance = 300, unique = true }, -- snake god's sceptre
 	{ id = 3035, chance = 90000, maxCount = 6 }, -- platinum coin

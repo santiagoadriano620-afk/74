@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Memory of a Hero")
+﻿local mType = Game.createMonsterType("Memory of a Hero")
 local monster = {}
 
 monster.name = "Memory of a Hero"
@@ -76,7 +76,6 @@ monster.loot = {
 	{ name = "red rose", chance = 20450 },
 	{ name = "bottle of champagne", chance = 2006 },
 	{ name = "sniper arrow", chance = 11400, maxCount = 4 },
-	{ name = "great health potion", chance = 720 },
 }
 
 monster.attacks = {

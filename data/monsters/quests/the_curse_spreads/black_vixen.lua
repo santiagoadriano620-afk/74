@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Black Vixen")
+﻿local mType = Game.createMonsterType("Black Vixen")
 local monster = {}
 
 monster.name = "Black Vixen"
@@ -83,13 +83,8 @@ monster.loot = {
 	{ name = "platinum coin", chance = 13600000, maxCount = 10 },
 	{ name = "assassin star", chance = 13600000, maxCount = 9 },
 	{ name = "black pearl", chance = 13600000, maxCount = 2 },
-	{ name = "great mana potion", chance = 13600000, maxCount = 2 },
-	{ name = "great spirit potion", chance = 13600000, maxCount = 2 },
 	{ name = "small enchanted emerald", chance = 13600000, maxCount = 2 },
-	{ name = "ultimate mana potion", chance = 13600000, maxCount = 2 },
-	{ name = "ultimate spirit potion", chance = 13600000, maxCount = 2 },
 	{ name = "fox paw", chance = 13600000, maxCount = 2 },
-	{ name = "moonlight rod", chance = 13600000 },
 	{ id = 3049, chance = 13600000 }, -- stealth ring
 	{ name = "werefox tail", chance = 13600000 },
 	{ name = "green gem", chance = 400 },

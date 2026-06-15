@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Grandfather Tridian")
+﻿local mType = Game.createMonsterType("Grandfather Tridian")
 local monster = {}
 
 monster.name = "Grandfather Tridian"
@@ -86,10 +86,8 @@ monster.loot = {
 	{ name = "skull staff", chance = 25000 },
 	{ name = "protection amulet", chance = 16670 },
 	{ name = "small sapphire", chance = 16670 },
-	{ name = "wand of inferno", chance = 16670 },
 	{ id = 5801, chance = 8330 }, -- jewelled backpack
 	{ name = "pirate voodoo doll", chance = 8330 },
-	{ name = "strong mana potion", chance = 8330 },
 	{ name = "brown mushroom", chance = 8330 },
 	{ id = 3002, chance = 8330 }, -- voodoo doll
 	{ name = "amber staff", chance = 8330 },

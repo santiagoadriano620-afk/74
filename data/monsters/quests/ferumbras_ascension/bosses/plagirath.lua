@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Plagirath")
+﻿local mType = Game.createMonsterType("Plagirath")
 local monster = {}
 
 monster.name = "Plagirath"
@@ -75,7 +75,6 @@ monster.voices = {
 monster.loot = {
 	{ id = 22516, chance = 1000000 }, -- silver token
 	{ id = 10389, chance = 3000 }, -- sai
-	{ id = 16117, chance = 1820 }, -- muck rod
 	{ id = 16125, chance = 23000, maxCount = 6 }, -- cyan crystal fragment
 	{ id = 16126, chance = 23000, maxCount = 6 }, -- red crystal fragment
 	{ id = 16127, chance = 23000, maxCount = 6 }, -- green crystal fragment
@@ -93,7 +92,6 @@ monster.loot = {
 	{ id = 281, chance = 14000, maxCount = 5 }, -- giant shimmering pearl (green)
 	{ id = 282, chance = 14000, maxCount = 5 }, -- giant shimmering pearl (brown)
 	{ id = 814, chance = 5000 }, -- terra amulet
-	{ id = 7643, chance = 23000, maxCount = 15 }, -- ultimate health potion
 	{ id = 8073, chance = 4000 }, -- spellbook of warding
 	{ id = 9057, chance = 10000, maxCount = 8 }, -- small topaz
 }

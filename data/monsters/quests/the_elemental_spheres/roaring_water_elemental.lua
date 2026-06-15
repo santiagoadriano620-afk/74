@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Roaring Water Elemental")
+﻿local mType = Game.createMonsterType("Roaring Water Elemental")
 local monster = {}
 
 monster.name = "Roaring Water Elemental"
@@ -70,7 +70,6 @@ monster.loot = {
 	{ name = "gold coin", chance = 27000, maxCount = 90 },
 	{ name = "gold coin", chance = 27000, maxCount = 87 },
 	{ name = "iced soil", chance = 9000 },
-	{ name = "northwind rod", chance = 750 },
 }
 
 monster.attacks = {

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Warlock")
+﻿local mType = Game.createMonsterType("Warlock")
 local monster = {}
 
 monster.name = "Warlock"
@@ -106,8 +106,6 @@ monster.loot = {
 	{ name = "dark mushroom", chance = 3000 },
 	{ name = "assassin star", chance = 3500, maxCount = 4 },
 	{ name = "assassin star", chance = 3470, maxCount = 4 },
-	{ name = "great mana potion", chance = 4760 },
-	{ name = "great health potion", chance = 5190 },
 	{ name = "lightning robe", chance = 1000 },
 	{ name = "luminous orb", chance = 510 },
 }

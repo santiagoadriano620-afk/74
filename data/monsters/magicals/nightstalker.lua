@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Nightstalker")
+﻿local mType = Game.createMonsterType("Nightstalker")
 local monster = {}
 
 monster.name = "Nightstalker"
@@ -92,7 +92,6 @@ monster.loot = {
 	{ name = "shadow herb", chance = 4761 },
 	{ name = "haunted blade", chance = 318 },
 	{ name = "chaos mace", chance = 121 },
-	{ name = "strong mana potion", chance = 1612 },
 	{ name = "spirit cloak", chance = 520 },
 	{ name = "crystal of balance", chance = 127 },
 }

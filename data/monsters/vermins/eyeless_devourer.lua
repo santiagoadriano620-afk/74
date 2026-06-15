@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Eyeless Devourer")
+﻿local mType = Game.createMonsterType("Eyeless Devourer")
 local monster = {}
 
 monster.name = "Eyeless Devourer"
@@ -75,7 +75,6 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "platinum coin", chance = 70000, maxCount = 22 },
-	{ name = "ultimate health potion", chance = 29210, maxCount = 3 },
 	{ name = "eyeless devourer maw", chance = 14680, maxCount = 1 },
 	{ name = "blue crystal shard", chance = 6700, maxCount = 3 },
 	{ name = "green crystal shard", chance = 6380, maxCount = 3 },

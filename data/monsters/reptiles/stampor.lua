@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Stampor")
+﻿local mType = Game.createMonsterType("Stampor")
 local monster = {}
 
 monster.name = "Stampor"
@@ -80,8 +80,6 @@ monster.loot = {
 	{ name = "war hammer", chance = 1010 },
 	{ name = "knight armor", chance = 870 },
 	{ name = "spiked squelcher", chance = 160 },
-	{ name = "strong health potion", chance = 5000, maxCount = 2 },
-	{ name = "strong mana potion", chance = 5000, maxCount = 2 },
 	{ name = "small topaz", chance = 7940, maxCount = 2 },
 	{ name = "stampor horn", chance = 4920 },
 	{ name = "stampor talons", chance = 9950, maxCount = 2 },

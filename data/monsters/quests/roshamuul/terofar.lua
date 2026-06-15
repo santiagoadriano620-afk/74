@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Terofar")
+﻿local mType = Game.createMonsterType("Terofar")
 local monster = {}
 
 monster.name = "Terofar"
@@ -76,9 +76,6 @@ monster.loot = {
 	{ id = 20276, chance = 3560 }, -- dream warden mask
 	{ id = 3031, chance = 100000, maxCount = 200 }, -- gold coin
 	{ id = 3035, chance = 100000, maxCount = 50 }, -- platinum coin
-	{ id = 238, chance = 33330, maxCount = 10 }, -- great mana potion
-	{ id = 7643, chance = 3890, maxCount = 10 }, -- ultimate health potion
-	{ id = 7642, chance = 2780, maxCount = 5 }, -- great spirit potion
 	{ id = 16119, chance = 22220, maxCount = 8 }, -- blue crystal shard
 	{ id = 16120, chance = 33330, maxCount = 8 }, -- violet crystal shard
 	{ id = 16121, chance = 44440, maxCount = 8 }, -- green crystal shard

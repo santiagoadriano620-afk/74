@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Ogre Savage")
+﻿local mType = Game.createMonsterType("Ogre Savage")
 local monster = {}
 
 monster.name = "Ogre Savage"
@@ -87,12 +87,10 @@ monster.loot = {
 	{ id = 8016, chance = 1200, maxCount = 2 }, -- jalapeno pepper
 	{ id = 9057, chance = 1200, maxCount = 2 }, -- small topaz
 	{ id = 3030, chance = 1200, maxCount = 2 }, -- small ruby
-	{ id = 7439, chance = 1200 }, -- berserk potion
 	{ id = 3078, chance = 2200 }, -- mysterious fetish
 	{ id = 22188, chance = 1200 }, -- ogre ear stud
 	{ id = 22189, chance = 1200 }, -- ogre nose ring
 	{ id = 22191, chance = 1200 }, -- skull fetish
-	{ id = 236, chance = 2200, maxCount = 3 }, -- strong health potion
 	{ id = 3279, chance = 600 }, -- war hammer
 	{ id = 22192, chance = 300 }, -- shamanic mask
 }

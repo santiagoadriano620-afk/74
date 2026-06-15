@@ -1,4 +1,4 @@
-local internalNpcName = "H.L."
+﻿local internalNpcName = "H.L."
 local npcType = Game.createNpcType(internalNpcName)
 local npcConfig = {}
 
@@ -152,7 +152,6 @@ npcConfig.shop = {
 	{ itemName = "sickle", clientId = 3293, sell = 1 },
 	{ itemName = "silver mace", clientId = 3312, sell = 270 },
 	{ itemName = "soldier helmet", clientId = 3375, sell = 16 },
-	{ itemName = "spear", clientId = 3277, sell = 2 },
 	{ itemName = "spike sword", clientId = 3271, sell = 25 },
 	{ itemName = "staff", clientId = 3289, sell = 1 },
 	{ itemName = "steel helmet", clientId = 3351, sell = 60 },

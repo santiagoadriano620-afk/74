@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Hand of Cursed Fate")
+﻿local mType = Game.createMonsterType("Hand of Cursed Fate")
 local monster = {}
 
 monster.name = "Hand of Cursed Fate"
@@ -88,10 +88,8 @@ monster.loot = {
 	{ id = 3051, chance = 3150 }, -- energy ring
 	{ name = "platinum amulet", chance = 1005 },
 	{ name = "mind stone", chance = 9090 },
-	{ name = "wand of inferno", chance = 5590 },
 	{ name = "boots of haste", chance = 540 },
 	{ name = "protection amulet", chance = 8740 },
-	{ name = "sudden death rune", chance = 4200, maxCount = 8 },
 	{ name = "skull staff", chance = 700 },
 	{ name = "knight armor", chance = 4550 },
 	{ name = "crown armor", chance = 1400 },
@@ -102,8 +100,6 @@ monster.loot = {
 	{ name = "flask of demonic blood", chance = 30000, maxCount = 4 },
 	{ name = "assassin star", chance = 7692, maxCount = 5 },
 	{ name = "abyss hammer", chance = 495 },
-	{ name = "great mana potion", chance = 19990, maxCount = 2 },
-	{ name = "ultimate health potion", chance = 18000 },
 	{ name = "gold ingot", chance = 700 },
 }
 

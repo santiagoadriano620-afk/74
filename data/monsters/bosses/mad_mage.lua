@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Mad Mage")
+﻿local mType = Game.createMonsterType("Mad Mage")
 local monster = {}
 
 monster.name = "Mad Mage"
@@ -81,8 +81,6 @@ monster.voices = {
 monster.loot = {
 	{ id = 3031, chance = 100000, maxCount = 340 }, -- gold coin
 	{ id = 3035, chance = 48000, maxCount = 5 }, -- platinum coin
-	{ id = 237, chance = 21000, maxCount = 5 }, -- strong mana potion
-	{ id = 236, chance = 17000, maxCount = 5 }, -- strong health potion
 	--{ id = 3062, chance = 9000 }, -- mind stone
 	{ id = 3049, chance = 6000 }, -- stealth ring
 	{ id = 7368, chance = 4000, maxCount = 4 }, -- assassin star
@@ -90,7 +88,6 @@ monster.loot = {
 	{ id = 5911, chance = 5000 }, -- red piece of cloth
 	{ id = 3033, chance = 4000, maxCount = 3 }, -- small amethyst
 	{ id = 12599, chance = 1680, unique = true }, -- mage's cap
-	{ id = 7443, chance = 1100 }, -- bullseye potion
 	{ id = 9027, chance = 740 }, -- crystal of focus
 	{ id = 3079, chance = 2370 }, -- boots of haste
 	{ id = 11454, chance = 370 }, -- luminous orb

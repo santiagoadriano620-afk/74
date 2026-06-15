@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Shaburak Demon")
+﻿local mType = Game.createMonsterType("Shaburak Demon")
 local monster = {}
 
 monster.name = "Shaburak Demon"
@@ -87,13 +87,9 @@ monster.loot = {
 	{ name = "gold coin", chance = 50000, maxCount = 100 },
 	{ name = "gold coin", chance = 50000, maxCount = 50 },
 	{ id = 3051, chance = 1052 }, -- energy ring
-	{ name = "wand of inferno", chance = 564 },
 	{ name = "brown mushroom", chance = 3846 },
 	{ name = "magic sulphur", chance = 81 },
 	{ name = "royal spear", chance = 10000, maxCount = 6 },
-	{ name = "bullseye potion", chance = 628 },
-	{ name = "strong health potion", chance = 4761 },
-	{ name = "strong mana potion", chance = 5000 },
 	{ name = "magma legs", chance = 155 },
 }
 

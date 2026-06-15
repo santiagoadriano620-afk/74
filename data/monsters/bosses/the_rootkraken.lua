@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("The Rootkraken")
+﻿local mType = Game.createMonsterType("The Rootkraken")
 local monster = {}
 
 monster.name = "The Rootkraken"
@@ -72,11 +72,6 @@ monster.voices = {
 monster.loot = {
 	{ name = "crystal coin", chance = 100000, maxCount = 3 },
 	{ name = "platinum coin", chance = 100000, maxCount = 93 },
-	{ name = "ultimate health potion", chance = 42590, maxCount = 19 },
-	{ name = "great spirit potion", chance = 42590, maxCount = 7 },
-	{ name = "great mana potion", chance = 31480, maxCount = 14 },
-	{ name = "supreme health potion", chance = 31480, maxCount = 4 },
-	{ name = "ultimate spirit potion", chance = 25930, maxCount = 14 },
 	{ id = 3037, chance = 24070 }, -- yellow gem
 	{ name = "amber with a bug", chance = 18520 },
 	{ name = "giant topaz", chance = 7410 },
@@ -89,8 +84,6 @@ monster.loot = {
 	{ id = 47370, chance = 200 }, -- amber bludgeon
 	{ id = 47371, chance = 200 }, -- amber bow
 	{ id = 47377, chance = 300 }, -- amber crossbow
-	{ id = 47372, chance = 300 }, -- amber wand
-	{ id = 47373, chance = 300 }, -- amber rod
 	{ id = 50239, chance = 300 }, -- amber kusarigama
 	{ id = 48514, chance = 250 }, -- strange inedible fruit
 	{ id = 50152, chance = 560 }, -- collar of orange plasma

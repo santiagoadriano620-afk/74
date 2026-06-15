@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("The Duke of the Depths")
+﻿local mType = Game.createMonsterType("The Duke of the Depths")
 local monster = {}
 
 monster.name = "The Duke of the Depths"
@@ -72,16 +72,11 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "platinum coin", chance = 100000, maxCount = 63 },
-	{ name = "mastermind potion", chance = 100000 },
 	{ name = "stone skin amulet", chance = 100000 },
 	{ id = 27713, chance = 100000 }, -- heavy crystal fragment
-	{ name = "wand of inferno", chance = 75000 },
-	{ name = "great mana potion", chance = 64580, maxCount = 18 },
 	{ name = "blue crystal shard", chance = 60420 },
 	{ name = "fire axe", chance = 58330 },
-	{ name = "ultimate health potion", chance = 52080, maxCount = 18 },
 	{ name = "fire sword", chance = 52080 },
-	{ name = "great spirit potion", chance = 45830, maxCount = 18 },
 	{ name = "luminous orb", chance = 37500 },
 	{ name = "damaged worm head", chance = 27080 },
 	{ name = "small amethyst", chance = 25000 },
@@ -100,7 +95,6 @@ monster.loot = {
 	{ id = 3039, chance = 12500 }, -- red gem
 	{ name = "small topaz", chance = 10420 },
 	{ name = "small emerald", chance = 10420 },
-	{ name = "muck rod", chance = 10420 },
 	{ name = "gold token", chance = 31960 },
 	{ name = "crystal coin", chance = 6250 },
 	{ name = "gnome shield", chance = 4170 },

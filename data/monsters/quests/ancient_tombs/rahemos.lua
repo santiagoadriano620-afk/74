@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Rahemos")
+﻿local mType = Game.createMonsterType("Rahemos")
 local monster = {}
 
 monster.name = "Rahemos"
@@ -92,7 +92,6 @@ monster.loot = {
 	{ name = "ancient rune", chance = 100000 },
 	{ name = "twin axe", chance = 200 },
 	{ name = "magician hat", chance = 300 },
-	{ name = "great mana potion", chance = 7000 },
 }
 
 monster.attacks = {

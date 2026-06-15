@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Pirat Bombardier")
+﻿local mType = Game.createMonsterType("Pirat Bombardier")
 local monster = {}
 
 monster.name = "Pirat Bombardier"
@@ -77,7 +77,6 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ name = "great mana potion", chance = 30000, maxCount = 2 },
 	{ name = "pirate coin", chance = 7000, maxCount = 10 },
 	{ name = "terra boots", chance = 6000 },
 	{ name = "pirat's tail", chance = 4000 },

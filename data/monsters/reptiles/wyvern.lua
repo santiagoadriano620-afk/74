@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Wyvern")
+﻿local mType = Game.createMonsterType("Wyvern")
 local monster = {}
 
 monster.name = "Wyvern"
@@ -82,11 +82,9 @@ monster.loot = {
 	{ name = "emerald bangle", chance = 540 },
 	{ name = "small sapphire", chance = 5000 },
 	{ name = "gold coin", chance = 100000, maxCount = 90 },
-	{ name = "wand of inferno", chance = 810 },
 	{ name = "power bolt", chance = 3400, maxCount = 2 },
 	{ name = "dragon ham", chance = 60500, maxCount = 3 },
 	{ name = "wyvern fang", chance = 410 },
-	{ name = "strong health potion", chance = 2500 },
 	{ name = "wyvern talisman", chance = 12300 },
 }
 

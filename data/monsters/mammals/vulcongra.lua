@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Vulcongra")
+﻿local mType = Game.createMonsterType("Vulcongra")
 local monster = {}
 
 monster.name = "Vulcongra"
@@ -83,12 +83,9 @@ monster.loot = {
 	{ name = "gold coin", chance = 50000, maxCount = 100 },
 	{ name = "gold coin", chance = 50000, maxCount = 7 },
 	{ name = "platinum coin", chance = 14780 },
-	{ name = "wand of inferno", chance = 1000 },
 	{ id = 3091, chance = 2920 }, -- sword ring
 	{ name = "fire sword", chance = 260 },
 	{ name = "banana", chance = 10420, maxCount = 10 },
-	{ name = "strong health potion", chance = 7100 },
-	{ name = "strong mana potion", chance = 7100 },
 	{ name = "magma amulet", chance = 970 },
 	{ name = "magma coat", chance = 140 },
 	{ name = "fiery heart", chance = 9380 },

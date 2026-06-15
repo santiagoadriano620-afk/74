@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Dark Torturer")
+﻿local mType = Game.createMonsterType("Dark Torturer")
 local monster = {}
 
 monster.name = "Dark Torturer"
@@ -100,8 +100,6 @@ monster.loot = {
 	{ name = "assassin star", chance = 2222, maxCount = 5 },
 	{ name = "vile axe", chance = 480 },
 	{ name = "butcher's axe", chance = 850 },
-	{ name = "great mana potion", chance = 14830, maxCount = 2 },
-	{ name = "great health potion", chance = 10000, maxCount = 2 },
 	{ name = "gold ingot", chance = 3140 },
 }
 

@@ -1,4 +1,4 @@
-local toggleRashidStorage = false
+﻿local toggleRashidStorage = false
 
 local internalNpcName = "Rashid of Island"
 local npcType = Game.createNpcType(internalNpcName)
@@ -293,7 +293,6 @@ npcConfig.shop = {
 	{ itemName = "brutetamer's staff", clientId = 7379, sell = 1500 },
 	{ itemName = "buckle", clientId = 17829, sell = 7000 },
 	{ itemName = "castle shield", clientId = 3435, sell = 5000 },
-	{ itemName = "chain bolter", clientId = 8022, sell = 40000 },
 	{ itemName = "chaos mace", clientId = 7427, sell = 9000 },
 	{ itemName = "cobra crown", clientId = 11674, sell = 50000 },
 	{ itemName = "coconut shoes", clientId = 9017, sell = 500 },

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Lizard Noble")
+﻿local mType = Game.createMonsterType("Lizard Noble")
 local monster = {}
 
 monster.name = "Lizard Noble"
@@ -13,7 +13,6 @@ monster.outfit = {
 	lookAddons = 0,
 	lookMount = 0,
 }
-
 
 monster.raceId = 656
 monster.Bestiary = {
@@ -81,8 +80,6 @@ monster.loot = {
 	{ name = "platinum coin", chance = 10000, maxCount = 20 },
 	{ name = "lizard leather", chance = 220 },
 	{ name = "lizard scale", chance = 650 },
-	{ name = "strong health potion", chance = 2550 },
-	{ name = "great health potion", chance = 2900 },
 }
 
 monster.attacks = {

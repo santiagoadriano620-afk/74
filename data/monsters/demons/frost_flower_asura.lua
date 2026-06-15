@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Frost Flower Asura")
+﻿local mType = Game.createMonsterType("Frost Flower Asura")
 local monster = {}
 
 monster.name = "Frost Flower Asura"
@@ -87,7 +87,6 @@ monster.loot = {
 	{ id = 3030, chance = 4560, maxCount = 1 }, -- small ruby
 	{ id = 3029, chance = 7600, maxCount = 3 }, -- small sapphire
 	{ id = 9057, chance = 4770, maxCount = 1 }, -- small topaz
-	{ id = 239, chance = 12080, maxCount = 2 }, -- great health potion
 	{ id = 3026, chance = 7480 }, -- white pearl
 	{ id = 7404, chance = 550 }, -- assassin dagger
 	{ id = 3041, chance = 300 }, -- blue gem
@@ -102,8 +101,6 @@ monster.loot = {
 	{ id = 8074, chance = 420 }, -- spellbook of mind control
 	{ id = 3403, chance = 3380 }, -- tribal mask
 	{ id = 3037, chance = 1820 }, -- yellow gem
-	{ id = 3067, chance = 19520 }, -- hailstorm rod
-	{ id = 8083, chance = 19520 }, -- northwind rod
 }
 
 monster.attacks = {

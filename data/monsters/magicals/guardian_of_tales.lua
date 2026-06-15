@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Guardian of Tales")
+﻿local mType = Game.createMonsterType("Guardian of Tales")
 local monster = {}
 
 monster.name = "Guardian of Tales"
@@ -82,7 +82,6 @@ monster.loot = {
 	{ name = "fire axe", chance = 250 },
 	{ name = "soul orb", chance = 260, maxCount = 5 },
 	{ name = "spellbook of warding", chance = 250 },
-	{ name = "wand of inferno", chance = 250 },
 	{ name = "fire sword", chance = 250 },
 	{ name = "magma coat", chance = 350 },
 	{ name = "magma legs", chance = 250 },

@@ -1,4 +1,4 @@
-local internalNpcName = "Gnomission"
+﻿local internalNpcName = "Gnomission"
 local npcType = Game.createNpcType(internalNpcName)
 local npcConfig = {}
 
@@ -184,7 +184,6 @@ npcConfig.shop = {
 	{ itemName = "bright sword", clientId = 3295, sell = 6000 },
 	{ itemName = "ceremonial ankh", clientId = 6561, sell = 20000 },
 	{ itemName = "claw of 'the noxious spawn'", clientId = 9392, sell = 15000 },
-	{ itemName = "crystal wand", clientId = 3068, sell = 10000 },
 	{ itemName = "demon helmet", clientId = 3387, sell = 40000 },
 	{ itemName = "dragon robe", clientId = 8039, sell = 50000 },
 	{ itemName = "dwarven axe", clientId = 3323, sell = 1500 },
@@ -206,14 +205,9 @@ npcConfig.shop = {
 	{ itemName = "pet pig", clientId = 16165, sell = 1500 },
 	{ itemName = "purple tome", clientId = 2848, sell = 2000 },
 	{ itemName = "red tome", clientId = 2852, sell = 2000 },
-	{ itemName = "runed sword", clientId = 7417, sell = 45000 },
 	{ itemName = "sea serpent trophy", clientId = 9613, sell = 10000 },
 	{ itemName = "silkweaver bow", clientId = 8029, sell = 12000 },
 	{ itemName = "silver fafnar trophy", clientId = 9627, sell = 1000 },
-	{ itemName = "silver rune emblem explosion", clientId = 11607, sell = 5000 },
-	{ itemName = "silver rune emblem heavy magic missile", clientId = 11605, sell = 5000 },
-	{ itemName = "silver rune emblem sudden death", clientId = 11609, sell = 5000 },
-	{ itemName = "silver rune emblem ultimate healing", clientId = 11603, sell = 5000 },
 	{ itemName = "souleater trophy", clientId = 11679, sell = 7500 },
 	{ itemName = "star amulet", clientId = 3014, sell = 500 },
 	{ itemName = "statue of abyssador", clientId = 16232, sell = 4000 },

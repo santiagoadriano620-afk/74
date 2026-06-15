@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Memory of a Vampire")
+﻿local mType = Game.createMonsterType("Memory of a Vampire")
 local monster = {}
 
 monster.name = "Memory of a Vampire"
@@ -73,7 +73,6 @@ monster.loot = {
 	{ name = "vampire shield", chance = 230 },
 	{ name = "grave flower", chance = 1910 },
 	{ name = "special fx box", chance = 1500 },
-	{ name = "strong health potion", chance = 1500 },
 }
 
 monster.attacks = {

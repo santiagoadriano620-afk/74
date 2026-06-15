@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Gazer Spectre")
+﻿local mType = Game.createMonsterType("Gazer Spectre")
 local monster = {}
 
 monster.name = "Gazer Spectre"
@@ -88,8 +88,6 @@ monster.loot = {
 	{ id = 3039, chance = 4000 }, -- red gem
 	{ name = "yellow gem", chance = 3000 },
 	{ id = 29299, chance = 1100 }, -- golden idol of tukh
-	{ name = "wand of draconia", chance = 3500 },
-	{ name = "wand of inferno", chance = 1100 },
 	{ id = 30084, chance = 700 }, -- red ectoplasm
 	{ name = "magma coat", chance = 900 },
 	{ name = "prismatic quartz", chance = 1500 },

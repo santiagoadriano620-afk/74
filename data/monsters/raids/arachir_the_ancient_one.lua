@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Arachir the Ancient One")
+﻿local mType = Game.createMonsterType("Arachir the Ancient One")
 local monster = {}
 
 monster.name = "Arachir the Ancient One"
@@ -81,7 +81,6 @@ monster.voices = {
 
 monster.loot = {
 	{ id = 7416, chance = 1200 }, -- bloody edge
-	{ id = 236, chance = 10000 }, -- strong health potion
 	{ id = 3114, chance = 10000 }, -- skull
 	{ id = 3031, chance = 100000, maxCount = 98 }, -- gold coin
 	{ id = 8192, chance = 100000 }, -- vampire lord token

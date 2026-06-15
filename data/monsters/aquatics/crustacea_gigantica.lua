@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Crustacea Gigantica")
+﻿local mType = Game.createMonsterType("Crustacea Gigantica")
 local monster = {}
 
 monster.name = "Crustacea Gigantica"
@@ -81,11 +81,8 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "gold coin", chance = 97350, maxCount = 175 },
-	{ name = "strong mana potion", chance = 7080 },
 	{ name = "giant crab pincer", chance = 4420, maxCount = 2 },
-	{ name = "strong health potion", chance = 2650 },
 	{ id = 3098, chance = 880 }, -- ring of healing
-	{ name = "great mana potion", chance = 2550 },
 }
 
 monster.attacks = {

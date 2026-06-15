@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Dark Faun")
+﻿local mType = Game.createMonsterType("Dark Faun")
 local monster = {}
 
 monster.name = "Dark Faun"
@@ -95,9 +95,7 @@ monster.loot = {
 	{ name = "panpipes", chance = 719 },
 	{ name = "prismatic quartz", chance = 719 },
 	{ name = "leaf star", chance = 10000, maxCount = 8 },
-	{ name = "strong health potion", chance = 6800, maxCount = 2 },
 	{ name = "goat grass", chance = 5155 },
-	{ name = "great health potion", chance = 591 },
 }
 
 monster.attacks = {

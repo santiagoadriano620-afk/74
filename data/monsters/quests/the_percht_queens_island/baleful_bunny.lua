@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Baleful Bunny")
+﻿local mType = Game.createMonsterType("Baleful Bunny")
 local monster = {}
 
 monster.name = "Baleful Bunny"
@@ -77,7 +77,6 @@ monster.voices = {
 monster.loot = {
 	{ name = "platinum coin", chance = 100000 },
 	{ name = "terra amulet", chance = 8480 },
-	{ name = "snakebite rod", chance = 7420 },
 	{ name = "leaf star", chance = 7120, maxCount = 2 },
 	{ name = "lightning pendant", chance = 6820 },
 	{ name = "strange talisman", chance = 5760 },

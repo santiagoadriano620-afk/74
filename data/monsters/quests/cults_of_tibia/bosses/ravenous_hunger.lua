@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Ravenous Hunger")
+﻿local mType = Game.createMonsterType("Ravenous Hunger")
 local monster = {}
 
 monster.name = "Ravenous Hunger"
@@ -82,7 +82,6 @@ monster.voices = {
 monster.loot = {
 	{ name = "bed of nails", chance = 67000 },
 	{ name = "small sapphire", chance = 21000, maxCount = 10 },
-	{ name = "great spirit potion", chance = 33230, maxCount = 5 },
 	{ name = "yellow gem", chance = 12000 },
 	{ id = 282, chance = 5000 }, -- giant shimmering pearl (brown)
 	{ name = "platinum coin", chance = 68299, maxCount = 30 },
@@ -92,7 +91,6 @@ monster.loot = {
 	{ name = "gold token", chance = 18180 },
 	{ name = "gold coin", chance = 100000, maxCount = 200 },
 	{ name = "small emerald", chance = 19000, maxCount = 10 },
-	{ name = "great mana potion", chance = 31230, maxCount = 5 },
 	{ id = 3039, chance = 12000 }, -- red gem
 	{ name = "oriental shoes", chance = 11000 },
 	{ name = "torn shirt", chance = 42000 },
@@ -101,11 +99,9 @@ monster.loot = {
 	{ name = "wooden spellbook", chance = 4500 },
 	{ name = "elven legs", chance = 16000 },
 	{ name = "small diamond", chance = 21000, maxCount = 10 },
-	{ name = "ultimate health potion", chance = 28230, maxCount = 5 },
 	{ name = "energy bar", chance = 53000, maxCount = 5 },
 	{ name = "green gem", chance = 12000 },
 	{ name = "broken key ring", chance = 4000 },
-	{ name = "muck rod", chance = 10000 },
 	{ name = "mysterious remains", chance = 100000 },
 	{ name = "cobra crown", chance = 400 },
 	{ name = "silver token", chance = 18180 },

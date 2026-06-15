@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Vemiath")
+﻿local mType = Game.createMonsterType("Vemiath")
 local monster = {}
 
 monster.name = "Vemiath"
@@ -76,16 +76,10 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "crystal coin", chance = 8852, maxCount = 125 },
-	{ name = "ultimate mana potion", chance = 11337, maxCount = 211 },
 	{ name = "giant emerald", chance = 6423, maxCount = 1 },
-	{ name = "supreme health potion", chance = 8385, maxCount = 179 },
 	{ name = "yellow gem", chance = 8604, maxCount = 5 },
-	{ name = "berserk potion", chance = 9395, maxCount = 45 },
 	{ name = "blue gem", chance = 14144, maxCount = 5 },
 	{ name = "green gem", chance = 6221, maxCount = 4 },
-	{ name = "bullseye potion", chance = 6530, maxCount = 26 },
-	{ name = "mastermind potion", chance = 5700, maxCount = 44 },
-	{ name = "ultimate spirit potion", chance = 9216, maxCount = 25 },
 	{ name = "giant topaz", chance = 11191, maxCount = 1 },
 	{ name = "giant amethyst", chance = 8527, maxCount = 1 },
 	{ name = "gold ingot", chance = 10866, maxCount = 1 },

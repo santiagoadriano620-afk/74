@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Mutated Tiger")
+﻿local mType = Game.createMonsterType("Mutated Tiger")
 local monster = {}
 
 monster.name = "Mutated Tiger"
@@ -84,7 +84,6 @@ monster.loot = {
 	{ name = "meat", chance = 29500, maxCount = 2 },
 	{ name = "angelic axe", chance = 440 },
 	{ name = "glorious axe", chance = 870 },
-	{ name = "strong health potion", chance = 6000 },
 	{ name = "silky tapestry", chance = 730 },
 	{ name = "striped fur", chance = 20130 },
 	{ name = "sabretooth", chance = 10600 },

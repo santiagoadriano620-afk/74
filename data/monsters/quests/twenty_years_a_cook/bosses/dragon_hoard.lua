@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Dragon Hoard")
+﻿local mType = Game.createMonsterType("Dragon Hoard")
 local monster = {}
 
 monster.name = "Dragon Hoard"
@@ -76,7 +76,6 @@ monster.loot = {
 	{ id = 3061, chance = 22727 }, -- Life Crystal
 	{ id = 3037, chance = 22727, maxCount = 2 }, -- Yellow Gem
 	{ id = 3392, chance = 18182 }, -- Royal Helmet
-	{ id = 3071, chance = 13636 }, -- Wand of Inferno
 	{ id = 7290, chance = 9091 }, -- Shard
 	{ id = 3297, chance = 9091 }, -- Serpent Sword
 	{ id = 10388, chance = 9091 }, -- Drakinata

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Minotaur Cult Prophet")
+﻿local mType = Game.createMonsterType("Minotaur Cult Prophet")
 local monster = {}
 
 monster.name = "Minotaur Cult Prophet"
@@ -80,10 +80,7 @@ monster.voices = {
 monster.loot = {
 	{ name = "gold coin", chance = 100000, maxCount = 150 },
 	{ name = "cowbell", chance = 18570 },
-	{ name = "moonlight rod", chance = 8480 },
 	{ name = "cultish robe", chance = 15450 },
-	{ name = "great health potion", chance = 7070 },
-	{ name = "great mana potion", chance = 16810 },
 	{ name = "gold ingot", chance = 1120 },
 	{ name = "small ruby", chance = 7160 },
 	{ name = "small topaz", chance = 7650 },

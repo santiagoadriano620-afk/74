@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("The Count of the Core")
+﻿local mType = Game.createMonsterType("The Count of the Core")
 local monster = {}
 
 monster.name = "The Count of the Core"
@@ -73,19 +73,14 @@ monster.voices = {
 monster.loot = {
 	{ name = "platinum coin", chance = 100000, maxCount = 54 },
 	{ id = 27713, chance = 100000, maxCount = 7 }, -- heavy crystal fragment
-	{ name = "mastermind potion", chance = 100000, maxCount = 3 },
 	{ name = "stone skin amulet", chance = 100000 },
 	{ name = "amber staff", chance = 100000 },
-	{ name = "ultimate health potion", chance = 80000, maxCount = 15 },
-	{ name = "great mana potion", chance = 60000, maxCount = 23 },
 	{ name = "small topaz", chance = 60000, maxCount = 10 },
 	{ name = "green crystal shard", chance = 60000 },
-	{ name = "wand of inferno", chance = 60000 },
 	{ name = "huge spiky snail shell", chance = 60000 },
 	{ name = "small diamond", chance = 40000 },
 	{ name = "huge chunk of crude iron", chance = 40000, maxCount = 3 },
 	{ id = 282, chance = 40000 }, -- giant shimmering pearl
-	{ name = "great spirit potion", chance = 20000 },
 	{ name = "silver token", chance = 11820 },
 	{ name = "yellow gem", chance = 20000 },
 	{ name = "fire sword", chance = 20000 },

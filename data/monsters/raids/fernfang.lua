@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Fernfang")
+﻿local mType = Game.createMonsterType("Fernfang")
 local monster = {}
 
 monster.name = "Fernfang"
@@ -83,7 +83,6 @@ monster.loot = {
 	{ id = 11493, chance = 40000 }, -- safety pin
 	{ id = 3037, chance = 33000 }, -- yellow gem
 	{ id = 2885, chance = 20000 }, -- brown flask
-	{ id = 237, chance = 20000 }, -- strong mana potion
 	{ id = 2914, chance = 13000 }, -- lamp
 	{ id = 3289, chance = 13000 }, -- staff
 	{ id = 5786, chance = 13000 }, -- wooden whistle

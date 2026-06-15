@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Pixie")
+﻿local mType = Game.createMonsterType("Pixie")
 local monster = {}
 
 monster.name = "Pixie"
@@ -85,7 +85,6 @@ monster.loot = {
 	{ name = "butterfly ring", chance = 492 },
 	{ name = "wooden spellbook", chance = 92 },
 	{ name = "dream blossom staff", chance = 92 },
-	{ id = 3046, chance = 492 }, -- magic light wand
 	{ name = "green mushroom", chance = 492 },
 	{ name = "small enchanted amethyst", chance = 492, maxCount = 2 },
 	{ name = "small topaz", chance = 592, maxCount = 2 },
@@ -94,9 +93,7 @@ monster.loot = {
 	{ name = "star herb", chance = 719 },
 	{ name = "leaf star", chance = 10000, maxCount = 5 },
 	{ name = "red rose", chance = 30100 },
-	{ name = "strong mana potion", chance = 6800 },
 	{ name = "wild flowers", chance = 5155 },
-	{ name = "great mana potion", chance = 591 },
 	{ name = "dandelion seeds", chance = 5800 },
 	{ name = "fresh fruit", chance = 3400, maxCount = 2 },
 }

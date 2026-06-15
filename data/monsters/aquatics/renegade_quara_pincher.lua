@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Renegade Quara Pincher")
+﻿local mType = Game.createMonsterType("Renegade Quara Pincher")
 local monster = {}
 
 monster.name = "Renegade Quara Pincher"
@@ -79,8 +79,6 @@ monster.voices = {
 monster.loot = {
 	{ name = "platinum coin", chance = 80620, maxCount = 5 },
 	{ name = "quara pincers", chance = 18640, maxCount = 1 },
-	{ name = "great mana potion", chance = 10380, maxCount = 2 },
-	{ name = "great health potion", chance = 9340, maxCount = 2 },
 	{ name = "small ruby", chance = 7920, maxCount = 2 },
 	{ name = "small diamond", chance = 7620, maxCount = 2 },
 	{ name = "mind stone", chance = 6610 },

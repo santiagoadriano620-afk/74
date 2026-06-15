@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("The Source of Corruption")
+﻿local mType = Game.createMonsterType("The Source of Corruption")
 local monster = {}
 
 monster.name = "The Source of Corruption"
@@ -78,10 +78,7 @@ monster.loot = {
 	{ id = 22193, chance = 100000 }, -- onyx chip
 	{ id = 9632, chance = 100000 }, -- ancient stone
 	{ id = 23517, chance = 69490, maxCount = 11 }, -- solid rage
-	{ id = 7643, chance = 62710, maxCount = 5 }, -- ultimate health potion
-	{ id = 7642, chance = 62710, maxCount = 8 }, -- great spirit potion
 	{ id = 23507, chance = 59320, maxCount = 10 }, -- crystallized anger
-	{ id = 238, chance = 57630, maxCount = 5 }, -- great mana potion
 	{ id = 3037, chance = 30510 }, -- yellow gem
 	{ id = 9057, chance = 28810, maxCount = 20 }, -- small topaz
 	{ id = 3038, chance = 27120 }, -- green gem
@@ -109,8 +106,6 @@ monster.loot = {
 	{ id = 3340, chance = 1690 }, -- heavy mace
 	{ id = 8098, chance = 1690 }, -- demonwing axe
 	{ id = 9068, chance = 1690 }, -- yalahari figurine
-	{ id = 236, chance = 80000, maxCount = 2 }, -- strong health potion
-	{ id = 239, chance = 80000, maxCount = 3 }, -- great health potion
 	{ id = 7418, chance = 1780 }, -- nightmare blade
 	{ id = 20067, chance = 8280 }, -- crude umbral slayer
 	{ id = 22866, chance = 980, maxCount = 1 }, -- rift bow

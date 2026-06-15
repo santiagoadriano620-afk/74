@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Gelidrazah the Frozen")
+﻿local mType = Game.createMonsterType("Gelidrazah the Frozen")
 local monster = {}
 
 monster.name = "Gelidrazah the Frozen"
@@ -83,7 +83,6 @@ monster.loot = {
 	{ id = 19362, chance = 500 }, -- icicle bow
 	{ id = 19363, chance = 500 }, -- runic ice shield
 	{ id = 7409, chance = 1500 }, -- northern star
-	{ id = 16118, chance = 1500 }, -- glacial rod
 	{ id = 24939, chance = 100000 }, -- scale of gelidrazah
 }
 

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Bretzecutioner")
+﻿local mType = Game.createMonsterType("Bretzecutioner")
 local monster = {}
 
 monster.name = "Bretzecutioner"
@@ -77,9 +77,6 @@ monster.loot = {
 	{ id = 7452, chance = 32000 }, -- spiked squelcher
 	{ id = 3035, chance = 100000, maxCount = 8 }, -- platinum coin
 	{ id = 3281, chance = 24000 }, -- giant sword
-	{ id = 239, chance = 44000, maxCount = 3 }, -- great health potion
-	{ id = 238, chance = 44000, maxCount = 3 }, -- great mana potion
-	{ id = 7642, chance = 44000, maxCount = 3 }, -- great spirit potion
 	{ id = 281, chance = 48000 }, -- giant shimmering pearl (green)
 	{ id = 282, chance = 48000 }, -- giant shimmering pearl (brown)
 	{ id = 3554, chance = 4000 }, -- steel boots

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Zevelon Duskbringer")
+﻿local mType = Game.createMonsterType("Zevelon Duskbringer")
 local monster = {}
 
 monster.name = "Zevelon Duskbringer"
@@ -83,7 +83,6 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ id = 236, chance = 4000 }, -- strong health potion
 	{ id = 3027, chance = 8000 }, -- black pearl
 	{ id = 8192, chance = 100000 }, -- vampire lord token
 	{ id = 3035, chance = 50000, maxCount = 5 }, -- platinum coin

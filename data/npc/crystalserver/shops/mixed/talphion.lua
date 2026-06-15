@@ -1,4 +1,4 @@
-local internalNpcName = "Talphion"
+﻿local internalNpcName = "Talphion"
 local npcType = Game.createNpcType(internalNpcName)
 local npcConfig = {}
 
@@ -85,7 +85,6 @@ npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
 npcHandler:addModule(FocusModule:new(), npcConfig.name, true, true, true)
 
 npcConfig.shop = {
-	{ itemName = "bolt", clientId = 3446, buy = 5 },
 	{ itemName = "crossbow", clientId = 3349, buy = 1150 },
 }
 -- On buy npc shop message

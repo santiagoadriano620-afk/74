@@ -1,4 +1,4 @@
-local internalNpcName = "Hyacinth"
+﻿local internalNpcName = "Hyacinth"
 local npcType = Game.createNpcType(internalNpcName)
 local npcConfig = {}
 
@@ -227,7 +227,6 @@ npcConfig.shop = {
 	{ itemName = "empty potion flask", clientId = 283, sell = 5 },
 	{ itemName = "empty potion flask", clientId = 284, sell = 5 },
 	{ itemName = "empty potion flask", clientId = 285, sell = 5 },
-	{ itemName = "small health potion", clientId = 7876, buy = 20 },
 	{ itemName = "vial", clientId = 2874, sell = 5 },
 }
 -- On buy npc shop message

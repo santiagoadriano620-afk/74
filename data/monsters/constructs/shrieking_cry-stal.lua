@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Shrieking Cry-Stal")
+﻿local mType = Game.createMonsterType("Shrieking Cry-Stal")
 local monster = {}
 
 monster.name = "Shrieking Cry-Stal"
@@ -77,7 +77,6 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "Crystal Coin", chance = 23440, minCount = 1, maxCount = 2 },
-	{ name = "Great Spirit Potion", chance = 20760 },
 	{ name = "Cry-Stal", chance = 12560, minCount = 1, maxCount = 2 },
 	{ name = "Small Diamond", chance = 6020, minCount = 1, maxCount = 3 },
 	{ name = "Rusted Armor", chance = 5580 },

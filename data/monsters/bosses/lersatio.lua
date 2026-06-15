@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Lersatio")
+﻿local mType = Game.createMonsterType("Lersatio")
 local monster = {}
 
 monster.description = "Lersatio"
@@ -79,7 +79,6 @@ monster.voices = {
 monster.loot = {
     { name = "Gold Coin", chance = 100000, maxCount = 100 },
     { name = "Blood Preservation", chance = 89580, maxCount = 1 },
-    { name = "Strong Health Potion", chance = 23660, maxCount = 1 },
     { id = 3098, chance = 11000, maxCount = 1 },
     { name = "Platinum Coin", chance = 9740, maxCount = 5 },
     { name = "Black Pearl", chance = 1850, maxCount = 1 },

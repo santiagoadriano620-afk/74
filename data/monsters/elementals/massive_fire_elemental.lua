@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Massive Fire Elemental")
+﻿local mType = Game.createMonsterType("Massive Fire Elemental")
 local monster = {}
 
 monster.name = "Massive Fire Elemental"
@@ -79,7 +79,6 @@ monster.loot = {
 	{ name = "gold coin", chance = 50000, maxCount = 100 },
 	{ name = "gold coin", chance = 25000, maxCount = 100 },
 	{ name = "gold coin", chance = 25000, maxCount = 12 },
-	{ name = "wand of inferno", chance = 2240 },
 	{ name = "fire sword", chance = 530 },
 	{ name = "magma amulet", chance = 1300 },
 	{ name = "magma boots", chance = 560 },

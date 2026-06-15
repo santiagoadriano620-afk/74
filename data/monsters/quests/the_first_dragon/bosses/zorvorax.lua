@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Zorvorax")
+﻿local mType = Game.createMonsterType("Zorvorax")
 local monster = {}
 
 monster.name = "Zorvorax"
@@ -71,8 +71,6 @@ monster.voices = {
 monster.loot = {
 	{ id = 24942, chance = 100000 }, -- bones of zorvorax
 	{ id = 3031, chance = 100000, maxCount = 24 }, -- gold coin
-	{ id = 239, chance = 20000, maxCount = 3 }, -- great health potion
-	{ id = 7642, chance = 20000, maxCount = 3 }, -- great spirit potion
 	{ id = 12304, chance = 500 }, -- maxilla maximus
 	{ id = 3035, chance = 40000, maxCount = 4 }, -- platinum coin
 	{ id = 5944, chance = 100000 }, -- soul orb

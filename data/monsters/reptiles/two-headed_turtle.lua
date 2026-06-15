@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Two-Headed Turtle")
+﻿local mType = Game.createMonsterType("Two-Headed Turtle")
 local monster = {}
 
 monster.name = "Two-Headed Turtle"
@@ -67,9 +67,7 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "platinum coin", chance = 100000, maxCount = 8 },
-	{ name = "great health potion", chance = 15701 },
 	{ name = "two-headed turtle heads", chance = 8700 },
-	{ name = "strong mana potion", chance = 13373 },
 	{ name = "hydrophytes", chance = 11000 },
 	{ id = 3115, chance = 6388 }, -- bone
 	{ name = "glacier shoes", chance = 4650 },

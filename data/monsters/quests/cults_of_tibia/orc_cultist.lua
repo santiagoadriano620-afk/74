@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Orc Cultist")
+﻿local mType = Game.createMonsterType("Orc Cultist")
 local monster = {}
 
 monster.name = "Orc Cultist"
@@ -78,7 +78,6 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "gold coin", chance = 100000, maxCount = 166 },
-	{ name = "strong health potion", chance = 19830 },
 	{ name = "small topaz", chance = 6002, maxCount = 3 },
 	{ name = "orcish axe", chance = 9005 },
 	{ name = "cultish robe", chance = 4960 },

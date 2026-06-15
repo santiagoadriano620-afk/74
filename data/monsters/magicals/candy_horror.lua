@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Candy Horror")
+﻿local mType = Game.createMonsterType("Candy Horror")
 local monster = {}
 
 monster.name = "Candy Horror"
@@ -91,7 +91,6 @@ monster.loot = {
 	{ id = 23535, chance = 5550 }, -- energy bar
 	{ id = 8012, chance = 1240, maxCount = 2 }, -- raspberry
 	{ id = 7419, chance = 502 }, -- dreaded cleaver
-	{ id = 3072, chance = 1840 }, -- wand of decay
 	{ id = 3429, chance = 2830 }, -- black shield
 }
 

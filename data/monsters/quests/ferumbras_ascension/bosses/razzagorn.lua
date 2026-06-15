@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Razzagorn")
+﻿local mType = Game.createMonsterType("Razzagorn")
 local monster = {}
 
 monster.name = "Razzagorn"
@@ -94,7 +94,6 @@ monster.loot = {
 	{ id = 3037, chance = 1000 }, -- yellow gem
 	{ id = 3039, chance = 1000 }, -- red gem
 	{ id = 3041, chance = 1000 }, -- blue gem
-	{ id = 3065, chance = 13000 }, -- terra rod
 	{ id = 3356, chance = 8000 }, -- devil helmet
 	{ id = 22193, chance = 46100, maxCount = 5 }, -- onyx chip
 	{ id = 22194, chance = 46100, maxCount = 5 }, -- opal
@@ -102,16 +101,9 @@ monster.loot = {
 	{ id = 22762, chance = 500, unique = true }, -- maimer
 	{ id = 5021, chance = 46100, maxCount = 5 }, -- orichalcum pearl
 	{ id = 6499, chance = 11000 }, -- demonic essence
-	{ id = 7439, chance = 8000 }, -- berserk potion
-	{ id = 7440, chance = 4000 }, -- mastermind potion
-	{ id = 7443, chance = 4000 }, -- bullseye potion
-	{ id = 238, chance = 23000, maxCount = 5 }, -- great mana potion
-	{ id = 239, chance = 46100, maxCount = 5 }, -- great health potion
 	{ id = 281, chance = 14000, maxCount = 5 }, -- giant shimmering pearl (green)
 	{ id = 282, chance = 14000, maxCount = 5 }, -- giant shimmering pearl (brown)
-	{ id = 7642, chance = 46100, maxCount = 10 }, -- great spirit potion
 	{ id = 3422, chance = 100, unique = true }, -- great shield
-	{ id = 7643, chance = 23000, maxCount = 5 }, -- ultimate health potion
 	{ id = 9057, chance = 10000, maxCount = 8 }, -- small topaz
 }
 

@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Memory of an Elf")
+﻿local mType = Game.createMonsterType("Memory of an Elf")
 local monster = {}
 
 monster.name = "Memory of an Elf"
@@ -67,8 +67,6 @@ monster.loot = {
 	{ id = 3509, chance = 1000 }, -- inkwell
 	{ name = "green tunic", chance = 7000 },
 	{ name = "blank rune", chance = 18000 },
-	{ name = "wand of cosmic energy", chance = 1160 },
-	{ name = "strong mana potion", chance = 3000 },
 }
 
 monster.attacks = {

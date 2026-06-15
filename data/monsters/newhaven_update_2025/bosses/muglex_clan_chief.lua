@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Muglex Clan Chief")
+﻿local mType = Game.createMonsterType("Muglex Clan Chief")
 local monster = {}
 
 monster.name = "Muglex Clan Chief"
@@ -89,14 +89,12 @@ monster.loot = {
 	{ id = 3576, chance = 7550 }, -- mage hat (7.55%)
 	{ id = 44773, chance = 5660 }, -- refined bow (5.66%)
 	{ id = 3059, chance = 5660 }, -- spellbook (5.66%)
-	{ id = 3074, chance = 5660 }, -- wand of vortex (5.66%)
 	{ id = 3285, chance = 3770 }, -- longsword (3.77%)
 	{ id = 7884, chance = 3770 }, -- ranger legs (3.77%)
 	{ id = 3003, chance = 3770 }, -- rope (3.77%)
 	{ id = 3372, chance = 1890 }, -- brass legs (1.89%)
 	{ id = 44775, chance = 1890 }, -- harmony amulet (1.89%)
 	{ id = 44772, chance = 1890 }, -- simple jo staff (1.89%)
-	{ id = 3066, chance = 1890 }, -- snakebite rod (1.89%)
 	{ id = 3409, chance = 1890 }, -- steel shield (1.89%)
 }
 

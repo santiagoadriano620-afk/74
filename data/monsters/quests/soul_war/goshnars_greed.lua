@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("Goshnar's Greed")
+﻿local mType = Game.createMonsterType("Goshnar's Greed")
 local monster = {}
 
 monster.name = "Goshnar's Greed"
@@ -84,12 +84,6 @@ monster.loot = {
 	{ name = "yellow gem", chance = 10000, maxCount = 3 },
 	{ name = "white gem", chance = 6000, maxCount = 3 },
 	{ name = "dragon figurine", chance = 10000, maxCount = 1 },
-	{ name = "bullseye potion", chance = 15000, minCount = 10, maxCount = 25 },
-	{ name = "mastermind potion", chance = 15000, minCount = 10, maxCount = 25 },
-	{ name = "berserk potion", chance = 15000, minCount = 10, maxCount = 25 },
-	{ name = "ultimate mana potion", chance = 18000, minCount = 50, maxCount = 100 },
-	{ name = "supreme health potion", chance = 18000, minCount = 50, maxCount = 100 },
-	{ name = "ultimate spirit potion", chance = 18000, minCount = 50, maxCount = 100 },
 	{ name = "greed's arm", chance = 25000, maxCount = 1 },
 	{ name = "figurine of greed", chance = 400 },
 	{ name = "the skull of a beast", chance = 400 },
