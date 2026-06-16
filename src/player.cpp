@@ -1758,7 +1758,6 @@ DepotChest* Player::getDepotChest(uint32_t depotId, bool autoCreate)
 
 	depotChests.emplace(depotId, std::move(chest));
 	rawPtr->setMaxDepotItems(getMaxDepotItems());
-	checkDepotBoxes(rawPtr);
 	return rawPtr;
 }
 
@@ -1814,29 +1813,7 @@ DepotLocker* Player::getDepotLocker(uint32_t depotId)
 	return it->second.get();
 }
 
-void Player::checkDepotBoxes(DepotChest* chest)
-{
-	if (!chest) {
-		return;
-	}
 
-	bool hasBox = false;
-	for (const auto& item : chest->getItemList()) {
-		if (item->getID() == ITEM_DEPOT_BOX_1) {
-			hasBox = true;
-			break;
-		}
-	}
-
-	if (!hasBox) {
-		for (uint16_t i = ITEM_DEPOT_BOX_17; i >= ITEM_DEPOT_BOX_1; --i) {
-			auto box = Item::CreateItem(i);
-			if (box) {
-				chest->internalAddThing(box.get());
-			}
-		}
-	}
-}
 
 RewardChest& Player::getRewardChest()
 {

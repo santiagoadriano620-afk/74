@@ -45,7 +45,7 @@ local function isSystemContainer(item)
 	if ITEM_REWARD_CONTAINER and itemId == ITEM_REWARD_CONTAINER then
 		return true
 	end
-	return ITEM_DEPOT_BOX_1 and itemId >= ITEM_DEPOT_BOX_1 and itemId <= (ITEM_DEPOT_BOX_1 + 16)
+	return false
 end
 
 local function isStackable(item)

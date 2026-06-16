@@ -42,10 +42,6 @@ private:
 	bool save = false;
 };
 
-class DepotBox final : public Container
-{
-public:
-	explicit DepotBox(uint16_t type);
-};
+
 
 #endif

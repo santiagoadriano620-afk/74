@@ -533,19 +533,16 @@ local function getSupplyStashDepotId(player)
 	return getPlayerLastDepotId(player)
 end
 
--- Collects the player's depot box instances for the currently selected depot session.
--- @param player The player whose depot boxes will be retrieved.
--- @return An array of depot box objects for indices 1..15 that exist for the player's selected depot (may be empty).
+-- Collects the player's depot containers for the currently selected depot session.
+-- @param player The player whose depot containers will be retrieved.
+-- @return An array of depot container objects for the player's selected depot.
 local function getDepotBoxes(player)
-	local boxes = {}
 	local depotId = getSupplyStashDepotId(player)
-	for boxIndex = SUPPLY_STASH_DEPOT_BOX_FIRST, SUPPLY_STASH_DEPOT_BOX_LAST do
-		local box = player:getDepotBox(depotId, boxIndex)
-		if box then
-			boxes[#boxes + 1] = box
-		end
+	local chest = player:getDepotChest(depotId, true)
+	if chest then
+		return {chest}
 	end
-	return boxes
+	return {}
 end
 
 -- Retrieves stored supply stash rows for the given player, excluding entries with non-positive amounts and items that are not valid supply items.

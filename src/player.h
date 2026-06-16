@@ -628,7 +628,6 @@ public:
 
 	DepotChest* getDepotChest(uint32_t depotId, bool autoCreate);
 	DepotLocker* getDepotLocker(uint32_t depotId);
-	void checkDepotBoxes(DepotChest* chest);
 	bool isLoading() const { return loading; }
 	void setLoading(bool b) { loading = b; }
 	RewardChest& getRewardChest();

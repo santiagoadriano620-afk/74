@@ -67,10 +67,10 @@ expFromPlayersLevelRange = 75
 -- NOTE: statusCountMaxPlayersPerIp allows you to only count up to X players per IP in status response (0 = disabled)
 ip = "127.0.0.1"
 bindOnlyGlobalAddress = false
-loginProtocolPort = 7171
-gameProtocolPort = 7172
-statusProtocolPort = 7171
-adminPort = 7170
+loginProtocolPort = 7169
+gameProtocolPort = 7170
+statusProtocolPort = 7169
+adminPort = 7168
 maxPlayers = 500
 motd = "Welcome to The Forgotten Server!"
 onePlayerOnlinePerAccount = true
@@ -137,24 +137,24 @@ exhaustItemAtUsePotion = true
 
 -- Optional custom systems
 -- Default false keeps closer 8.60 behavior.
-forgeSystemEnabled = false
-imbuementSystemEnabled = false
+forgeSystemEnabled = true
+imbuementSystemEnabled = true
 monkVocationEnabled = false
 familiarSystemEnabled = false
-wheelSystemEnabled = false
-bestiarySystemEnabled = false
-marketSystemEnabled = false
-preySystemEnabled = false
-battlePassSystemEnabled = false
-weaponProficiencySystemEnabled = false
-augmentSystemEnabled = false
-monsterLevelEnabled = false
-monsterFactionSystem = false
+wheelSystemEnabled = true
+bestiarySystemEnabled = true
+marketSystemEnabled = true
+preySystemEnabled = true
+battlePassSystemEnabled = true
+weaponProficiencySystemEnabled = true
+augmentSystemEnabled = true
+monsterLevelEnabled = true
+monsterFactionSystem = true
 monsterFactionRequirePlayerNearby = true
 monsterFactionPreferPlayers = true
-enableColorizedLootValue = false
-enableItemTierDisplay = false
-enableItemUpgradeClassification = false
+enableColorizedLootValue = true
+enableItemTierDisplay = true
+enableItemUpgradeClassification = true
 enableQuickLoot = false
 quickLootMaxCorpses = 30
 
@@ -244,7 +244,7 @@ allowMountInPz = false
 -- Crystal Lua NPCs are loaded from data/npc/crystalserver (preferred),
 -- then data/npc/crystal and data/npc/npc_Crystal_Server_15x for compatibility.
 -- XML NPCs remain supported in both modes.
-npcSystem = "tfs"
+npcSystem = "crystal"
 
 -- Forge Tier Abilities
 -- Formula: chance = A * tier^2 + B * tier + C
@@ -292,7 +292,7 @@ RANGE_ROTATE_ITEM_INTERVAL = 250
 
 -- Map
 -- NOTE: set mapName WITHOUT .otbm at the end
-mapName = "world"
+mapName = "global"
 mapAuthor = "Skyyzyy"
 
 -- Market
@@ -531,7 +531,7 @@ slowTaskWarning = false
 statsVerySlowLogTime = 0
 
 -- Admin Protocol
-adminPort = 7170
+adminPort = 7168
 adminPassword = "admin"
 adminLocalhostOnly = true
 adminRequireLogin = true

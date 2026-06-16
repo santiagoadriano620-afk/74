@@ -290,36 +290,6 @@ int luaPlayerGetDepotChest(lua_State* L)
 	return 1;
 }
 
-int luaPlayerGetDepotBox(lua_State* L)
-{
-	// player:getDepotBox(depotId, boxIndex)
-	Player* player = getUserdata<Player>(L, 1);
-	if (!player) {
-		lua_pushnil(L);
-		return 1;
-	}
-
-	uint32_t depotId = getInteger<uint32_t>(L, 2);
-	uint32_t boxIndex = getInteger<uint32_t>(L, 3);
-	if (boxIndex >= 1 && boxIndex <= 17) {
-		DepotChest* chest = player->getDepotChest(depotId, true);
-		if (chest) {
-			for (const auto& item : chest->getItemList()) {
-				if (item->getID() == static_cast<uint16_t>(ITEM_DEPOT_BOX_1 + boxIndex - 1)) {
-					Container* box = item->getContainer();
-					if (box) {
-						pushItem(L, box);
-						return 1;
-					}
-				}
-			}
-		}
-	}
-
-	lua_pushnil(L);
-	return 1;
-}
-
 int luaPlayerGetLastDepotId(lua_State* L)
 {
 	// player:getLastDepotId()
@@ -4475,7 +4445,6 @@ void LuaScriptInterface::registerPlayer()
 	registerMethod("Player", "getFreeCapacity", luaPlayerGetFreeCapacity);
 
 	registerMethod("Player", "getDepotChest", luaPlayerGetDepotChest);
-	registerMethod("Player", "getDepotBox", luaPlayerGetDepotBox);
 	registerMethod("Player", "getLastDepotId", luaPlayerGetLastDepotId);
 	registerMethod("Player", "getRewardChest", luaPlayerGetRewardChest);
 	registerMethod("Player", "getInbox", luaPlayerGetInbox);

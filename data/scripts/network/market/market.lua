@@ -834,19 +834,16 @@ local function getOfferTier(itemId, tier, attributes)
 	return tier
 end
 
--- Collects the player's depot box containers for the current market depot.
+-- Collects the player's depot containers for the current market depot.
 -- @param player The player whose market depot is queried.
--- @return An array of depot box container objects present for that depot, ordered by ascending box index.
+-- @return An array of depot container objects present for that depot.
 local function getDepotBoxes(player)
-	local boxes = {}
 	local depotId = getMarketDepotId(player)
-	for boxIndex = MARKET_DEPOT_BOX_FIRST, MARKET_DEPOT_BOX_LAST do
-		local box = player:getDepotBox(depotId, boxIndex)
-		if box then
-			boxes[#boxes + 1] = box
-		end
+	local chest = player:getDepotChest(depotId, true)
+	if chest then
+		return {chest}
 	end
-	return boxes
+	return {}
 end
 
 local function getDepotItemAmount(player, itemId)

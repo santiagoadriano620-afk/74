@@ -83,8 +83,6 @@ std::shared_ptr<Item> Item::CreateItem(const uint16_t type, uint16_t count /*= 0
 		return std::make_shared<DepotLocker>(type);
 	} else if (it.isRewardChest()) {
 		return std::make_shared<RewardChest>(type);
-	} else if (it.id >= ITEM_DEPOT_BOX_1 && it.id <= ITEM_DEPOT_BOX_17) {
-		return std::make_shared<DepotBox>(type);
 	} else if (it.id == ITEM_INBOX) {
 		return std::make_shared<Inbox>(type);
 	} else if (it.isContainer()) {
